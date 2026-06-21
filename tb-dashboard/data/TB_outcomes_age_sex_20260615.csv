@@ -1,0 +1,1608 @@
+"country","iso2","iso3","iso_numeric","g_whoregion","year","cohort_type","age_group","sex","coh","succ","fail","died","lost","neval","tsr"
+"Afghanistan","AF","AFG","004","EMR",2018,newrel,0-14,a,10461,10027,,,,,96
+"Albania","AL","ALB","008","EUR",2010,newrel,0-14,a,18,17,0,0,0,1,94
+"Albania","AL","ALB","008","EUR",2011,newrel,0-14,a,7,7,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2012,newrel,0-14,a,3,3,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2013,newrel,0-14,a,19,18,0,0,1,0,95
+"Albania","AL","ALB","008","EUR",2014,newrel,0-14,a,21,20,0,0,0,1,95
+"Albania","AL","ALB","008","EUR",2015,newrel,0-14,a,11,10,0,0,0,1,91
+"Albania","AL","ALB","008","EUR",2016,newrel,0-14,a,13,11,0,0,1,1,85
+"Albania","AL","ALB","008","EUR",2017,newrel,0-14,a,14,14,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2018,newrel,0-14,a,4,4,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2019,newrel,0-14,a,11,11,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2020,newrel,0-14,a,3,3,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2021,newrel,0-14,a,8,8,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2022,newrel,0-14,a,6,6,0,0,0,0,100
+"Albania","AL","ALB","008","EUR",2023,newrel,0-14,a,8,8,0,0,0,0,100
+"American Samoa","AS","ASM","016","WPR",2018,newrel,0-14,a,0,0,,,,,
+"American Samoa","AS","ASM","016","WPR",2019,newrel,0-14,a,0,0,,,,,
+"Andorra","AD","AND","020","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2012,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2013,newrel,0-14,a,0,,,,,,
+"Andorra","AD","AND","020","EUR",2014,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2015,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2016,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Andorra","AD","AND","020","EUR",2018,newrel,0-14,a,0,,,,,,
+"Andorra","AD","AND","020","EUR",2019,newrel,0-14,a,0,,,,,,
+"Andorra","AD","AND","020","EUR",2020,newrel,0-14,a,0,,,,,,
+"Andorra","AD","AND","020","EUR",2022,newrel,0-14,a,0,,,,,,
+"Antigua and Barbuda","AG","ATG","028","AMR",2018,newrel,0-14,a,1,1,0,0,0,0,100
+"Antigua and Barbuda","AG","ATG","028","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Antigua and Barbuda","AG","ATG","028","AMR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Antigua and Barbuda","AG","ATG","028","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Antigua and Barbuda","AG","ATG","028","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Antigua and Barbuda","AG","ATG","028","AMR",2023,newrel,0-14,a,0,0,0,0,0,0,
+"Argentina","AR","ARG","032","AMR",2013,newrel,0-14,a,888,406,1,11,61,409,46
+"Argentina","AR","ARG","032","AMR",2014,newrel,0-14,a,860,482,0,6,60,312,56
+"Argentina","AR","ARG","032","AMR",2015,newrel,0-14,a,983,482,0,10,81,410,49
+"Argentina","AR","ARG","032","AMR",2016,newrel,0-14,a,732,477,1,8,68,178,65
+"Argentina","AR","ARG","032","AMR",2017,newrel,0-14,a,910,575,0,15,89,231,63
+"Argentina","AR","ARG","032","AMR",2018,newrel,0-14,a,952,575,4,9,60,304,60
+"Argentina","AR","ARG","032","AMR",2019,newrel,0-14,a,715,362,2,5,46,300,51
+"Argentina","AR","ARG","032","AMR",2020,newrel,0-14,a,729,425,0,11,53,240,58
+"Argentina","AR","ARG","032","AMR",2021,newrel,0-14,a,794,456,0,9,55,274,57
+"Argentina","AR","ARG","032","AMR",2022,newrel,0-14,a,979,640,0,12,69,258,65
+"Argentina","AR","ARG","032","AMR",2023,newrel,0-14,a,1134,693,0,15,83,343,61
+"Armenia","AM","ARM","051","EUR",2010,newrel,0-14,a,60,56,2,0,1,1,93
+"Armenia","AM","ARM","051","EUR",2011,newrel,0-14,a,51,46,2,0,2,1,90
+"Armenia","AM","ARM","051","EUR",2012,newrel,0-14,a,36,31,0,0,5,0,86
+"Armenia","AM","ARM","051","EUR",2013,newrel,0-14,a,37,30,0,0,7,0,81
+"Armenia","AM","ARM","051","EUR",2014,newrel,0-14,a,33,26,0,1,4,2,79
+"Armenia","AM","ARM","051","EUR",2015,newrel,0-14,a,23,19,0,0,4,0,83
+"Armenia","AM","ARM","051","EUR",2016,newrel,0-14,a,19,18,0,0,1,0,95
+"Armenia","AM","ARM","051","EUR",2017,newrel,0-14,a,19,12,1,0,6,0,63
+"Armenia","AM","ARM","051","EUR",2018,newrel,0-14,a,37,32,2,0,3,0,86
+"Armenia","AM","ARM","051","EUR",2019,newrel,0-14,a,29,26,0,0,3,0,90
+"Armenia","AM","ARM","051","EUR",2020,newrel,0-14,a,21,20,0,1,0,0,95
+"Armenia","AM","ARM","051","EUR",2021,newrel,0-14,a,18,18,0,0,0,0,100
+"Armenia","AM","ARM","051","EUR",2022,newrel,0-14,a,17,15,0,0,1,1,88
+"Armenia","AM","ARM","051","EUR",2023,newrel,0-14,a,27,27,0,0,0,0,100
+"Aruba","AW","ABW","533","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Australia","AU","AUS","036","WPR",2019,newrel,0-14,a,38,30,,,,,79
+"Australia","AU","AUS","036","WPR",2020,newrel,0-14,a,31,29,,,,,94
+"Australia","AU","AUS","036","WPR",2021,newrel,0-14,a,30,29,,,,,97
+"Australia","AU","AUS","036","WPR",2022,newrel,0-14,a,29,25,,,,,86
+"Australia","AU","AUS","036","WPR",2023,newrel,0-14,a,43,23,,,,,53
+"Austria","AT","AUT","040","EUR",2010,newrel,0-14,a,14,8,0,1,0,5,57
+"Austria","AT","AUT","040","EUR",2011,newrel,0-14,a,11,10,0,0,1,0,91
+"Austria","AT","AUT","040","EUR",2012,newrel,0-14,a,26,22,0,0,0,4,85
+"Austria","AT","AUT","040","EUR",2013,newrel,0-14,a,23,21,0,0,2,0,91
+"Austria","AT","AUT","040","EUR",2014,newrel,0-14,a,14,12,0,0,0,2,86
+"Austria","AT","AUT","040","EUR",2015,newrel,0-14,a,19,14,0,1,0,4,74
+"Austria","AT","AUT","040","EUR",2016,newrel,0-14,a,29,26,0,0,0,3,90
+"Austria","AT","AUT","040","EUR",2017,newrel,0-14,a,21,18,0,0,0,3,86
+"Austria","AT","AUT","040","EUR",2018,newrel,0-14,a,24,20,0,0,0,4,83
+"Austria","AT","AUT","040","EUR",2019,newrel,0-14,a,22,19,0,0,0,3,86
+"Austria","AT","AUT","040","EUR",2020,newrel,0-14,a,12,10,0,1,0,1,83
+"Austria","AT","AUT","040","EUR",2021,newrel,0-14,a,13,9,0,0,1,3,69
+"Austria","AT","AUT","040","EUR",2022,newrel,0-14,a,12,12,0,0,0,0,100
+"Austria","AT","AUT","040","EUR",2023,newrel,0-14,a,12,9,0,0,3,0,75
+"Azerbaijan","AZ","AZE","031","EUR",2022,newrel,0-14,a,110,75,12,0,10,13,68
+"Azerbaijan","AZ","AZE","031","EUR",2022,newrel,a,f,982,788,62,25,86,21,80
+"Azerbaijan","AZ","AZE","031","EUR",2022,newrel,a,m,2624,2169,151,135,155,14,83
+"Azerbaijan","AZ","AZE","031","EUR",2023,newrel,0-14,a,139,113,12,,5,9,81
+"Azerbaijan","AZ","AZE","031","EUR",2023,newrel,a,f,1252,1036,122,28,56,10,83
+"Azerbaijan","AZ","AZE","031","EUR",2023,newrel,a,m,1625,1372,49,106,89,9,84
+"Bahamas","BS","BHS","044","AMR",2018,newrel,0-14,a,5,5,0,0,0,0,100
+"Bahamas","BS","BHS","044","AMR",2019,newrel,0-14,a,6,6,0,0,0,0,100
+"Bahamas","BS","BHS","044","AMR",2020,newrel,0-14,a,0,,,,,,
+"Bahamas","BS","BHS","044","AMR",2021,newrel,0-14,a,2,2,0,0,0,0,100
+"Bahamas","BS","BHS","044","AMR",2022,newrel,0-14,a,3,3,0,0,0,0,100
+"Bahamas","BS","BHS","044","AMR",2023,newrel,0-14,a,2,2,0,0,0,0,100
+"Bahrain","BH","BHR","048","EMR",2018,newrel,0-14,a,0,0,,,,,
+"Bahrain","BH","BHR","048","EMR",2019,newrel,0-14,a,3,2,,,,,67
+"Bahrain","BH","BHR","048","EMR",2020,newrel,0-14,a,0,0,,,,,
+"Bahrain","BH","BHR","048","EMR",2021,newrel,0-14,a,1,1,,,,,100
+"Bahrain","BH","BHR","048","EMR",2023,newrel,0-14,a,5,5,,,,,100
+"Bangladesh","BD","BGD","050","SEA",2018,newrel,0-14,a,11299,10947,,,,,97
+"Bangladesh","BD","BGD","050","SEA",2019,newrel,0-14,a,12307,11882,,,,,97
+"Bangladesh","BD","BGD","050","SEA",2019,newrel,a,f,126193,120832,259,2272,691,2139,96
+"Bangladesh","BD","BGD","050","SEA",2019,newrel,a,m,163670,153620,646,6159,1062,2183,94
+"Bangladesh","BD","BGD","050","SEA",2020,newrel,0-14,a,9363,9129,,,,,98
+"Bangladesh","BD","BGD","050","SEA",2020,newrel,a,f,102295,98585,229,1779,343,1359,96
+"Bangladesh","BD","BGD","050","SEA",2020,newrel,a,m,126484,119529,464,4703,495,1293,95
+"Bangladesh","BD","BGD","050","SEA",2021,newrel,0-14,a,10427,10121,,,,,97
+"Bangladesh","BD","BGD","050","SEA",2021,newrel,a,f,140038,136290,202,1555,339,1652,97
+"Bangladesh","BD","BGD","050","SEA",2021,newrel,a,m,166822,160197,482,4307,480,1356,96
+"Bangladesh","BD","BGD","050","SEA",2022,newrel,0-14,a,10701,10294,,,,,96
+"Bangladesh","BD","BGD","050","SEA",2022,newrel,a,f,115045,110660,231,1810,478,1866,96
+"Bangladesh","BD","BGD","050","SEA",2022,newrel,a,m,146999,138655,551,4980,719,2094,94
+"Bangladesh","BD","BGD","050","SEA",2023,newrel,0-14,a,11906,11538,,,,,97
+"Bangladesh","BD","BGD","050","SEA",2023,newrel,a,f,129654,125061,195,2048,661,1689,96
+"Bangladesh","BD","BGD","050","SEA",2023,newrel,a,m,171602,162656,485,5515,916,2030,95
+"Barbados","BB","BRB","052","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Barbados","BB","BRB","052","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Belarus","BY","BLR","112","EUR",2010,newrel,0-14,a,25,20,3,0,0,2,80
+"Belarus","BY","BLR","112","EUR",2011,newrel,0-14,a,17,12,4,0,0,1,71
+"Belarus","BY","BLR","112","EUR",2012,newrel,0-14,a,15,13,1,0,0,1,87
+"Belarus","BY","BLR","112","EUR",2013,newrel,0-14,a,11,11,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2014,newrel,0-14,a,17,17,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2015,newrel,0-14,a,7,7,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2016,newrel,0-14,a,11,8,0,0,0,3,73
+"Belarus","BY","BLR","112","EUR",2017,newrel,0-14,a,11,11,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2018,newrel,0-14,a,12,10,0,0,0,2,83
+"Belarus","BY","BLR","112","EUR",2019,newrel,0-14,a,8,8,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2020,newrel,0-14,a,3,3,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2020,newrel,a,f,240,199,4,31,6,0,83
+"Belarus","BY","BLR","112","EUR",2020,newrel,a,m,593,511,6,53,17,6,86
+"Belarus","BY","BLR","112","EUR",2021,newrel,0-14,a,5,5,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2021,newrel,a,f,242,208,4,16,14,0,86
+"Belarus","BY","BLR","112","EUR",2021,newrel,a,m,661,551,15,65,30,0,83
+"Belarus","BY","BLR","112","EUR",2022,newrel,0-14,a,4,4,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2022,newrel,a,f,265,220,5,31,5,4,83
+"Belarus","BY","BLR","112","EUR",2022,newrel,a,m,734,649,16,51,16,2,88
+"Belarus","BY","BLR","112","EUR",2023,newrel,0-14,a,10,10,0,0,0,0,100
+"Belarus","BY","BLR","112","EUR",2023,newrel,a,f,253,220,3,29,1,0,87
+"Belarus","BY","BLR","112","EUR",2023,newrel,a,m,678,606,5,47,20,0,89
+"Belgium","BE","BEL","056","EUR",2010,newrel,0-14,a,38,35,0,0,3,0,92
+"Belgium","BE","BEL","056","EUR",2011,newrel,0-14,a,36,30,0,1,1,4,83
+"Belgium","BE","BEL","056","EUR",2012,newrel,0-14,a,62,54,0,1,0,7,87
+"Belgium","BE","BEL","056","EUR",2013,newrel,0-14,a,56,53,0,0,2,1,95
+"Belgium","BE","BEL","056","EUR",2014,newrel,0-14,a,59,56,0,0,0,3,95
+"Belgium","BE","BEL","056","EUR",2015,newrel,0-14,a,69,67,0,1,0,1,97
+"Belgium","BE","BEL","056","EUR",2016,newrel,0-14,a,57,55,0,0,1,1,96
+"Belgium","BE","BEL","056","EUR",2017,newrel,0-14,a,67,59,0,0,4,4,88
+"Belgium","BE","BEL","056","EUR",2018,newrel,0-14,a,60,54,0,0,5,1,90
+"Belgium","BE","BEL","056","EUR",2019,newrel,0-14,a,48,45,0,0,1,2,94
+"Belgium","BE","BEL","056","EUR",2020,newrel,0-14,a,48,39,0,0,0,9,81
+"Belgium","BE","BEL","056","EUR",2021,newrel,0-14,a,40,34,0,0,2,4,85
+"Belgium","BE","BEL","056","EUR",2023,newrel,0-14,a,36,26,0,0,1,9,72
+"Belize","BZ","BLZ","084","AMR",2013,newrel,0-14,a,4,2,0,0,1,1,50
+"Belize","BZ","BLZ","084","AMR",2014,newrel,0-14,a,5,3,0,0,1,1,60
+"Belize","BZ","BLZ","084","AMR",2015,newrel,0-14,a,4,3,,1,,0,75
+"Belize","BZ","BLZ","084","AMR",2016,newrel,0-14,a,3,1,0,1,0,1,33
+"Belize","BZ","BLZ","084","AMR",2017,newrel,0-14,a,1,1,0,0,0,0,100
+"Belize","BZ","BLZ","084","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Belize","BZ","BLZ","084","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Belize","BZ","BLZ","084","AMR",2020,newrel,0-14,a,2,1,0,0,1,0,50
+"Belize","BZ","BLZ","084","AMR",2021,newrel,0-14,a,2,2,0,0,0,0,100
+"Belize","BZ","BLZ","084","AMR",2022,newrel,0-14,a,1,0,0,0,0,1,0
+"Belize","BZ","BLZ","084","AMR",2023,newrel,0-14,a,1,0,0,0,1,0,0
+"Benin","BJ","BEN","204","AFR",2018,newrel,0-14,a,202,173,,,,,86
+"Benin","BJ","BEN","204","AFR",2019,newrel,0-14,a,232,212,,,,,91
+"Benin","BJ","BEN","204","AFR",2020,newrel,0-14,a,215,195,,,,,91
+"Benin","BJ","BEN","204","AFR",2021,newrel,0-14,a,134,120,,,,,90
+"Benin","BJ","BEN","204","AFR",2022,newrel,0-14,a,174,157,,,,,90
+"Benin","BJ","BEN","204","AFR",2023,newrel,0-14,a,175,164,,,,,94
+"Bermuda","BM","BMU","060","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Bermuda","BM","BMU","060","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Bermuda","BM","BMU","060","AMR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Bermuda","BM","BMU","060","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Bermuda","BM","BMU","060","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Bhutan","BT","BTN","064","SEA",2018,newrel,0-14,a,26,26,,,,,100
+"Bhutan","BT","BTN","064","SEA",2019,newrel,0-14,a,27,27,,,,,100
+"Bhutan","BT","BTN","064","SEA",2020,newrel,0-14,a,31,26,,,,,84
+"Bhutan","BT","BTN","064","SEA",2021,newrel,0-14,a,16,16,,,,,100
+"Bhutan","BT","BTN","064","SEA",2022,newrel,0-14,a,32,30,,,,,94
+"Bhutan","BT","BTN","064","SEA",2023,newrel,0-14,a,20,20,,,,,100
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2011,newrel,0-14,a,17,14,0,1,1,1,82
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2012,newrel,0-14,a,14,13,1,0,0,0,93
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2013,newrel,0-14,a,15,9,2,0,0,4,60
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2014,newrel,0-14,a,15,11,3,,,1,73
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2015,newrel,0-14,a,14,12,0,0,0,2,86
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2016,newrel,0-14,a,10,8,0,1,0,1,80
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2017,newrel,0-14,a,11,5,2,0,1,3,45
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2018,newrel,0-14,a,5,1,,,,,20
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2019,newrel,0-14,a,3,0,0,0,0,3,0
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2020,newrel,0-14,a,1,,,,,,0
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2021,newrel,0-14,a,1,,,,,,0
+"Bosnia and Herzegovina","BA","BIH","070","EUR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Botswana","BW","BWA","072","AFR",2018,newrel,0-14,a,312,257,,,,,82
+"Botswana","BW","BWA","072","AFR",2019,newrel,0-14,a,572,206,,,,,36
+"Botswana","BW","BWA","072","AFR",2020,newrel,0-14,a,251,212,,,,,84
+"Botswana","BW","BWA","072","AFR",2020,newrel,a,f,1278,984,3,79,9,203,77
+"Botswana","BW","BWA","072","AFR",2020,newrel,a,m,1651,1286,11,135,26,193,78
+"Botswana","BW","BWA","072","AFR",2021,newrel,0-14,a,158,133,,,,,84
+"Botswana","BW","BWA","072","AFR",2021,newrel,a,f,1064,831,10,67,7,149,78
+"Botswana","BW","BWA","072","AFR",2021,newrel,a,m,1736,1310,10,162,19,235,75
+"Botswana","BW","BWA","072","AFR",2022,newrel,0-14,a,198,147,,,,,74
+"Botswana","BW","BWA","072","AFR",2022,newrel,a,f,1205,925,6,75,10,189,77
+"Botswana","BW","BWA","072","AFR",2022,newrel,a,m,1982,1484,13,128,18,339,75
+"Botswana","BW","BWA","072","AFR",2023,newrel,0-14,a,243,215,,,,,88
+"Botswana","BW","BWA","072","AFR",2023,newrel,a,f,1278,1096,13,79,41,49,86
+"Botswana","BW","BWA","072","AFR",2023,newrel,a,m,1963,1628,13,158,77,87,83
+"Brazil","BR","BRA","076","AMR",2013,newrel,0-14,a,2641,2089,0,104,153,295,79
+"Brazil","BR","BRA","076","AMR",2014,newrel,0-14,a,2233,1719,0,92,131,291,77
+"Brazil","BR","BRA","076","AMR",2015,newrel,0-14,a,2109,1647,1,61,125,275,78
+"Brazil","BR","BRA","076","AMR",2016,newrel,0-14,a,2216,1750,2,68,132,264,79
+"Brazil","BR","BRA","076","AMR",2017,newrel,0-14,a,2281,1746,1,63,134,337,77
+"Brazil","BR","BRA","076","AMR",2018,newrel,0-14,a,2510,1928,0,80,174,328,77
+"Brazil","BR","BRA","076","AMR",2019,newrel,0-14,a,2659,1964,0,75,209,411,74
+"Brazil","BR","BRA","076","AMR",2019,newrel,a,f,25640,18724,19,1753,2376,2768,73
+"Brazil","BR","BRA","076","AMR",2019,newrel,a,m,58165,38926,46,4593,7656,6944,67
+"Brazil","BR","BRA","076","AMR",2020,newrel,0-14,a,1903,1357,0,72,155,319,71
+"Brazil","BR","BRA","076","AMR",2020,newrel,a,f,22069,15701,11,1650,2138,2569,71
+"Brazil","BR","BRA","076","AMR",2020,newrel,a,m,50756,32847,35,4487,7140,6247,65
+"Brazil","BR","BRA","076","AMR",2021,newrel,0-14,a,2194,1500,1,69,213,411,68
+"Brazil","BR","BRA","076","AMR",2021,newrel,a,f,23772,16550,17,1807,2537,2861,70
+"Brazil","BR","BRA","076","AMR",2021,newrel,a,m,54251,33889,38,5248,7878,7198,62
+"Brazil","BR","BRA","076","AMR",2022,newrel,0-14,a,2708,1997,1,88,231,391,74
+"Brazil","BR","BRA","076","AMR",2022,newrel,a,f,26628,18722,17,2087,2853,2949,70
+"Brazil","BR","BRA","076","AMR",2022,newrel,a,m,60625,38523,40,5457,9288,7317,64
+"Brazil","BR","BRA","076","AMR",2023,newrel,0-14,a,2988,2134,0,109,284,461,71
+"Brazil","BR","BRA","076","AMR",2023,newrel,a,f,27208,18938,15,2090,3071,3094,70
+"Brazil","BR","BRA","076","AMR",2023,newrel,a,m,63329,40007,42,5667,9802,7811,63
+"British Virgin Islands","VG","VGB","092","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Brunei Darussalam","BN","BRN","096","WPR",2018,newrel,0-14,a,5,5,,,,,100
+"Brunei Darussalam","BN","BRN","096","WPR",2019,newrel,0-14,a,6,6,,,,,100
+"Brunei Darussalam","BN","BRN","096","WPR",2020,newrel,0-14,a,1,1,,,,,100
+"Bulgaria","BG","BGR","100","EUR",2010,newrel,0-14,a,11,9,0,0,1,1,82
+"Bulgaria","BG","BGR","100","EUR",2011,newrel,0-14,a,13,12,0,0,0,1,92
+"Bulgaria","BG","BGR","100","EUR",2012,newrel,0-14,a,178,178,0,0,0,0,100
+"Bulgaria","BG","BGR","100","EUR",2013,newrel,0-14,a,146,139,0,1,6,0,95
+"Bulgaria","BG","BGR","100","EUR",2014,newrel,0-14,a,145,139,0,0,6,0,96
+"Bulgaria","BG","BGR","100","EUR",2015,newrel,0-14,a,118,112,0,1,5,0,95
+"Bulgaria","BG","BGR","100","EUR",2016,newrel,0-14,a,124,117,0,0,7,0,94
+"Bulgaria","BG","BGR","100","EUR",2017,newrel,0-14,a,105,101,0,0,4,0,96
+"Bulgaria","BG","BGR","100","EUR",2018,newrel,0-14,a,67,66,0,0,1,0,99
+"Bulgaria","BG","BGR","100","EUR",2019,newrel,0-14,a,54,47,0,1,3,3,87
+"Bulgaria","BG","BGR","100","EUR",2021,newrel,0-14,a,18,13,0,0,4,1,72
+"Bulgaria","BG","BGR","100","EUR",2023,newrel,0-14,a,20,17,0,1,1,1,85
+"Burkina Faso","BF","BFA","854","AFR",2023,newrel,0-14,a,299,290,,,,,97
+"Burundi","BI","BDI","108","AFR",2018,newrel,0-14,a,387,375,,,,,97
+"Burundi","BI","BDI","108","AFR",2019,newrel,0-14,a,324,310,,,,,96
+"Burundi","BI","BDI","108","AFR",2020,newrel,0-14,a,289,277,,,,,96
+"Burundi","BI","BDI","108","AFR",2021,newrel,0-14,a,290,280,,,,,97
+"Burundi","BI","BDI","108","AFR",2022,newrel,0-14,a,349,280,,,,,80
+"Burundi","BI","BDI","108","AFR",2023,newrel,0-14,a,343,330,,,,,96
+"Cabo Verde","CV","CPV","132","AFR",2018,newrel,0-14,a,4,4,,,,,100
+"Cabo Verde","CV","CPV","132","AFR",2019,newrel,0-14,a,4,4,,,,,100
+"Cabo Verde","CV","CPV","132","AFR",2020,newrel,0-14,a,6,6,,,,,100
+"Cabo Verde","CV","CPV","132","AFR",2021,newrel,0-14,a,2,2,,,,,100
+"Cabo Verde","CV","CPV","132","AFR",2022,newrel,0-14,a,6,6,,,,,100
+"Cabo Verde","CV","CPV","132","AFR",2023,newrel,0-14,a,7,4,,,,,57
+"Cambodia","KH","KHM","116","WPR",2022,newrel,0-14,a,8044,8018,,,,,100
+"Cambodia","KH","KHM","116","WPR",2023,newrel,0-14,a,7160,7116,,,,,99
+"Cameroon","CM","CMR","120","AFR",2019,newrel,0-14,a,1271,1100,,,,,87
+"Cameroon","CM","CMR","120","AFR",2020,newrel,0-14,a,1222,1087,,,,,89
+"Cameroon","CM","CMR","120","AFR",2020,newrel,a,f,8369,7194,27,563,383,202,86
+"Cameroon","CM","CMR","120","AFR",2020,newrel,a,m,13731,11705,91,878,741,316,85
+"Cameroon","CM","CMR","120","AFR",2021,newrel,0-14,a,1380,1196,,,,,87
+"Cameroon","CM","CMR","120","AFR",2021,newrel,a,f,8101,7149,36,449,289,178,88
+"Cameroon","CM","CMR","120","AFR",2021,newrel,a,m,14308,12536,94,766,690,222,88
+"Cameroon","CM","CMR","120","AFR",2022,newrel,0-14,a,1363,1286,,,,,94
+"Cameroon","CM","CMR","120","AFR",2022,newrel,a,f,8843,7932,41,446,311,113,90
+"Cameroon","CM","CMR","120","AFR",2022,newrel,a,m,15879,13992,89,843,749,206,88
+"Cameroon","CM","CMR","120","AFR",2023,newrel,0-14,a,1279,1193,,,,,93
+"Cameroon","CM","CMR","120","AFR",2023,newrel,a,f,8782,7859,35,440,331,117,89
+"Cameroon","CM","CMR","120","AFR",2023,newrel,a,m,15845,14089,80,786,687,203,89
+"Canada","CA","CAN","124","AMR",2018,newrel,0-14,a,98,88,0,1,0,9,90
+"Canada","CA","CAN","124","AMR",2019,newrel,0-14,a,114,100,0,1,1,12,88
+"Canada","CA","CAN","124","AMR",2022,newrel,0-14,a,129,104,0,0,0,25,81
+"Canada","CA","CAN","124","AMR",2023,newrel,0-14,a,139,114,0,4,1,20,82
+"Cayman Islands","KY","CYM","136","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Cayman Islands","KY","CYM","136","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Cayman Islands","KY","CYM","136","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Central African Republic","CF","CAF","140","AFR",2019,newrel,0-14,a,1150,924,,,,,80
+"Central African Republic","CF","CAF","140","AFR",2019,newrel,a,f,4100,3416,10,98,192,384,83
+"Central African Republic","CF","CAF","140","AFR",2019,newrel,a,m,6647,5249,43,458,897,0,79
+"Central African Republic","CF","CAF","140","AFR",2020,newrel,0-14,a,1629,1141,,,,,70
+"Central African Republic","CF","CAF","140","AFR",2021,newrel,0-14,a,1689,1248,,,,,74
+"Central African Republic","CF","CAF","140","AFR",2022,newrel,0-14,a,1693,1575,,,,,93
+"Central African Republic","CF","CAF","140","AFR",2023,newrel,0-14,a,1987,1683,,,,,85
+"Chad","TD","TCD","148","AFR",2018,newrel,0-14,a,950,722,,,,,76
+"Chad","TD","TCD","148","AFR",2019,newrel,0-14,a,1043,1007,,,,,97
+"Chad","TD","TCD","148","AFR",2020,newrel,0-14,a,927,777,,,,,84
+"Chad","TD","TCD","148","AFR",2021,newrel,0-14,a,898,742,,,,,83
+"Chad","TD","TCD","148","AFR",2022,newrel,0-14,a,1065,848,,,,,80
+"Chad","TD","TCD","148","AFR",2023,newrel,0-14,a,965,818,,,,,85
+"Chile","CL","CHL","152","AMR",2013,newrel,0-14,a,59,,,,,,0
+"Chile","CL","CHL","152","AMR",2014,newrel,0-14,a,57,40,0,1,0,16,70
+"Chile","CL","CHL","152","AMR",2015,newrel,0-14,a,54,52,1,1,0,0,96
+"Chile","CL","CHL","152","AMR",2016,newrel,0-14,a,45,45,0,0,0,0,100
+"Chile","CL","CHL","152","AMR",2017,newrel,0-14,a,40,40,0,0,0,0,100
+"Chile","CL","CHL","152","AMR",2018,newrel,0-14,a,76,70,0,0,0,6,92
+"Chile","CL","CHL","152","AMR",2019,newrel,0-14,a,54,42,0,1,7,4,78
+"Chile","CL","CHL","152","AMR",2020,newrel,0-14,a,61,53,0,1,2,5,87
+"Chile","CL","CHL","152","AMR",2021,newrel,0-14,a,87,77,0,1,5,4,89
+"Chile","CL","CHL","152","AMR",2022,newrel,0-14,a,83,77,0,0,1,5,93
+"Chile","CL","CHL","152","AMR",2023,newrel,0-14,a,104,97,0,1,4,2,93
+"China","CN","CHN","156","WPR",2018,newrel,0-14,a,6421,6001,,,,,93
+"China","CN","CHN","156","WPR",2019,newrel,0-14,a,6665,6221,,,,,93
+"China","CN","CHN","156","WPR",2019,newrel,a,f,221470,211543,838,3234,3441,2414,96
+"China","CN","CHN","156","WPR",2019,newrel,a,m,490495,461230,3159,12195,10290,3621,94
+"China","CN","CHN","156","WPR",2020,newrel,0-14,a,6827,6583,,,,,96
+"China","CN","CHN","156","WPR",2020,newrel,a,f,193300,185233,608,2844,2710,1905,96
+"China","CN","CHN","156","WPR",2020,newrel,a,m,415437,391053,2401,11126,7699,3158,94
+"China","CN","CHN","156","WPR",2021,newrel,0-14,a,6810,6545,,,,,96
+"China","CN","CHN","156","WPR",2021,newrel,a,f,182056,173380,410,2701,2490,3075,95
+"China","CN","CHN","156","WPR",2021,newrel,a,m,388854,364207,1845,10826,6824,5152,94
+"China","CN","CHN","156","WPR",2022,newrel,0-14,a,6293,5710,,,,,91
+"China","CN","CHN","156","WPR",2022,newrel,a,f,158275,151814,305,2764,1859,1533,96
+"China","CN","CHN","156","WPR",2022,newrel,a,m,335122,315029,1313,11131,5316,2333,94
+"China","CN","CHN","156","WPR",2023,newrel,0-14,a,6495,6230,,,,,96
+"China","CN","CHN","156","WPR",2023,newrel,a,f,181463,174098,339,3139,2131,1756,96
+"China","CN","CHN","156","WPR",2023,newrel,a,m,367376,344555,1472,12525,6651,2173,94
+"China, Hong Kong SAR","HK","HKG","344","WPR",2018,newrel,0-14,a,20,11,,,,,55
+"China, Hong Kong SAR","HK","HKG","344","WPR",2019,newrel,0-14,a,18,15,,,,,83
+"China, Hong Kong SAR","HK","HKG","344","WPR",2020,newrel,0-14,a,12,12,,,,,100
+"China, Hong Kong SAR","HK","HKG","344","WPR",2021,newrel,0-14,a,20,20,,,,,100
+"China, Hong Kong SAR","HK","HKG","344","WPR",2022,newrel,0-14,a,11,11,,,,,100
+"China, Hong Kong SAR","HK","HKG","344","WPR",2023,newrel,0-14,a,14,14,,,,,100
+"China, Macao SAR","MO","MAC","446","WPR",2018,newrel,0-14,a,2,2,,,,,100
+"China, Macao SAR","MO","MAC","446","WPR",2019,newrel,0-14,a,2,2,,,,,100
+"China, Macao SAR","MO","MAC","446","WPR",2020,newrel,0-14,a,3,3,,,,,100
+"China, Macao SAR","MO","MAC","446","WPR",2021,newrel,0-14,a,4,2,,,,,50
+"China, Macao SAR","MO","MAC","446","WPR",2022,newrel,0-14,a,1,1,,,,,100
+"China, Macao SAR","MO","MAC","446","WPR",2023,newrel,0-14,a,3,3,,,,,100
+"Colombia","CO","COL","170","AMR",2013,newrel,0-14,a,571,334,14,19,17,187,58
+"Colombia","CO","COL","170","AMR",2014,newrel,0-14,a,529,445,1,23,42,18,84
+"Colombia","CO","COL","170","AMR",2015,newrel,0-14,a,454,384,1,23,28,18,85
+"Colombia","CO","COL","170","AMR",2016,newrel,0-14,a,826,508,14,53,99,152,62
+"Colombia","CO","COL","170","AMR",2017,newrel,0-14,a,493,340,0,18,23,112,69
+"Colombia","CO","COL","170","AMR",2018,newrel,0-14,a,425,343,4,27,34,17,81
+"Colombia","CO","COL","170","AMR",2019,newrel,0-14,a,387,303,2,36,31,15,78
+"Colombia","CO","COL","170","AMR",2020,newrel,0-14,a,297,237,2,28,18,12,80
+"Colombia","CO","COL","170","AMR",2021,newrel,0-14,a,316,251,1,19,21,24,79
+"Colombia","CO","COL","170","AMR",2022,newrel,0-14,a,564,451,4,37,48,24,80
+"Colombia","CO","COL","170","AMR",2023,newrel,0-14,a,575,442,3,39,60,31,77
+"Comoros","KM","COM","174","AFR",2022,newrel,0-14,a,12,12,,,,,100
+"Comoros","KM","COM","174","AFR",2023,newrel,0-14,a,10,10,,,,,100
+"Congo","CG","COG","178","AFR",2018,newrel,0-14,a,0,0,,,,,
+"Cook Islands","CK","COK","184","WPR",2019,newrel,0-14,a,0,0,,,,,
+"Cook Islands","CK","COK","184","WPR",2022,newrel,0-14,a,0,,,,,,
+"Costa Rica","CR","CRI","188","AMR",2013,newrel,0-14,a,30,28,0,1,0,1,93
+"Costa Rica","CR","CRI","188","AMR",2018,newrel,0-14,a,13,13,0,0,0,0,100
+"Costa Rica","CR","CRI","188","AMR",2020,newrel,0-14,a,8,7,0,0,0,1,88
+"Costa Rica","CR","CRI","188","AMR",2021,newrel,0-14,a,8,8,0,0,0,0,100
+"Costa Rica","CR","CRI","188","AMR",2023,newrel,0-14,a,20,20,0,0,0,0,100
+"Croatia","HR","HRV","191","EUR",2012,newrel,0-14,a,12,1,0,0,0,11,8
+"Croatia","HR","HRV","191","EUR",2013,newrel,0-14,a,4,1,0,0,1,2,25
+"Croatia","HR","HRV","191","EUR",2014,newrel,0-14,a,2,1,0,0,0,1,50
+"Croatia","HR","HRV","191","EUR",2015,newrel,0-14,a,0,0,0,0,0,0,
+"Croatia","HR","HRV","191","EUR",2016,newrel,0-14,a,5,3,0,0,0,2,60
+"Croatia","HR","HRV","191","EUR",2017,newrel,0-14,a,3,2,0,0,0,1,67
+"Croatia","HR","HRV","191","EUR",2018,newrel,0-14,a,8,2,0,0,0,6,25
+"Croatia","HR","HRV","191","EUR",2019,newrel,0-14,a,1,1,0,0,0,0,100
+"Croatia","HR","HRV","191","EUR",2020,newrel,0-14,a,2,0,0,0,0,2,0
+"Croatia","HR","HRV","191","EUR",2021,newrel,0-14,a,2,2,0,0,0,0,100
+"Croatia","HR","HRV","191","EUR",2022,newrel,0-14,a,1,1,0,0,0,0,100
+"Croatia","HR","HRV","191","EUR",2023,newrel,0-14,a,3,2,0,0,0,1,67
+"Cuba","CU","CUB","192","AMR",2018,newrel,0-14,a,10,10,0,0,0,0,100
+"Cuba","CU","CUB","192","AMR",2019,newrel,0-14,a,6,5,0,1,0,0,83
+"Cuba","CU","CUB","192","AMR",2020,newrel,0-14,a,9,9,0,0,0,0,100
+"Cuba","CU","CUB","192","AMR",2021,newrel,0-14,a,8,8,0,0,0,0,100
+"Cuba","CU","CUB","192","AMR",2022,newrel,0-14,a,13,13,0,0,0,0,100
+"Cuba","CU","CUB","192","AMR",2023,newrel,0-14,a,14,13,0,0,0,1,93
+"Cyprus","CY","CYP","196","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2012,newrel,0-14,a,3,0,0,1,0,2,0
+"Cyprus","CY","CYP","196","EUR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2014,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2015,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2016,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2017,newrel,0-14,a,3,1,0,1,0,1,33
+"Cyprus","CY","CYP","196","EUR",2018,newrel,0-14,a,1,1,0,0,0,0,100
+"Cyprus","CY","CYP","196","EUR",2019,newrel,0-14,a,2,0,0,0,0,2,0
+"Cyprus","CY","CYP","196","EUR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Cyprus","CY","CYP","196","EUR",2022,newrel,0-14,a,2,0,0,0,0,2,0
+"Cyprus","CY","CYP","196","EUR",2023,newrel,0-14,a,3,0,0,0,0,3,0
+"Czechia","CZ","CZE","203","EUR",2010,newrel,0-14,a,2,2,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2011,newrel,0-14,a,4,4,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2012,newrel,0-14,a,5,5,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2013,newrel,0-14,a,5,2,0,0,1,2,40
+"Czechia","CZ","CZE","203","EUR",2014,newrel,0-14,a,5,4,0,0,0,1,80
+"Czechia","CZ","CZE","203","EUR",2015,newrel,0-14,a,5,5,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2016,newrel,0-14,a,10,8,0,0,2,0,80
+"Czechia","CZ","CZE","203","EUR",2017,newrel,0-14,a,6,5,0,0,1,0,83
+"Czechia","CZ","CZE","203","EUR",2018,newrel,0-14,a,5,4,0,0,0,1,80
+"Czechia","CZ","CZE","203","EUR",2019,newrel,0-14,a,4,4,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2020,newrel,0-14,a,2,2,0,0,0,0,100
+"Czechia","CZ","CZE","203","EUR",2021,newrel,0-14,a,12,11,0,0,1,0,92
+"Czechia","CZ","CZE","203","EUR",2022,newrel,0-14,a,11,5,0,0,6,0,45
+"Czechia","CZ","CZE","203","EUR",2023,newrel,0-14,a,27,27,0,0,0,0,100
+"Democratic People's Republic of Korea","KP","PRK","408","SEA",2022,newrel,0-14,a,4084,,,,,,0
+"Democratic Republic of the Congo","CD","COD","180","AFR",2018,newrel,0-14,a,18453,15237,,,,,83
+"Democratic Republic of the Congo","CD","COD","180","AFR",2019,newrel,0-14,a,19677,17613,,,,,90
+"Democratic Republic of the Congo","CD","COD","180","AFR",2020,newrel,0-14,a,22342,20276,,,,,91
+"Democratic Republic of the Congo","CD","COD","180","AFR",2021,newrel,0-14,a,26773,26011,,,,,97
+"Democratic Republic of the Congo","CD","COD","180","AFR",2022,newrel,0-14,a,32745,31982,,,,,98
+"Democratic Republic of the Congo","CD","COD","180","AFR",2023,newrel,0-14,a,34614,33812,,,,,98
+"Denmark","DK","DNK","208","EUR",2010,newrel,0-14,a,8,7,0,0,0,1,88
+"Denmark","DK","DNK","208","EUR",2011,newrel,0-14,a,10,7,0,0,0,3,70
+"Denmark","DK","DNK","208","EUR",2012,newrel,0-14,a,17,8,0,0,0,9,47
+"Denmark","DK","DNK","208","EUR",2013,newrel,0-14,a,22,11,0,0,0,11,50
+"Denmark","DK","DNK","208","EUR",2014,newrel,0-14,a,9,4,0,0,0,5,44
+"Denmark","DK","DNK","208","EUR",2015,newrel,0-14,a,14,2,0,0,0,12,14
+"Denmark","DK","DNK","208","EUR",2016,newrel,0-14,a,18,3,0,0,0,15,17
+"Denmark","DK","DNK","208","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Denmark","DK","DNK","208","EUR",2018,newrel,0-14,a,10,0,0,0,0,10,0
+"Denmark","DK","DNK","208","EUR",2019,newrel,0-14,a,16,0,0,0,0,16,0
+"Denmark","DK","DNK","208","EUR",2020,newrel,0-14,a,10,3,0,0,0,7,30
+"Denmark","DK","DNK","208","EUR",2021,newrel,0-14,a,6,0,0,0,0,6,0
+"Denmark","DK","DNK","208","EUR",2022,newrel,0-14,a,4,1,0,0,0,3,25
+"Denmark","DK","DNK","208","EUR",2023,newrel,0-14,a,9,1,0,0,0,8,11
+"Djibouti","DJ","DJI","262","EMR",2018,newrel,0-14,a,236,189,,,,,80
+"Djibouti","DJ","DJI","262","EMR",2019,newrel,0-14,a,168,164,,,,,98
+"Djibouti","DJ","DJI","262","EMR",2021,newrel,0-14,a,49,49,,,,,100
+"Dominica","DM","DMA","212","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Dominica","DM","DMA","212","AMR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Dominica","DM","DMA","212","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Dominica","DM","DMA","212","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Dominica","DM","DMA","212","AMR",2023,newrel,0-14,a,0,0,0,0,0,0,
+"Dominican Republic","DO","DOM","214","AMR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Dominican Republic","DO","DOM","214","AMR",2014,newrel,0-14,a,0,0,0,0,0,0,
+"Dominican Republic","DO","DOM","214","AMR",2015,newrel,0-14,a,136,112,2,5,16,1,82
+"Dominican Republic","DO","DOM","214","AMR",2016,newrel,0-14,a,131,104,1,3,14,9,79
+"Dominican Republic","DO","DOM","214","AMR",2017,newrel,0-14,a,106,81,0,4,12,9,76
+"Dominican Republic","DO","DOM","214","AMR",2018,newrel,0-14,a,103,87,0,1,11,4,84
+"Dominican Republic","DO","DOM","214","AMR",2019,newrel,0-14,a,71,64,0,4,2,1,90
+"Dominican Republic","DO","DOM","214","AMR",2020,newrel,0-14,a,34,33,0,0,1,0,97
+"Dominican Republic","DO","DOM","214","AMR",2021,newrel,0-14,a,44,40,0,2,2,0,91
+"Dominican Republic","DO","DOM","214","AMR",2022,newrel,0-14,a,73,64,0,2,7,0,88
+"Dominican Republic","DO","DOM","214","AMR",2023,newrel,0-14,a,125,112,0,2,11,0,90
+"Egypt","EG","EGY","818","EMR",2019,newrel,0-14,a,488,488,,,,,100
+"Egypt","EG","EGY","818","EMR",2020,newrel,0-14,a,471,471,,,,,100
+"Egypt","EG","EGY","818","EMR",2021,newrel,0-14,a,474,474,,,,,100
+"Egypt","EG","EGY","818","EMR",2022,newrel,0-14,a,469,413,,,,,88
+"Egypt","EG","EGY","818","EMR",2023,newrel,0-14,a,560,534,,,,,95
+"El Salvador","SV","SLV","222","AMR",2015,newrel,0-14,a,8,8,0,0,0,0,100
+"El Salvador","SV","SLV","222","AMR",2016,newrel,0-14,a,8,8,0,0,0,0,100
+"El Salvador","SV","SLV","222","AMR",2017,newrel,0-14,a,7,7,0,0,0,0,100
+"El Salvador","SV","SLV","222","AMR",2018,newrel,0-14,a,135,128,0,2,5,0,95
+"El Salvador","SV","SLV","222","AMR",2019,newrel,0-14,a,135,128,0,0,7,0,95
+"Equatorial Guinea","GQ","GNQ","226","AFR",2018,newrel,0-14,a,90,67,,,,,74
+"Equatorial Guinea","GQ","GNQ","226","AFR",2019,newrel,0-14,a,21,15,,,,,71
+"Equatorial Guinea","GQ","GNQ","226","AFR",2020,newrel,0-14,a,98,70,,,,,71
+"Equatorial Guinea","GQ","GNQ","226","AFR",2021,newrel,0-14,a,108,65,,,,,60
+"Equatorial Guinea","GQ","GNQ","226","AFR",2022,newrel,0-14,a,185,151,,,,,82
+"Equatorial Guinea","GQ","GNQ","226","AFR",2023,newrel,0-14,a,143,105,,,,,73
+"Estonia","EE","EST","233","EUR",2010,newrel,0-14,a,3,3,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Estonia","EE","EST","233","EUR",2012,newrel,0-14,a,2,1,1,0,0,0,50
+"Estonia","EE","EST","233","EUR",2013,newrel,0-14,a,1,1,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2014,newrel,0-14,a,1,1,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2015,newrel,0-14,a,2,2,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2016,newrel,0-14,a,4,4,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Estonia","EE","EST","233","EUR",2018,newrel,0-14,a,2,2,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2019,newrel,0-14,a,1,1,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2020,newrel,0-14,a,1,1,0,0,0,0,100
+"Estonia","EE","EST","233","EUR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Estonia","EE","EST","233","EUR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Estonia","EE","EST","233","EUR",2023,newrel,0-14,a,2,2,0,0,0,0,100
+"Eswatini","SZ","SWZ","748","AFR",2018,newrel,0-14,a,161,152,,,,,94
+"Eswatini","SZ","SWZ","748","AFR",2019,newrel,0-14,a,176,158,,,,,90
+"Eswatini","SZ","SWZ","748","AFR",2020,newrel,0-14,a,99,90,,,,,91
+"Eswatini","SZ","SWZ","748","AFR",2020,newrel,a,f,830,663,5,119,21,22,80
+"Eswatini","SZ","SWZ","748","AFR",2020,newrel,a,m,1119,908,57,76,36,42,81
+"Eswatini","SZ","SWZ","748","AFR",2021,newrel,0-14,a,82,74,,,,,90
+"Eswatini","SZ","SWZ","748","AFR",2021,newrel,a,f,737,587,7,96,30,17,80
+"Eswatini","SZ","SWZ","748","AFR",2021,newrel,a,m,1085,851,10,141,50,33,78
+"Eswatini","SZ","SWZ","748","AFR",2022,newrel,0-14,a,129,115,,,,,89
+"Eswatini","SZ","SWZ","748","AFR",2022,newrel,a,f,928,784,9,86,24,25,84
+"Eswatini","SZ","SWZ","748","AFR",2022,newrel,a,m,1361,1108,20,134,58,41,81
+"Eswatini","SZ","SWZ","748","AFR",2023,newrel,0-14,a,185,153,,,,,83
+"Eswatini","SZ","SWZ","748","AFR",2023,newrel,a,f,908,757,12,72,44,23,83
+"Eswatini","SZ","SWZ","748","AFR",2023,newrel,a,m,1264,1037,10,110,54,53,82
+"Fiji","FJ","FJI","242","WPR",2018,newrel,0-14,a,76,48,,,,,63
+"Fiji","FJ","FJI","242","WPR",2020,newrel,0-14,a,128,46,,,,,36
+"Fiji","FJ","FJI","242","WPR",2021,newrel,0-14,a,48,18,,,,,38
+"Fiji","FJ","FJI","242","WPR",2022,newrel,0-14,a,94,36,,,,,38
+"Fiji","FJ","FJI","242","WPR",2023,newrel,0-14,a,25,16,,,,,64
+"Finland","FI","FIN","246","EUR",2010,newrel,0-14,a,5,2,0,1,0,2,40
+"Finland","FI","FIN","246","EUR",2011,newrel,0-14,a,5,3,0,0,0,2,60
+"Finland","FI","FIN","246","EUR",2012,newrel,0-14,a,4,1,0,0,0,3,25
+"Finland","FI","FIN","246","EUR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Finland","FI","FIN","246","EUR",2014,newrel,0-14,a,9,1,0,0,0,8,11
+"Finland","FI","FIN","246","EUR",2015,newrel,0-14,a,11,3,0,0,0,8,27
+"Finland","FI","FIN","246","EUR",2016,newrel,0-14,a,6,1,0,0,0,5,17
+"Finland","FI","FIN","246","EUR",2017,newrel,0-14,a,6,5,0,0,0,1,83
+"Finland","FI","FIN","246","EUR",2018,newrel,0-14,a,2,2,0,0,0,0,100
+"Finland","FI","FIN","246","EUR",2019,newrel,0-14,a,9,0,0,0,0,9,0
+"Finland","FI","FIN","246","EUR",2020,newrel,0-14,a,5,2,0,0,0,3,40
+"Finland","FI","FIN","246","EUR",2021,newrel,0-14,a,4,1,0,0,0,3,25
+"Finland","FI","FIN","246","EUR",2022,newrel,0-14,a,7,0,0,0,0,7,0
+"Finland","FI","FIN","246","EUR",2023,newrel,0-14,a,2,2,0,0,0,0,100
+"France","FR","FRA","250","EUR",2016,newrel,0-14,a,253,122,0,1,10,120,48
+"France","FR","FRA","250","EUR",2017,newrel,0-14,a,318,91,0,3,4,220,29
+"France","FR","FRA","250","EUR",2018,newrel,0-14,a,230,26,0,0,1,203,11
+"France","FR","FRA","250","EUR",2019,newrel,0-14,a,217,22,0,1,0,194,10
+"France","FR","FRA","250","EUR",2020,newrel,0-14,a,187,81,0,1,1,104,43
+"France","FR","FRA","250","EUR",2021,newrel,0-14,a,170,59,0,1,5,105,35
+"France","FR","FRA","250","EUR",2022,newrel,0-14,a,183,66,0,1,5,111,36
+"France","FR","FRA","250","EUR",2023,newrel,0-14,a,248,43,0,0,1,204,17
+"French Polynesia","PF","PYF","258","WPR",2020,newrel,0-14,a,6,6,,,,,100
+"French Polynesia","PF","PYF","258","WPR",2022,newrel,0-14,a,3,3,,,,,100
+"Gabon","GA","GAB","266","AFR",2019,newrel,0-14,a,378,378,,,,,100
+"Georgia","GE","GEO","268","EUR",2010,newrel,0-14,a,254,213,9,1,13,18,84
+"Georgia","GE","GEO","268","EUR",2011,newrel,0-14,a,206,191,3,0,8,4,93
+"Georgia","GE","GEO","268","EUR",2012,newrel,0-14,a,206,199,0,0,5,2,97
+"Georgia","GE","GEO","268","EUR",2013,newrel,0-14,a,179,161,0,2,9,7,90
+"Georgia","GE","GEO","268","EUR",2014,newrel,0-14,a,125,117,1,0,5,2,94
+"Georgia","GE","GEO","268","EUR",2015,newrel,0-14,a,137,127,0,1,6,3,93
+"Georgia","GE","GEO","268","EUR",2016,newrel,0-14,a,115,106,1,0,5,3,92
+"Georgia","GE","GEO","268","EUR",2017,newrel,0-14,a,93,84,0,0,2,7,90
+"Georgia","GE","GEO","268","EUR",2018,newrel,0-14,a,61,60,0,0,1,0,98
+"Georgia","GE","GEO","268","EUR",2019,newrel,0-14,a,65,62,1,0,2,0,95
+"Georgia","GE","GEO","268","EUR",2020,newrel,0-14,a,47,45,0,1,0,1,96
+"Georgia","GE","GEO","268","EUR",2021,newrel,0-14,a,41,35,0,0,6,0,85
+"Georgia","GE","GEO","268","EUR",2022,newrel,0-14,a,45,42,1,0,2,0,93
+"Georgia","GE","GEO","268","EUR",2023,newrel,0-14,a,51,51,0,0,0,0,100
+"Germany","DE","DEU","276","EUR",2010,newrel,0-14,a,64,55,0,1,0,8,86
+"Germany","DE","DEU","276","EUR",2011,newrel,0-14,a,67,51,0,0,0,16,76
+"Germany","DE","DEU","276","EUR",2012,newrel,0-14,a,173,146,0,3,3,21,84
+"Germany","DE","DEU","276","EUR",2013,newrel,0-14,a,172,136,0,4,3,29,79
+"Germany","DE","DEU","276","EUR",2014,newrel,0-14,a,138,109,0,0,1,28,79
+"Germany","DE","DEU","276","EUR",2015,newrel,0-14,a,192,128,0,2,5,57,67
+"Germany","DE","DEU","276","EUR",2016,newrel,0-14,a,223,168,0,1,2,52,75
+"Germany","DE","DEU","276","EUR",2017,newrel,0-14,a,235,191,1,1,3,39,81
+"Germany","DE","DEU","276","EUR",2018,newrel,0-14,a,207,158,0,1,4,44,76
+"Germany","DE","DEU","276","EUR",2019,newrel,0-14,a,192,152,0,1,3,36,79
+"Germany","DE","DEU","276","EUR",2020,newrel,0-14,a,168,142,0,0,1,25,85
+"Germany","DE","DEU","276","EUR",2021,newrel,0-14,a,155,124,0,0,5,26,80
+"Germany","DE","DEU","276","EUR",2022,newrel,0-14,a,184,131,0,1,4,48,71
+"Germany","DE","DEU","276","EUR",2023,newrel,0-14,a,228,173,0,3,6,46,76
+"Ghana","GH","GHA","288","AFR",2018,newrel,0-14,a,747,604,,,,,81
+"Ghana","GH","GHA","288","AFR",2019,newrel,0-14,a,822,654,,,,,80
+"Ghana","GH","GHA","288","AFR",2020,newrel,0-14,a,615,506,,,,,82
+"Ghana","GH","GHA","288","AFR",2022,newrel,0-14,a,823,692,,,,,84
+"Ghana","GH","GHA","288","AFR",2023,newrel,0-14,a,823,712,,,,,87
+"Greece","GR","GRC","300","EUR",2018,newrel,0-14,a,5,0,0,0,0,5,0
+"Greenland","GL","GRL","304","EUR",2014,newrel,0-14,a,2,2,0,0,0,0,100
+"Greenland","GL","GRL","304","EUR",2015,newrel,0-14,a,5,5,0,0,0,0,100
+"Greenland","GL","GRL","304","EUR",2016,newrel,0-14,a,2,2,0,0,0,0,100
+"Grenada","GD","GRD","308","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Grenada","GD","GRD","308","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Grenada","GD","GRD","308","AMR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Grenada","GD","GRD","308","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Grenada","GD","GRD","308","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Grenada","GD","GRD","308","AMR",2023,newrel,0-14,a,0,0,0,0,0,0,
+"Guam","GU","GUM","316","WPR",2018,newrel,0-14,a,9,9,,,,,100
+"Guam","GU","GUM","316","WPR",2019,newrel,0-14,a,10,9,,,,,90
+"Guam","GU","GUM","316","WPR",2020,newrel,0-14,a,0,0,,,,,
+"Guam","GU","GUM","316","WPR",2021,newrel,0-14,a,5,5,,,,,100
+"Guam","GU","GUM","316","WPR",2022,newrel,0-14,a,6,5,,,,,83
+"Guam","GU","GUM","316","WPR",2023,newrel,0-14,a,5,5,,,,,100
+"Guatemala","GT","GTM","320","AMR",2013,newrel,0-14,a,274,267,1,2,3,1,97
+"Guatemala","GT","GTM","320","AMR",2014,newrel,0-14,a,264,252,1,8,3,0,95
+"Guatemala","GT","GTM","320","AMR",2015,newrel,0-14,a,292,280,0,3,8,1,96
+"Guatemala","GT","GTM","320","AMR",2016,newrel,0-14,a,214,204,0,6,4,0,95
+"Guatemala","GT","GTM","320","AMR",2017,newrel,0-14,a,272,255,0,4,11,2,94
+"Guatemala","GT","GTM","320","AMR",2018,newrel,0-14,a,213,210,0,3,0,0,99
+"Guatemala","GT","GTM","320","AMR",2019,newrel,0-14,a,443,420,0,2,21,0,95
+"Guatemala","GT","GTM","320","AMR",2020,newrel,0-14,a,368,358,0,8,2,0,97
+"Guatemala","GT","GTM","320","AMR",2021,newrel,0-14,a,356,348,1,5,2,0,98
+"Guatemala","GT","GTM","320","AMR",2022,newrel,0-14,a,450,428,2,7,13,0,95
+"Guinea-Bissau","GW","GNB","624","AFR",2020,newrel,a,f,968,747,7,90,97,27,77
+"Guinea-Bissau","GW","GNB","624","AFR",2020,newrel,a,m,1574,1161,15,152,192,54,74
+"Guinea-Bissau","GW","GNB","624","AFR",2021,newrel,a,f,924,722,9,63,104,26,78
+"Guinea-Bissau","GW","GNB","624","AFR",2021,newrel,a,m,1566,1136,32,96,235,67,73
+"Guinea-Bissau","GW","GNB","624","AFR",2023,newrel,a,f,869,663,1,73,113,19,76
+"Guinea-Bissau","GW","GNB","624","AFR",2023,newrel,a,m,1783,1332,11,124,294,22,75
+"Guyana","GY","GUY","328","AMR",2013,newrel,0-14,a,20,13,0,2,4,1,65
+"Guyana","GY","GUY","328","AMR",2014,newrel,0-14,a,11,8,0,0,3,0,73
+"Guyana","GY","GUY","328","AMR",2015,newrel,0-14,a,18,14,0,0,2,2,78
+"Guyana","GY","GUY","328","AMR",2016,newrel,0-14,a,17,14,0,1,0,2,82
+"Guyana","GY","GUY","328","AMR",2017,newrel,0-14,a,10,8,0,0,0,2,80
+"Guyana","GY","GUY","328","AMR",2018,newrel,0-14,a,11,8,0,0,3,0,73
+"Guyana","GY","GUY","328","AMR",2019,newrel,0-14,a,15,13,0,1,1,0,87
+"Guyana","GY","GUY","328","AMR",2020,newrel,0-14,a,5,4,0,0,1,0,80
+"Guyana","GY","GUY","328","AMR",2021,newrel,0-14,a,8,7,,,1,0,88
+"Guyana","GY","GUY","328","AMR",2022,newrel,0-14,a,8,7,0,0,1,0,88
+"Guyana","GY","GUY","328","AMR",2023,newrel,0-14,a,6,6,0,0,0,0,100
+"Haiti","HT","HTI","332","AMR",2013,newrel,0-14,a,1905,1562,95,9,19,220,82
+"Haiti","HT","HTI","332","AMR",2014,newrel,0-14,a,1693,1373,2,71,154,93,81
+"Haiti","HT","HTI","332","AMR",2015,newrel,0-14,a,1594,1299,6,79,167,43,81
+"Haiti","HT","HTI","332","AMR",2016,newrel,0-14,a,1383,1160,4,54,132,33,84
+"Haiti","HT","HTI","332","AMR",2017,newrel,0-14,a,1611,1296,5,69,111,130,80
+"Haiti","HT","HTI","332","AMR",2019,newrel,0-14,a,1201,984,3,47,119,48,82
+"Haiti","HT","HTI","332","AMR",2020,newrel,0-14,a,976,803,2,50,113,8,82
+"Haiti","HT","HTI","332","AMR",2021,newrel,0-14,a,926,773,2,30,102,19,83
+"Honduras","HN","HND","340","AMR",2015,newrel,0-14,a,119,106,0,5,0,8,89
+"Honduras","HN","HND","340","AMR",2016,newrel,0-14,a,138,124,0,3,4,7,90
+"Honduras","HN","HND","340","AMR",2017,newrel,0-14,a,102,93,0,6,3,0,91
+"Honduras","HN","HND","340","AMR",2018,newrel,0-14,a,78,72,0,2,4,0,92
+"Honduras","HN","HND","340","AMR",2019,newrel,0-14,a,49,47,0,1,1,0,96
+"Honduras","HN","HND","340","AMR",2020,newrel,0-14,a,41,39,0,1,1,0,95
+"Honduras","HN","HND","340","AMR",2021,newrel,0-14,a,51,46,0,1,1,3,90
+"Honduras","HN","HND","340","AMR",2022,newrel,0-14,a,57,52,0,1,0,4,91
+"Honduras","HN","HND","340","AMR",2023,newrel,0-14,a,64,59,0,2,2,1,92
+"Hungary","HU","HUN","348","EUR",2010,newrel,0-14,a,4,4,0,0,0,0,100
+"Hungary","HU","HUN","348","EUR",2011,newrel,0-14,a,1,1,0,0,0,0,100
+"Hungary","HU","HUN","348","EUR",2012,newrel,0-14,a,9,5,0,1,2,1,56
+"Hungary","HU","HUN","348","EUR",2013,newrel,0-14,a,7,5,0,0,1,1,71
+"Hungary","HU","HUN","348","EUR",2014,newrel,0-14,a,4,4,0,0,0,0,100
+"Hungary","HU","HUN","348","EUR",2015,newrel,0-14,a,9,8,0,0,1,0,89
+"Hungary","HU","HUN","348","EUR",2016,newrel,0-14,a,5,5,0,0,0,0,100
+"Hungary","HU","HUN","348","EUR",2017,newrel,0-14,a,6,5,1,0,0,0,83
+"Hungary","HU","HUN","348","EUR",2018,newrel,0-14,a,3,1,0,1,0,1,33
+"Hungary","HU","HUN","348","EUR",2019,newrel,0-14,a,10,8,0,0,0,2,80
+"Hungary","HU","HUN","348","EUR",2020,newrel,0-14,a,5,4,0,0,0,1,80
+"Hungary","HU","HUN","348","EUR",2021,newrel,0-14,a,4,4,0,0,0,0,100
+"Hungary","HU","HUN","348","EUR",2022,newrel,0-14,a,6,2,0,1,0,3,33
+"Hungary","HU","HUN","348","EUR",2023,newrel,0-14,a,6,5,0,0,0,1,83
+"Iceland","IS","ISL","352","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2012,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2014,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2015,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2016,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2020,newrel,0-14,a,2,2,0,0,0,0,100
+"Iceland","IS","ISL","352","EUR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Iceland","IS","ISL","352","EUR",2023,newrel,0-14,a,1,1,0,0,0,0,100
+"India","IN","IND","356","SEA",2018,newrel,0-14,a,124797,105890,,,,,85
+"India","IN","IND","356","SEA",2019,newrel,0-14,a,144835,127503,,,,,88
+"India","IN","IND","356","SEA",2019,newrel,a,f,810816,698203,3760,23080,24067,61706,86
+"India","IN","IND","356","SEA",2019,newrel,a,m,1341747,1109096,8690,59876,52645,111440,83
+"India","IN","IND","356","SEA",2020,newrel,0-14,a,96638,85025,,,,,88
+"India","IN","IND","356","SEA",2020,newrel,a,f,622946,542209,2740,20668,16032,41297,87
+"India","IN","IND","356","SEA",2020,newrel,a,m,981012,822665,5495,49607,32040,71205,84
+"India","IN","IND","356","SEA",2021,newrel,0-14,a,110884,100162,,,,,90
+"India","IN","IND","356","SEA",2021,newrel,a,f,757843,671013,3216,25990,17099,40525,89
+"India","IN","IND","356","SEA",2021,newrel,a,m,1147916,982624,6117,62038,31868,65269,86
+"India","IN","IND","356","SEA",2022,newrel,0-14,a,127979,109844,,,,,86
+"India","IN","IND","356","SEA",2022,newrel,a,f,867851,785105,3606,25824,14989,38327,90
+"India","IN","IND","356","SEA",2022,newrel,a,m,1326872,1158061,6774,63940,29506,68591,87
+"India","IN","IND","356","SEA",2023,newrel,0-14,a,128946,119369,,,,,93
+"India","IN","IND","356","SEA",2023,newrel,a,f,906699,827647,3928,24991,12192,37941,91
+"India","IN","IND","356","SEA",2023,newrel,a,m,1379415,1224356,7263,61636,23612,62548,89
+"Indonesia","ID","IDN","360","WPR",2018,newrel,0-14,a,68529,56806,,,,,83
+"Indonesia","ID","IDN","360","WPR",2019,newrel,0-14,a,70004,58002,,,,,83
+"Indonesia","ID","IDN","360","WPR",2019,newrel,a,f,236171,198140,788,4361,12056,20826,84
+"Indonesia","ID","IDN","360","WPR",2019,newrel,a,m,319570,264268,1301,8489,18511,27001,83
+"Indonesia","ID","IDN","360","WPR",2020,newrel,0-14,a,34368,30865,,,,,90
+"Indonesia","ID","IDN","360","WPR",2020,newrel,a,f,153780,134586,486,4551,9503,4654,88
+"Indonesia","ID","IDN","360","WPR",2020,newrel,a,m,208743,177456,719,9134,15146,6288,85
+"Indonesia","ID","IDN","360","WPR",2021,newrel,0-14,a,38349,34517,,,,,90
+"Indonesia","ID","IDN","360","WPR",2021,newrel,a,f,166610,146595,508,5147,10708,3652,88
+"Indonesia","ID","IDN","360","WPR",2021,newrel,a,m,224635,192143,733,10049,16810,4900,86
+"Indonesia","ID","IDN","360","WPR",2022,newrel,0-14,a,106254,97738,,,,,92
+"Indonesia","ID","IDN","360","WPR",2022,newrel,a,f,269624,237491,681,7765,18598,5089,88
+"Indonesia","ID","IDN","360","WPR",2022,newrel,a,m,360683,308551,1122,14820,29281,6909,86
+"Indonesia","ID","IDN","360","WPR",2023,newrel,0-14,a,130653,119667,,,,,92
+"Indonesia","ID","IDN","360","WPR",2023,newrel,a,f,306439,267083,747,9430,22825,6354,87
+"Indonesia","ID","IDN","360","WPR",2023,newrel,a,m,412375,348232,1328,17525,36494,8796,84
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2018,newrel,0-14,a,314,280,,,,,89
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2019,newrel,0-14,a,320,279,,,,,87
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2020,newrel,0-14,a,177,158,,,,,89
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2021,newrel,0-14,a,202,170,,,,,84
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2022,newrel,0-14,a,252,220,,,,,87
+"Iran (Islamic Republic of)","IR","IRN","364","EMR",2023,newrel,0-14,a,189,162,,,,,86
+"Ireland","IE","IRL","372","EUR",2010,newrel,0-14,a,3,3,0,0,0,0,100
+"Ireland","IE","IRL","372","EUR",2011,newrel,0-14,a,3,1,0,0,0,2,33
+"Ireland","IE","IRL","372","EUR",2012,newrel,0-14,a,10,8,0,0,0,2,80
+"Ireland","IE","IRL","372","EUR",2013,newrel,0-14,a,9,6,0,0,0,3,67
+"Ireland","IE","IRL","372","EUR",2014,newrel,0-14,a,7,4,0,0,1,2,57
+"Ireland","IE","IRL","372","EUR",2015,newrel,0-14,a,14,11,0,0,0,3,79
+"Ireland","IE","IRL","372","EUR",2016,newrel,0-14,a,16,4,0,0,0,12,25
+"Ireland","IE","IRL","372","EUR",2017,newrel,0-14,a,7,1,0,1,0,5,14
+"Ireland","IE","IRL","372","EUR",2018,newrel,0-14,a,7,3,0,0,0,4,43
+"Ireland","IE","IRL","372","EUR",2019,newrel,0-14,a,10,1,0,0,0,9,10
+"Ireland","IE","IRL","372","EUR",2020,newrel,0-14,a,6,0,0,0,0,6,0
+"Ireland","IE","IRL","372","EUR",2021,newrel,0-14,a,1,0,0,0,0,1,0
+"Ireland","IE","IRL","372","EUR",2022,newrel,0-14,a,5,2,0,0,0,3,40
+"Ireland","IE","IRL","372","EUR",2023,newrel,0-14,a,8,0,0,0,0,8,0
+"Israel","IL","ISR","376","EUR",2010,newrel,0-14,a,17,17,0,0,0,0,100
+"Israel","IL","ISR","376","EUR",2011,newrel,0-14,a,20,18,0,0,0,2,90
+"Israel","IL","ISR","376","EUR",2012,newrel,0-14,a,19,18,0,1,0,0,95
+"Israel","IL","ISR","376","EUR",2013,newrel,0-14,a,14,13,0,0,0,1,93
+"Israel","IL","ISR","376","EUR",2014,newrel,0-14,a,29,21,0,0,0,8,72
+"Israel","IL","ISR","376","EUR",2015,newrel,0-14,a,9,7,0,0,1,1,78
+"Israel","IL","ISR","376","EUR",2016,newrel,0-14,a,12,11,0,0,0,1,92
+"Israel","IL","ISR","376","EUR",2017,newrel,0-14,a,16,14,0,1,0,1,88
+"Israel","IL","ISR","376","EUR",2018,newrel,0-14,a,16,15,1,0,0,0,94
+"Israel","IL","ISR","376","EUR",2019,newrel,0-14,a,7,7,0,0,0,0,100
+"Israel","IL","ISR","376","EUR",2020,newrel,0-14,a,4,4,0,0,0,0,100
+"Israel","IL","ISR","376","EUR",2021,newrel,0-14,a,10,10,0,0,0,0,100
+"Israel","IL","ISR","376","EUR",2022,newrel,0-14,a,25,23,0,2,0,0,92
+"Israel","IL","ISR","376","EUR",2023,newrel,0-14,a,13,12,0,0,0,1,92
+"Jamaica","JM","JAM","388","AMR",2013,newrel,0-14,a,12,12,0,0,0,0,100
+"Jamaica","JM","JAM","388","AMR",2015,newrel,0-14,a,13,1,0,1,0,11,8
+"Jamaica","JM","JAM","388","AMR",2016,newrel,0-14,a,7,1,0,0,0,6,14
+"Jamaica","JM","JAM","388","AMR",2017,newrel,0-14,a,20,2,0,0,0,18,10
+"Jamaica","JM","JAM","388","AMR",2018,newrel,0-14,a,9,1,0,0,0,8,11
+"Jamaica","JM","JAM","388","AMR",2020,newrel,0-14,a,8,,,,,,0
+"Jamaica","JM","JAM","388","AMR",2023,newrel,0-14,a,6,2,,0,,4,33
+"Japan","JP","JPN","392","WPR",2018,newrel,0-14,a,52,45,,,,,87
+"Japan","JP","JPN","392","WPR",2019,newrel,0-14,a,38,35,,,,,92
+"Japan","JP","JPN","392","WPR",2020,newrel,0-14,a,50,44,,,,,88
+"Japan","JP","JPN","392","WPR",2021,newrel,0-14,a,29,29,,,,,100
+"Japan","JP","JPN","392","WPR",2022,newrel,0-14,a,33,29,,,,,88
+"Japan","JP","JPN","392","WPR",2023,newrel,0-14,a,37,31,,,,,84
+"Jordan","JO","JOR","400","EMR",2018,newrel,0-14,a,32,32,,,,,100
+"Jordan","JO","JOR","400","EMR",2019,newrel,0-14,a,12,11,,,,,92
+"Jordan","JO","JOR","400","EMR",2020,newrel,0-14,a,15,11,,,,,73
+"Jordan","JO","JOR","400","EMR",2021,newrel,0-14,a,12,9,,,,,75
+"Jordan","JO","JOR","400","EMR",2022,newrel,0-14,a,19,16,,,,,84
+"Jordan","JO","JOR","400","EMR",2023,newrel,0-14,a,18,18,,,,,100
+"Kazakhstan","KZ","KAZ","398","EUR",2010,newrel,0-14,a,760,650,14,9,0,87,86
+"Kazakhstan","KZ","KAZ","398","EUR",2011,newrel,0-14,a,661,575,12,6,1,67,87
+"Kazakhstan","KZ","KAZ","398","EUR",2012,newrel,0-14,a,619,544,7,4,0,64,88
+"Kazakhstan","KZ","KAZ","398","EUR",2013,newrel,0-14,a,454,444,7,2,0,1,98
+"Kazakhstan","KZ","KAZ","398","EUR",2014,newrel,0-14,a,401,390,0,4,3,4,97
+"Kazakhstan","KZ","KAZ","398","EUR",2015,newrel,0-14,a,354,348,4,1,1,0,98
+"Kazakhstan","KZ","KAZ","398","EUR",2016,newrel,0-14,a,560,557,1,0,1,1,99
+"Kazakhstan","KZ","KAZ","398","EUR",2017,newrel,0-14,a,333,326,3,4,0,0,98
+"Kazakhstan","KZ","KAZ","398","EUR",2018,newrel,0-14,a,274,267,6,0,1,0,97
+"Kazakhstan","KZ","KAZ","398","EUR",2019,newrel,0-14,a,274,271,2,1,0,0,99
+"Kazakhstan","KZ","KAZ","398","EUR",2020,newrel,0-14,a,227,224,3,0,0,0,99
+"Kazakhstan","KZ","KAZ","398","EUR",2020,newrel,a,f,2383,2149,55,162,14,3,90
+"Kazakhstan","KZ","KAZ","398","EUR",2020,newrel,a,m,3359,2894,116,299,40,10,86
+"Kazakhstan","KZ","KAZ","398","EUR",2021,newrel,0-14,a,199,191,6,2,0,0,96
+"Kazakhstan","KZ","KAZ","398","EUR",2021,newrel,a,f,2342,2124,48,146,23,1,91
+"Kazakhstan","KZ","KAZ","398","EUR",2021,newrel,a,m,3279,2863,71,289,50,6,87
+"Kazakhstan","KZ","KAZ","398","EUR",2022,newrel,0-14,a,190,188,0,1,0,1,99
+"Kazakhstan","KZ","KAZ","398","EUR",2022,newrel,a,f,2461,2260,25,154,15,7,92
+"Kazakhstan","KZ","KAZ","398","EUR",2022,newrel,a,m,3461,3065,58,290,36,12,89
+"Kazakhstan","KZ","KAZ","398","EUR",2023,newrel,0-14,a,209,201,3,2,1,2,96
+"Kazakhstan","KZ","KAZ","398","EUR",2023,newrel,a,f,2406,2223,31,135,13,4,92
+"Kazakhstan","KZ","KAZ","398","EUR",2023,newrel,a,m,3389,3017,74,252,42,4,89
+"Kenya","KE","KEN","404","AFR",2018,newrel,0-14,a,9818,8779,,,,,89
+"Kenya","KE","KEN","404","AFR",2019,newrel,0-14,a,8223,7289,,,,,89
+"Kenya","KE","KEN","404","AFR",2019,newrel,a,f,29750,25707,108,1984,1302,649,86
+"Kenya","KE","KEN","404","AFR",2019,newrel,a,m,54299,46207,365,3264,3218,1245,85
+"Kenya","KE","KEN","404","AFR",2020,newrel,0-14,a,5631,4928,,,,,88
+"Kenya","KE","KEN","404","AFR",2020,newrel,a,f,24837,21292,87,1884,1035,539,86
+"Kenya","KE","KEN","404","AFR",2020,newrel,a,m,45545,38442,316,3181,2607,999,84
+"Kenya","KE","KEN","404","AFR",2021,newrel,0-14,a,7413,6704,,,,,90
+"Kenya","KE","KEN","404","AFR",2021,newrel,a,f,25763,22843,78,1638,969,235,89
+"Kenya","KE","KEN","404","AFR",2021,newrel,a,m,49323,42691,357,3120,2671,484,87
+"Kenya","KE","KEN","404","AFR",2022,newrel,0-14,a,10240,9503,,,,,93
+"Kenya","KE","KEN","404","AFR",2022,newrel,a,f,31155,28021,130,1833,1028,143,90
+"Kenya","KE","KEN","404","AFR",2022,newrel,a,m,56534,49710,417,3284,2893,230,88
+"Kenya","KE","KEN","404","AFR",2023,newrel,0-14,a,12589,11794,,,,,94
+"Kenya","KE","KEN","404","AFR",2023,newrel,a,f,34272,31021,97,1821,1046,287,91
+"Kenya","KE","KEN","404","AFR",2023,newrel,a,m,59752,53062,393,3125,2670,502,89
+"Kiribati","KI","KIR","296","WPR",2018,newrel,0-14,a,43,41,,,,,95
+"Kiribati","KI","KIR","296","WPR",2019,newrel,0-14,a,75,71,,,,,95
+"Kiribati","KI","KIR","296","WPR",2020,newrel,0-14,a,75,72,,,,,96
+"Kiribati","KI","KIR","296","WPR",2021,newrel,0-14,a,46,43,,,,,93
+"Kiribati","KI","KIR","296","WPR",2022,newrel,0-14,a,55,51,,,,,93
+"Kiribati","KI","KIR","296","WPR",2023,newrel,0-14,a,150,145,,,,,97
+"Kuwait","KW","KWT","414","EMR",2018,newrel,0-14,a,12,12,,,,,100
+"Kuwait","KW","KWT","414","EMR",2019,newrel,0-14,a,13,13,,,,,100
+"Kuwait","KW","KWT","414","EMR",2020,newrel,0-14,a,13,12,,,,,92
+"Kuwait","KW","KWT","414","EMR",2021,newrel,0-14,a,10,10,,,,,100
+"Kuwait","KW","KWT","414","EMR",2022,newrel,0-14,a,9,9,,,,,100
+"Kuwait","KW","KWT","414","EMR",2023,newrel,0-14,a,8,8,,,,,100
+"Kyrgyzstan","KG","KGZ","417","EUR",2012,newrel,0-14,a,640,617,18,5,0,0,96
+"Kyrgyzstan","KG","KGZ","417","EUR",2013,newrel,0-14,a,570,553,1,5,4,7,97
+"Kyrgyzstan","KG","KGZ","417","EUR",2014,newrel,0-14,a,413,399,0,2,10,2,97
+"Kyrgyzstan","KG","KGZ","417","EUR",2015,newrel,0-14,a,516,488,4,4,20,0,95
+"Kyrgyzstan","KG","KGZ","417","EUR",2016,newrel,0-14,a,383,359,4,7,13,0,94
+"Kyrgyzstan","KG","KGZ","417","EUR",2018,newrel,0-14,a,260,239,3,5,12,1,92
+"Kyrgyzstan","KG","KGZ","417","EUR",2020,newrel,0-14,a,182,130,2,5,4,41,71
+"Kyrgyzstan","KG","KGZ","417","EUR",2021,newrel,0-14,a,180,173,2,0,4,1,96
+"Kyrgyzstan","KG","KGZ","417","EUR",2022,newrel,0-14,a,265,254,1,5,2,3,96
+"Kyrgyzstan","KG","KGZ","417","EUR",2023,newrel,0-14,a,217,210,3,2,2,0,97
+"Lao People's Democratic Republic","LA","LAO","418","WPR",2021,newrel,0-14,a,73,55,,,,,75
+"Lao People's Democratic Republic","LA","LAO","418","WPR",2022,newrel,0-14,a,99,78,,,,,79
+"Lao People's Democratic Republic","LA","LAO","418","WPR",2023,newrel,0-14,a,104,90,,,,,87
+"Latvia","LV","LVA","428","EUR",2010,newrel,0-14,a,8,6,0,2,0,0,75
+"Latvia","LV","LVA","428","EUR",2011,newrel,0-14,a,7,6,0,0,0,1,86
+"Latvia","LV","LVA","428","EUR",2012,newrel,0-14,a,56,53,0,0,3,0,95
+"Latvia","LV","LVA","428","EUR",2013,newrel,0-14,a,45,45,0,0,0,0,100
+"Latvia","LV","LVA","428","EUR",2014,newrel,0-14,a,41,41,0,0,0,0,100
+"Latvia","LV","LVA","428","EUR",2015,newrel,0-14,a,25,25,0,0,0,0,100
+"Latvia","LV","LVA","428","EUR",2016,newrel,0-14,a,23,23,0,0,0,0,100
+"Latvia","LV","LVA","428","EUR",2023,newrel,0-14,a,9,0,0,0,0,9,0
+"Lebanon","LB","LBN","422","EMR",2018,newrel,0-14,a,44,42,,,,,95
+"Lebanon","LB","LBN","422","EMR",2019,newrel,0-14,a,54,50,,,,,93
+"Lebanon","LB","LBN","422","EMR",2020,newrel,0-14,a,43,42,,,,,98
+"Lebanon","LB","LBN","422","EMR",2021,newrel,0-14,a,41,37,,,,,90
+"Lebanon","LB","LBN","422","EMR",2022,newrel,0-14,a,53,50,,,,,94
+"Lebanon","LB","LBN","422","EMR",2023,newrel,0-14,a,48,45,,,,,94
+"Lesotho","LS","LSO","426","AFR",2018,newrel,0-14,a,232,192,,,,,83
+"Lesotho","LS","LSO","426","AFR",2019,newrel,0-14,a,263,223,,,,,85
+"Lesotho","LS","LSO","426","AFR",2019,newrel,a,f,2515,1945,13,359,86,112,77
+"Lesotho","LS","LSO","426","AFR",2019,newrel,a,m,4401,3428,26,637,172,138,78
+"Lesotho","LS","LSO","426","AFR",2020,newrel,0-14,a,171,134,,,,,78
+"Lesotho","LS","LSO","426","AFR",2020,newrel,a,f,1540,1190,7,219,62,62,77
+"Lesotho","LS","LSO","426","AFR",2020,newrel,a,m,2938,2200,21,464,154,99,75
+"Lesotho","LS","LSO","426","AFR",2021,newrel,0-14,a,208,163,,,,,78
+"Lesotho","LS","LSO","426","AFR",2021,newrel,a,f,1536,1189,14,236,59,38,77
+"Lesotho","LS","LSO","426","AFR",2021,newrel,a,m,2972,2281,22,474,128,67,77
+"Lesotho","LS","LSO","426","AFR",2022,newrel,0-14,a,322,276,,,,,86
+"Lesotho","LS","LSO","426","AFR",2022,newrel,a,f,1906,1539,16,255,69,27,81
+"Lesotho","LS","LSO","426","AFR",2022,newrel,a,m,3617,2896,32,489,168,32,80
+"Lesotho","LS","LSO","426","AFR",2023,newrel,0-14,a,363,313,,,,,86
+"Lesotho","LS","LSO","426","AFR",2023,newrel,a,f,2021,1633,11,251,97,29,81
+"Lesotho","LS","LSO","426","AFR",2023,newrel,a,m,4437,3651,19,548,177,42,82
+"Liberia","LR","LBR","430","AFR",2020,newrel,a,f,2802,2254,5,112,364,67,80
+"Liberia","LR","LBR","430","AFR",2020,newrel,a,m,4188,3036,11,193,843,105,72
+"Libya","LY","LBY","434","EMR",2019,newrel,0-14,a,100,76,,,,,76
+"Libya","LY","LBY","434","EMR",2020,newrel,0-14,a,100,85,,,,,85
+"Libya","LY","LBY","434","EMR",2021,newrel,0-14,a,109,88,,,,,81
+"Libya","LY","LBY","434","EMR",2022,newrel,0-14,a,109,88,,,,,81
+"Libya","LY","LBY","434","EMR",2023,newrel,0-14,a,112,81,,,,,72
+"Lithuania","LT","LTU","440","EUR",2010,newrel,0-14,a,3,1,0,0,0,2,33
+"Lithuania","LT","LTU","440","EUR",2011,newrel,0-14,a,7,4,0,0,0,3,57
+"Lithuania","LT","LTU","440","EUR",2012,newrel,0-14,a,56,51,0,0,4,1,91
+"Lithuania","LT","LTU","440","EUR",2013,newrel,0-14,a,36,33,0,0,3,0,92
+"Lithuania","LT","LTU","440","EUR",2014,newrel,0-14,a,21,19,0,0,2,0,90
+"Lithuania","LT","LTU","440","EUR",2015,newrel,0-14,a,34,31,0,1,1,1,91
+"Lithuania","LT","LTU","440","EUR",2016,newrel,0-14,a,47,47,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2017,newrel,0-14,a,44,42,0,0,1,1,95
+"Lithuania","LT","LTU","440","EUR",2018,newrel,0-14,a,19,19,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2019,newrel,0-14,a,26,26,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2020,newrel,0-14,a,13,13,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2021,newrel,0-14,a,13,13,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2022,newrel,0-14,a,14,14,0,0,0,0,100
+"Lithuania","LT","LTU","440","EUR",2023,newrel,0-14,a,34,34,0,0,0,0,100
+"Luxembourg","LU","LUX","442","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Luxembourg","LU","LUX","442","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Luxembourg","LU","LUX","442","EUR",2012,newrel,0-14,a,3,,,,3,0,0
+"Luxembourg","LU","LUX","442","EUR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Luxembourg","LU","LUX","442","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Luxembourg","LU","LUX","442","EUR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Luxembourg","LU","LUX","442","EUR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Madagascar","MG","MDG","450","AFR",2020,newrel,0-14,a,3817,3703,,,,,97
+"Madagascar","MG","MDG","450","AFR",2021,newrel,0-14,a,4074,3578,,,,,88
+"Madagascar","MG","MDG","450","AFR",2022,newrel,0-14,a,4727,4059,,,,,86
+"Madagascar","MG","MDG","450","AFR",2023,newrel,0-14,a,4154,3605,,,,,87
+"Malawi","MW","MWI","454","AFR",2018,newrel,0-14,a,1183,1096,,,,,93
+"Malawi","MW","MWI","454","AFR",2019,newrel,0-14,a,1519,1378,,,,,91
+"Malawi","MW","MWI","454","AFR",2020,newrel,0-14,a,1373,1275,,,,,93
+"Malawi","MW","MWI","454","AFR",2021,newrel,0-14,a,1263,1173,,,,,93
+"Malawi","MW","MWI","454","AFR",2022,newrel,0-14,a,1369,1281,,,,,94
+"Malawi","MW","MWI","454","AFR",2023,newrel,0-14,a,1197,1116,,,,,93
+"Malaysia","MY","MYS","458","WPR",2018,newrel,0-14,a,705,632,,,,,90
+"Malaysia","MY","MYS","458","WPR",2019,newrel,0-14,a,840,756,,,,,90
+"Malaysia","MY","MYS","458","WPR",2020,newrel,0-14,a,751,687,,,,,91
+"Malaysia","MY","MYS","458","WPR",2021,newrel,0-14,a,723,671,,,,,93
+"Malaysia","MY","MYS","458","WPR",2022,newrel,0-14,a,1127,1052,,,,,93
+"Malaysia","MY","MYS","458","WPR",2023,newrel,0-14,a,1681,483,,,,,29
+"Maldives","MV","MDV","462","SEA",2018,newrel,0-14,a,6,6,,,,,100
+"Maldives","MV","MDV","462","SEA",2019,newrel,0-14,a,3,3,,,,,100
+"Maldives","MV","MDV","462","SEA",2020,newrel,0-14,a,3,3,,,,,100
+"Maldives","MV","MDV","462","SEA",2021,newrel,0-14,a,3,3,,,,,100
+"Maldives","MV","MDV","462","SEA",2022,newrel,0-14,a,6,5,,,,,83
+"Maldives","MV","MDV","462","SEA",2023,newrel,0-14,a,2,2,,,,,100
+"Malta","MT","MLT","470","EUR",2010,newrel,0-14,a,0,0,0,0,0,0,
+"Malta","MT","MLT","470","EUR",2011,newrel,0-14,a,0,0,0,0,0,0,
+"Malta","MT","MLT","470","EUR",2012,newrel,0-14,a,2,1,0,0,0,1,50
+"Malta","MT","MLT","470","EUR",2013,newrel,0-14,a,0,0,0,0,0,0,
+"Malta","MT","MLT","470","EUR",2020,newrel,0-14,a,7,7,0,0,0,0,100
+"Malta","MT","MLT","470","EUR",2021,newrel,0-14,a,1,1,0,0,0,0,100
+"Marshall Islands","MH","MHL","584","WPR",2018,newrel,0-14,a,130,126,,,,,97
+"Marshall Islands","MH","MHL","584","WPR",2019,newrel,0-14,a,102,99,,,,,97
+"Marshall Islands","MH","MHL","584","WPR",2020,newrel,0-14,a,32,31,,,,,97
+"Marshall Islands","MH","MHL","584","WPR",2021,newrel,0-14,a,31,30,,,,,97
+"Marshall Islands","MH","MHL","584","WPR",2022,newrel,0-14,a,23,22,,,,,96
+"Marshall Islands","MH","MHL","584","WPR",2023,newrel,0-14,a,92,91,,,,,99
+"Mauritania","MR","MRT","478","AFR",2018,newrel,0-14,a,126,95,,,,,75
+"Mauritania","MR","MRT","478","AFR",2019,newrel,0-14,a,158,140,,,,,89
+"Mauritania","MR","MRT","478","AFR",2020,newrel,0-14,a,100,72,,,,,72
+"Mauritania","MR","MRT","478","AFR",2021,newrel,0-14,a,125,98,,,,,78
+"Mauritania","MR","MRT","478","AFR",2022,newrel,0-14,a,107,79,,,,,74
+"Mauritius","MU","MUS","480","AFR",2018,newrel,0-14,a,2,2,,,,,100
+"Mauritius","MU","MUS","480","AFR",2019,newrel,0-14,a,3,1,,,,,33
+"Mauritius","MU","MUS","480","AFR",2020,newrel,0-14,a,3,3,,,,,100
+"Mauritius","MU","MUS","480","AFR",2021,newrel,0-14,a,3,3,,,,,100
+"Mauritius","MU","MUS","480","AFR",2022,newrel,0-14,a,1,1,,,,,100
+"Mauritius","MU","MUS","480","AFR",2023,newrel,0-14,a,1,1,,,,,100
+"Mexico","MX","MEX","484","AMR",2013,newrel,0-14,a,805,651,2,30,53,69,81
+"Mexico","MX","MEX","484","AMR",2014,newrel,0-14,a,783,620,4,32,34,93,79
+"Mexico","MX","MEX","484","AMR",2015,newrel,0-14,a,786,646,3,38,33,66,82
+"Mexico","MX","MEX","484","AMR",2016,newrel,0-14,a,786,629,2,33,26,96,80
+"Mexico","MX","MEX","484","AMR",2017,newrel,0-14,a,699,334,2,37,23,303,48
+"Mexico","MX","MEX","484","AMR",2018,newrel,0-14,a,745,584,4,41,34,82,78
+"Mexico","MX","MEX","484","AMR",2019,newrel,0-14,a,661,467,1,28,32,133,71
+"Mexico","MX","MEX","484","AMR",2020,newrel,0-14,a,529,351,1,42,32,103,66
+"Mexico","MX","MEX","484","AMR",2021,newrel,0-14,a,694,490,0,52,41,111,71
+"Mexico","MX","MEX","484","AMR",2022,newrel,0-14,a,724,504,4,55,52,109,70
+"Mexico","MX","MEX","484","AMR",2023,newrel,0-14,a,749,506,2,61,56,124,68
+"Micronesia (Federated States of)","FM","FSM","583","WPR",2018,newrel,0-14,a,27,27,,,,,100
+"Micronesia (Federated States of)","FM","FSM","583","WPR",2019,newrel,0-14,a,21,21,,,,,100
+"Micronesia (Federated States of)","FM","FSM","583","WPR",2020,newrel,0-14,a,8,6,,,,,75
+"Micronesia (Federated States of)","FM","FSM","583","WPR",2021,newrel,0-14,a,8,6,,,,,75
+"Micronesia (Federated States of)","FM","FSM","583","WPR",2023,newrel,0-14,a,70,64,,,,,91
+"Monaco","MC","MCO","492","EUR",2013,newrel,0-14,a,0,,,,,,
+"Monaco","MC","MCO","492","EUR",2014,newrel,0-14,a,0,,,,,,
+"Monaco","MC","MCO","492","EUR",2020,newrel,0-14,a,0,,,,,,
+"Mongolia","MN","MNG","496","WPR",2019,newrel,0-14,a,395,381,,,,,96
+"Mongolia","MN","MNG","496","WPR",2020,newrel,0-14,a,441,426,,,,,97
+"Mongolia","MN","MNG","496","WPR",2022,newrel,0-14,a,178,163,,,,,92
+"Mongolia","MN","MNG","496","WPR",2023,newrel,0-14,a,156,151,,,,,97
+"Mongolia","MN","MNG","496","WPR",2023,newrel,a,f,1103,935,43,40,57,28,85
+"Mongolia","MN","MNG","496","WPR",2023,newrel,a,m,1733,1404,57,100,135,37,81
+"Montenegro","ME","MNE","499","EUR",2010,newrel,0-14,a,3,3,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2011,newrel,0-14,a,3,3,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2012,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2013,newrel,0-14,a,1,1,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2014,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2015,newrel,0-14,a,1,1,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2016,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2018,newrel,0-14,a,2,2,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2019,newrel,0-14,a,1,1,0,0,0,0,100
+"Montenegro","ME","MNE","499","EUR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Montenegro","ME","MNE","499","EUR",2023,newrel,0-14,a,0,0,0,0,0,0,
+"Montserrat","MS","MSR","500","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Morocco","MA","MAR","504","EMR",2018,newrel,0-14,a,2097,1835,,,,,88
+"Morocco","MA","MAR","504","EMR",2019,newrel,0-14,a,2089,1925,,,,,92
+"Morocco","MA","MAR","504","EMR",2020,newrel,0-14,a,2079,1941,,,,,93
+"Morocco","MA","MAR","504","EMR",2021,newrel,0-14,a,2193,1728,,,,,79
+"Morocco","MA","MAR","504","EMR",2022,newrel,0-14,a,2323,1494,,,,,64
+"Morocco","MA","MAR","504","EMR",2023,newrel,0-14,a,2357,2190,,,,,93
+"Mozambique","MZ","MOZ","508","AFR",2020,newrel,0-14,a,11766,10347,,,,,88
+"Mozambique","MZ","MOZ","508","AFR",2021,newrel,0-14,a,11198,10953,,,,,98
+"Mozambique","MZ","MOZ","508","AFR",2022,newrel,0-14,a,13541,13220,,,,,98
+"Mozambique","MZ","MOZ","508","AFR",2023,newrel,0-14,a,10556,9712,,,,,92
+"Myanmar","MM","MMR","104","SEA",2018,newrel,0-14,a,26118,25181,,,,,96
+"Myanmar","MM","MMR","104","SEA",2019,newrel,0-14,a,23072,22210,,,,,96
+"Myanmar","MM","MMR","104","SEA",2020,newrel,0-14,a,8573,8228,,,,,96
+"Myanmar","MM","MMR","104","SEA",2021,newrel,0-14,a,6260,5932,,,,,95
+"Myanmar","MM","MMR","104","SEA",2022,newrel,0-14,a,21281,20534,,,,,96
+"Myanmar","MM","MMR","104","SEA",2023,newrel,0-14,a,22815,20643,,,,,90
+"Myanmar","MM","MMR","104","SEA",2023,newrel,a,f,47729,41059,313,1575,2111,2671,86
+"Myanmar","MM","MMR","104","SEA",2023,newrel,a,m,77865,64744,811,3563,4120,4627,83
+"Namibia","NA","NAM","516","AFR",2018,newrel,0-14,a,713,649,,,,,91
+"Namibia","NA","NAM","516","AFR",2019,newrel,0-14,a,711,655,,,,,92
+"Namibia","NA","NAM","516","AFR",2019,newrel,a,f,2902,2542,37,217,97,9,88
+"Namibia","NA","NAM","516","AFR",2019,newrel,a,m,4592,3941,111,335,199,6,86
+"Namibia","NA","NAM","516","AFR",2020,newrel,0-14,a,631,590,,,,,94
+"Namibia","NA","NAM","516","AFR",2020,newrel,a,f,2405,2147,29,169,56,4,89
+"Namibia","NA","NAM","516","AFR",2020,newrel,a,m,3907,3420,56,295,124,12,88
+"Namibia","NA","NAM","516","AFR",2021,newrel,0-14,a,638,589,,,,,92
+"Namibia","NA","NAM","516","AFR",2021,newrel,a,f,2433,2141,25,185,72,10,88
+"Namibia","NA","NAM","516","AFR",2021,newrel,a,m,4031,3470,69,313,165,14,86
+"Namibia","NA","NAM","516","AFR",2022,newrel,0-14,a,1026,931,,,,,91
+"Namibia","NA","NAM","516","AFR",2022,newrel,a,f,3310,2923,35,218,126,8,88
+"Namibia","NA","NAM","516","AFR",2022,newrel,a,m,5064,4411,78,334,234,7,87
+"Namibia","NA","NAM","516","AFR",2023,newrel,0-14,a,946,845,,,,,89
+"Namibia","NA","NAM","516","AFR",2023,newrel,a,f,3532,3117,26,226,145,18,88
+"Namibia","NA","NAM","516","AFR",2023,newrel,a,m,5462,4791,71,329,246,25,88
+"Nauru","NR","NRU","520","WPR",2018,newrel,0-14,a,0,0,,,,,
+"Nauru","NR","NRU","520","WPR",2020,newrel,0-14,a,0,0,,,,,
+"Nepal","NP","NPL","524","SEA",2020,newrel,a,f,10093,9321,54,289,189,240,92
+"Nepal","NP","NPL","524","SEA",2020,newrel,a,m,16816,15250,130,593,416,427,91
+"Nepal","NP","NPL","524","SEA",2022,newrel,a,f,14292,13392,94,343,291,172,94
+"Nepal","NP","NPL","524","SEA",2022,newrel,a,m,22711,20839,170,765,634,303,92
+"Nepal","NP","NPL","524","SEA",2023,newrel,a,f,13722,12836,111,404,250,121,94
+"Nepal","NP","NPL","524","SEA",2023,newrel,a,m,22674,20767,191,802,571,343,92
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2010,newrel,0-14,a,13,12,0,0,0,1,92
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2011,newrel,0-14,a,24,18,0,1,0,5,75
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2012,newrel,0-14,a,50,46,0,0,2,2,92
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2013,newrel,0-14,a,32,31,0,0,0,1,97
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2014,newrel,0-14,a,47,46,0,0,0,1,98
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2015,newrel,0-14,a,42,39,0,0,0,3,93
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2016,newrel,0-14,a,48,47,0,0,0,1,98
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2017,newrel,0-14,a,33,30,0,0,1,2,91
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2018,newrel,0-14,a,20,19,0,0,1,0,95
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2019,newrel,0-14,a,47,43,0,0,2,2,91
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2020,newrel,0-14,a,19,17,0,2,0,0,89
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2021,newrel,0-14,a,26,25,0,0,1,0,96
+"Netherlands (Kingdom of the)","NL","NLD","528","EUR",2023,newrel,0-14,a,19,16,0,0,0,3,84
+"New Caledonia","NC","NCL","540","WPR",2020,newrel,0-14,a,3,1,,,,,33
+"New Caledonia","NC","NCL","540","WPR",2022,newrel,0-14,a,3,2,,,,,67
+"New Caledonia","NC","NCL","540","WPR",2023,newrel,0-14,a,1,1,,,,,100
+"New Zealand","NZ","NZL","554","WPR",2018,newrel,0-14,a,9,8,,,,,89
+"New Zealand","NZ","NZL","554","WPR",2019,newrel,0-14,a,2,2,,,,,100
+"New Zealand","NZ","NZL","554","WPR",2020,newrel,0-14,a,6,6,,,,,100
+"New Zealand","NZ","NZL","554","WPR",2021,newrel,0-14,a,7,6,,,,,86
+"New Zealand","NZ","NZL","554","WPR",2022,newrel,0-14,a,12,11,,,,,92
+"New Zealand","NZ","NZL","554","WPR",2023,newrel,0-14,a,14,13,,,,,93
+"Nicaragua","NI","NIC","558","AMR",2014,newrel,0-14,a,29,29,0,0,0,0,100
+"Nicaragua","NI","NIC","558","AMR",2015,newrel,0-14,a,124,124,0,0,0,0,100
+"Nicaragua","NI","NIC","558","AMR",2016,newrel,0-14,a,249,242,1,1,4,1,97
+"Nicaragua","NI","NIC","558","AMR",2017,newrel,0-14,a,171,160,0,2,9,0,94
+"Nicaragua","NI","NIC","558","AMR",2018,newrel,0-14,a,148,144,0,1,3,0,97
+"Nicaragua","NI","NIC","558","AMR",2019,newrel,0-14,a,173,158,0,4,7,4,91
+"Nicaragua","NI","NIC","558","AMR",2020,newrel,0-14,a,103,98,0,0,5,0,95
+"Nicaragua","NI","NIC","558","AMR",2021,newrel,0-14,a,83,78,0,0,5,0,94
+"Nicaragua","NI","NIC","558","AMR",2022,newrel,0-14,a,104,95,0,0,8,1,91
+"Nigeria","NG","NGA","566","AFR",2018,newrel,0-14,a,8293,7402,,,,,89
+"Nigeria","NG","NGA","566","AFR",2019,newrel,0-14,a,9540,8720,,,,,91
+"Nigeria","NG","NGA","566","AFR",2020,newrel,0-14,a,8441,7674,,,,,91
+"Nigeria","NG","NGA","566","AFR",2020,newrel,a,f,54314,48840,182,1737,2310,1245,90
+"Nigeria","NG","NGA","566","AFR",2020,newrel,a,m,81470,72938,337,2986,3998,1211,90
+"Nigeria","NG","NGA","566","AFR",2021,newrel,0-14,a,12977,11894,,,,,92
+"Nigeria","NG","NGA","566","AFR",2021,newrel,a,f,83644,76340,2180,195,3129,1800,91
+"Nigeria","NG","NGA","566","AFR",2021,newrel,a,m,121081,109682,3466,368,5207,2358,91
+"Nigeria","NG","NGA","566","AFR",2022,newrel,0-14,a,20411,19274,,,,,94
+"Nigeria","NG","NGA","566","AFR",2023,newrel,0-14,a,36197,34865,,,,,96
+"Niue","NU","NIU","570","WPR",2022,newrel,0-14,a,1,1,,,,,100
+"North Macedonia","MK","MKD","807","EUR",2010,newrel,0-14,a,33,31,0,0,2,0,94
+"North Macedonia","MK","MKD","807","EUR",2011,newrel,0-14,a,32,28,0,1,3,0,88
+"North Macedonia","MK","MKD","807","EUR",2012,newrel,0-14,a,29,27,0,0,2,0,93
+"North Macedonia","MK","MKD","807","EUR",2013,newrel,0-14,a,23,23,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2014,newrel,0-14,a,19,19,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2015,newrel,0-14,a,14,14,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2016,newrel,0-14,a,25,25,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2017,newrel,0-14,a,10,10,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2018,newrel,0-14,a,12,10,0,0,2,0,83
+"North Macedonia","MK","MKD","807","EUR",2019,newrel,0-14,a,12,12,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2020,newrel,0-14,a,10,8,,,2,0,80
+"North Macedonia","MK","MKD","807","EUR",2021,newrel,0-14,a,3,3,0,0,0,0,100
+"North Macedonia","MK","MKD","807","EUR",2022,newrel,0-14,a,7,5,0,0,0,2,71
+"Northern Mariana Islands","MP","MNP","580","WPR",2018,newrel,0-14,a,6,6,,,,,100
+"Northern Mariana Islands","MP","MNP","580","WPR",2019,newrel,0-14,a,1,1,,,,,100
+"Northern Mariana Islands","MP","MNP","580","WPR",2020,newrel,0-14,a,1,1,,,,,100
+"Northern Mariana Islands","MP","MNP","580","WPR",2021,newrel,0-14,a,1,0,,,,,0
+"Northern Mariana Islands","MP","MNP","580","WPR",2022,newrel,0-14,a,0,0,,,,,
+"Northern Mariana Islands","MP","MNP","580","WPR",2023,newrel,0-14,a,0,0,,,,,
+"Norway","NO","NOR","578","EUR",2010,newrel,0-14,a,6,4,0,0,0,2,67
+"Norway","NO","NOR","578","EUR",2011,newrel,0-14,a,9,9,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2012,newrel,0-14,a,19,17,0,0,0,2,89
+"Norway","NO","NOR","578","EUR",2013,newrel,0-14,a,16,16,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2014,newrel,0-14,a,12,11,0,0,0,1,92
+"Norway","NO","NOR","578","EUR",2015,newrel,0-14,a,18,18,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2016,newrel,0-14,a,14,14,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2017,newrel,0-14,a,17,17,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2018,newrel,0-14,a,7,5,0,0,0,2,71
+"Norway","NO","NOR","578","EUR",2019,newrel,0-14,a,4,4,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2020,newrel,0-14,a,10,10,0,0,0,0,100
+"Norway","NO","NOR","578","EUR",2021,newrel,0-14,a,4,3,0,0,0,1,75
+"Norway","NO","NOR","578","EUR",2022,newrel,0-14,a,6,5,0,1,0,0,83
+"Norway","NO","NOR","578","EUR",2023,newrel,0-14,a,7,7,0,0,0,0,100
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2018,newrel,0-14,a,3,3,,,,,100
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2019,newrel,0-14,a,2,2,,,,,100
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2020,newrel,0-14,a,6,6,,,,,100
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2021,newrel,0-14,a,0,0,,,,,
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2022,newrel,0-14,a,2,1,,,,,50
+"occupied Palestinian territory, including east Jerusalem","PS","PSE","275","EMR",2023,newrel,0-14,a,1,1,,,,,100
+"Oman","OM","OMN","512","EMR",2018,newrel,0-14,a,6,6,,,,,100
+"Oman","OM","OMN","512","EMR",2019,newrel,0-14,a,5,4,,,,,80
+"Oman","OM","OMN","512","EMR",2020,newrel,0-14,a,5,4,,,,,80
+"Oman","OM","OMN","512","EMR",2021,newrel,0-14,a,4,4,,,,,100
+"Oman","OM","OMN","512","EMR",2022,newrel,0-14,a,4,3,,,,,75
+"Oman","OM","OMN","512","EMR",2023,newrel,0-14,a,3,3,,,,,100
+"Pakistan","PK","PAK","586","EMR",2022,newrel,0-14,a,58858,57472,,,,,98
+"Palau","PW","PLW","585","WPR",2018,newrel,0-14,a,1,1,,,,,100
+"Palau","PW","PLW","585","WPR",2019,newrel,0-14,a,0,0,,,,,
+"Palau","PW","PLW","585","WPR",2020,newrel,0-14,a,0,0,,,,,
+"Palau","PW","PLW","585","WPR",2021,newrel,0-14,a,0,0,,,,,
+"Palau","PW","PLW","585","WPR",2022,newrel,0-14,a,0,0,,,,,
+"Palau","PW","PLW","585","WPR",2023,newrel,0-14,a,1,1,,,,,100
+"Panama","PA","PAN","591","AMR",2014,newrel,0-14,a,115,103,,2,10,0,90
+"Panama","PA","PAN","591","AMR",2015,newrel,0-14,a,146,126,3,3,12,2,86
+"Panama","PA","PAN","591","AMR",2016,newrel,0-14,a,169,146,,4,15,4,86
+"Panama","PA","PAN","591","AMR",2017,newrel,0-14,a,134,121,,3,10,0,90
+"Panama","PA","PAN","591","AMR",2018,newrel,0-14,a,71,64,0,2,5,0,90
+"Panama","PA","PAN","591","AMR",2019,newrel,0-14,a,110,101,0,1,8,0,92
+"Panama","PA","PAN","591","AMR",2020,newrel,0-14,a,69,58,0,5,6,0,84
+"Panama","PA","PAN","591","AMR",2021,newrel,0-14,a,98,82,0,5,11,0,84
+"Panama","PA","PAN","591","AMR",2022,newrel,0-14,a,131,98,3,12,18,0,75
+"Panama","PA","PAN","591","AMR",2023,newrel,0-14,a,215,168,1,18,28,0,78
+"Papua New Guinea","PG","PNG","598","WPR",2018,newrel,0-14,a,6705,4870,,,,,73
+"Papua New Guinea","PG","PNG","598","WPR",2019,newrel,0-14,a,7337,5027,,,,,69
+"Papua New Guinea","PG","PNG","598","WPR",2019,newrel,a,f,14238,10093,120,455,1856,1714,71
+"Papua New Guinea","PG","PNG","598","WPR",2019,newrel,a,m,14955,10748,113,488,2037,1569,72
+"Papua New Guinea","PG","PNG","598","WPR",2020,newrel,0-14,a,6212,4527,,,,,73
+"Papua New Guinea","PG","PNG","598","WPR",2020,newrel,a,f,13338,9670,88,463,1842,1275,72
+"Papua New Guinea","PG","PNG","598","WPR",2020,newrel,a,m,13803,10292,109,439,1761,1202,75
+"Papua New Guinea","PG","PNG","598","WPR",2021,newrel,0-14,a,6802,4853,,,,,71
+"Papua New Guinea","PG","PNG","598","WPR",2021,newrel,a,f,13907,10063,113,447,1961,1323,72
+"Papua New Guinea","PG","PNG","598","WPR",2021,newrel,a,m,14337,10642,134,471,745,2345,74
+"Papua New Guinea","PG","PNG","598","WPR",2022,newrel,0-14,a,8685,6400,,,,,74
+"Papua New Guinea","PG","PNG","598","WPR",2022,newrel,a,f,17314,12625,118,501,2785,1285,73
+"Papua New Guinea","PG","PNG","598","WPR",2022,newrel,a,m,17746,12869,167,488,1037,3185,73
+"Papua New Guinea","PG","PNG","598","WPR",2023,newrel,0-14,a,9424,7520,,,,,80
+"Papua New Guinea","PG","PNG","598","WPR",2023,newrel,a,f,20480,15071,203,565,3556,1085,74
+"Papua New Guinea","PG","PNG","598","WPR",2023,newrel,a,m,21360,15730,270,587,3518,1255,74
+"Paraguay","PY","PRY","600","AMR",2013,newrel,0-14,a,183,116,0,2,3,62,63
+"Paraguay","PY","PRY","600","AMR",2014,newrel,0-14,a,187,139,0,6,13,29,74
+"Paraguay","PY","PRY","600","AMR",2015,newrel,0-14,a,149,109,0,12,11,17,73
+"Paraguay","PY","PRY","600","AMR",2016,newrel,0-14,a,188,138,1,8,20,21,73
+"Paraguay","PY","PRY","600","AMR",2017,newrel,0-14,a,175,150,0,2,23,0,86
+"Paraguay","PY","PRY","600","AMR",2018,newrel,0-14,a,159,116,0,6,28,9,73
+"Paraguay","PY","PRY","600","AMR",2019,newrel,0-14,a,192,135,0,10,28,19,70
+"Paraguay","PY","PRY","600","AMR",2020,newrel,0-14,a,119,103,0,3,11,2,87
+"Paraguay","PY","PRY","600","AMR",2021,newrel,0-14,a,95,61,0,5,24,5,64
+"Paraguay","PY","PRY","600","AMR",2022,newrel,0-14,a,125,84,0,9,24,8,67
+"Paraguay","PY","PRY","600","AMR",2023,newrel,0-14,a,124,89,0,6,16,13,72
+"Peru","PE","PER","604","AMR",2015,newrel,0-14,a,221,152,0,5,13,51,69
+"Peru","PE","PER","604","AMR",2016,newrel,0-14,a,822,664,0,13,29,116,81
+"Peru","PE","PER","604","AMR",2017,newrel,0-14,a,1166,1007,0,15,43,101,86
+"Peru","PE","PER","604","AMR",2018,newrel,0-14,a,1263,1141,2,13,42,65,90
+"Peru","PE","PER","604","AMR",2019,newrel,0-14,a,1331,1170,2,22,47,90,88
+"Peru","PE","PER","604","AMR",2020,newrel,0-14,a,837,752,2,16,41,26,90
+"Peru","PE","PER","604","AMR",2020,newrel,a,f,7444,6527,39,426,220,232,88
+"Peru","PE","PER","604","AMR",2020,newrel,a,m,13494,11258,87,926,651,572,83
+"Peru","PE","PER","604","AMR",2021,newrel,0-14,a,839,759,1,17,35,27,90
+"Peru","PE","PER","604","AMR",2021,newrel,a,f,8633,7629,42,440,318,204,88
+"Peru","PE","PER","604","AMR",2021,newrel,a,m,14050,11814,67,1016,833,320,84
+"Peru","PE","PER","604","AMR",2022,newrel,0-14,a,984,899,7,17,42,19,91
+"Peru","PE","PER","604","AMR",2022,newrel,a,f,9318,8134,120,499,396,169,87
+"Peru","PE","PER","604","AMR",2022,newrel,a,m,15857,13094,236,1109,1141,277,83
+"Peru","PE","PER","604","AMR",2023,newrel,0-14,a,1199,1125,1,20,37,16,94
+"Peru","PE","PER","604","AMR",2023,newrel,a,f,10139,8888,27,617,495,112,88
+"Peru","PE","PER","604","AMR",2023,newrel,a,m,17929,14834,56,1417,1422,200,83
+"Philippines","PH","PHL","608","WPR",2018,newrel,0-14,a,45380,35519,,,,,78
+"Philippines","PH","PHL","608","WPR",2019,newrel,0-14,a,32163,28814,,,,,90
+"Philippines","PH","PHL","608","WPR",2019,newrel,a,f,118934,103163,277,1857,4171,9466,87
+"Philippines","PH","PHL","608","WPR",2019,newrel,a,m,223843,193306,730,5122,8292,16393,86
+"Philippines","PH","PHL","608","WPR",2020,newrel,0-14,a,19768,14625,,,,,74
+"Philippines","PH","PHL","608","WPR",2020,newrel,a,f,90044,67235,179,1517,2254,18859,75
+"Philippines","PH","PHL","608","WPR",2020,newrel,a,m,180943,139400,433,4338,5068,31704,77
+"Philippines","PH","PHL","608","WPR",2021,newrel,0-14,a,26442,21563,,,,,82
+"Philippines","PH","PHL","608","WPR",2021,newrel,a,f,126317,98474,251,2100,6399,19093,78
+"Philippines","PH","PHL","608","WPR",2021,newrel,a,m,249697,201315,580,5750,12398,29654,81
+"Philippines","PH","PHL","608","WPR",2022,newrel,0-14,a,40327,33030,,,,,82
+"Philippines","PH","PHL","608","WPR",2022,newrel,a,f,180110,138240,344,2528,21673,17325,77
+"Philippines","PH","PHL","608","WPR",2022,newrel,a,m,325772,256953,769,6825,35556,25669,79
+"Philippines","PH","PHL","608","WPR",2023,newrel,0-14,a,48877,43295,,,,,89
+"Philippines","PH","PHL","608","WPR",2023,newrel,a,f,208707,173712,368,2695,23354,8578,83
+"Philippines","PH","PHL","608","WPR",2023,newrel,a,m,361785,304682,827,7378,36361,12537,84
+"Poland","PL","POL","616","EUR",2010,newrel,0-14,a,20,10,0,0,2,8,50
+"Poland","PL","POL","616","EUR",2011,newrel,0-14,a,27,20,0,0,0,7,74
+"Poland","PL","POL","616","EUR",2012,newrel,0-14,a,94,68,0,0,3,23,72
+"Poland","PL","POL","616","EUR",2013,newrel,0-14,a,116,74,0,0,3,39,64
+"Poland","PL","POL","616","EUR",2014,newrel,0-14,a,70,37,0,0,3,30,53
+"Poland","PL","POL","616","EUR",2015,newrel,0-14,a,81,44,0,0,0,37,54
+"Poland","PL","POL","616","EUR",2016,newrel,0-14,a,102,53,0,3,5,41,52
+"Portugal","PT","PRT","620","EUR",2010,newrel,0-14,a,19,13,0,0,1,5,68
+"Portugal","PT","PRT","620","EUR",2011,newrel,0-14,a,17,15,0,1,0,1,88
+"Portugal","PT","PRT","620","EUR",2012,newrel,0-14,a,75,65,0,0,1,9,87
+"Portugal","PT","PRT","620","EUR",2013,newrel,0-14,a,48,41,0,0,1,6,85
+"Portugal","PT","PRT","620","EUR",2014,newrel,0-14,a,41,37,0,0,0,4,90
+"Portugal","PT","PRT","620","EUR",2015,newrel,0-14,a,33,29,0,0,0,4,88
+"Portugal","PT","PRT","620","EUR",2016,newrel,0-14,a,36,27,0,0,0,9,75
+"Portugal","PT","PRT","620","EUR",2017,newrel,0-14,a,44,26,0,0,3,15,59
+"Portugal","PT","PRT","620","EUR",2018,newrel,0-14,a,49,41,0,1,0,7,84
+"Portugal","PT","PRT","620","EUR",2019,newrel,0-14,a,71,44,0,1,0,26,62
+"Portugal","PT","PRT","620","EUR",2020,newrel,0-14,a,42,37,0,0,1,4,88
+"Portugal","PT","PRT","620","EUR",2021,newrel,0-14,a,44,30,0,0,0,14,68
+"Portugal","PT","PRT","620","EUR",2022,newrel,0-14,a,52,40,0,0,2,10,77
+"Portugal","PT","PRT","620","EUR",2023,newrel,0-14,a,44,32,0,0,1,11,73
+"Puerto Rico","PR","PRI","630","AMR",2018,newrel,0-14,a,1,0,0,1,0,0,0
+"Puerto Rico","PR","PRI","630","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Puerto Rico","PR","PRI","630","AMR",2020,newrel,0-14,a,1,1,0,0,0,0,100
+"Puerto Rico","PR","PRI","630","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Puerto Rico","PR","PRI","630","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Qatar","QA","QAT","634","EMR",2018,newrel,0-14,a,3,1,,,,,33
+"Qatar","QA","QAT","634","EMR",2019,newrel,0-14,a,3,3,,,,,100
+"Qatar","QA","QAT","634","EMR",2020,newrel,0-14,a,7,4,,,,,57
+"Qatar","QA","QAT","634","EMR",2021,newrel,0-14,a,15,12,,,,,80
+"Qatar","QA","QAT","634","EMR",2022,newrel,0-14,a,3,2,,,,,67
+"Qatar","QA","QAT","634","EMR",2023,newrel,0-14,a,8,6,,,,,75
+"Republic of Korea","KR","KOR","410","WPR",2018,newrel,0-14,a,73,70,,,,,96
+"Republic of Korea","KR","KOR","410","WPR",2019,newrel,0-14,a,76,72,,,,,95
+"Republic of Korea","KR","KOR","410","WPR",2020,newrel,0-14,a,53,47,,,,,89
+"Republic of Korea","KR","KOR","410","WPR",2021,newrel,0-14,a,35,33,,,,,94
+"Republic of Korea","KR","KOR","410","WPR",2022,newrel,0-14,a,27,26,,,,,96
+"Republic of Korea","KR","KOR","410","WPR",2023,newrel,0-14,a,19,19,,,,,100
+"Republic of Moldova","MD","MDA","498","EUR",2010,newrel,0-14,a,140,131,1,0,2,6,94
+"Republic of Moldova","MD","MDA","498","EUR",2011,newrel,0-14,a,159,154,1,3,1,0,97
+"Republic of Moldova","MD","MDA","498","EUR",2012,newrel,0-14,a,143,140,0,2,0,1,98
+"Republic of Moldova","MD","MDA","498","EUR",2013,newrel,0-14,a,125,122,0,0,3,0,98
+"Republic of Moldova","MD","MDA","498","EUR",2014,newrel,0-14,a,104,100,1,2,1,0,96
+"Republic of Moldova","MD","MDA","498","EUR",2015,newrel,0-14,a,101,96,1,1,2,1,95
+"Republic of Moldova","MD","MDA","498","EUR",2016,newrel,0-14,a,88,84,1,2,1,0,95
+"Republic of Moldova","MD","MDA","498","EUR",2017,newrel,0-14,a,107,105,2,0,0,0,98
+"Republic of Moldova","MD","MDA","498","EUR",2018,newrel,0-14,a,96,87,0,0,1,8,91
+"Republic of Moldova","MD","MDA","498","EUR",2019,newrel,0-14,a,103,103,0,0,0,0,100
+"Republic of Moldova","MD","MDA","498","EUR",2020,newrel,0-14,a,56,56,0,0,0,0,100
+"Republic of Moldova","MD","MDA","498","EUR",2020,newrel,a,f,427,364,9,47,6,1,85
+"Republic of Moldova","MD","MDA","498","EUR",2020,newrel,a,m,981,753,44,139,27,18,77
+"Republic of Moldova","MD","MDA","498","EUR",2021,newrel,0-14,a,71,70,0,0,1,0,99
+"Republic of Moldova","MD","MDA","498","EUR",2021,newrel,a,f,396,338,8,43,7,0,85
+"Republic of Moldova","MD","MDA","498","EUR",2021,newrel,a,m,1242,980,37,161,60,4,79
+"Republic of Moldova","MD","MDA","498","EUR",2022,newrel,0-14,a,71,71,0,0,0,0,100
+"Republic of Moldova","MD","MDA","498","EUR",2022,newrel,a,f,429,377,14,31,5,2,88
+"Republic of Moldova","MD","MDA","498","EUR",2022,newrel,a,m,1244,1039,39,124,34,8,84
+"Republic of Moldova","MD","MDA","498","EUR",2023,newrel,0-14,a,133,133,0,0,0,0,100
+"Republic of Moldova","MD","MDA","498","EUR",2023,newrel,a,f,434,382,13,35,4,0,88
+"Republic of Moldova","MD","MDA","498","EUR",2023,newrel,a,m,1242,1048,30,111,52,1,84
+"Romania","RO","ROU","642","EUR",2010,newrel,0-14,a,96,86,1,1,3,5,90
+"Romania","RO","ROU","642","EUR",2011,newrel,0-14,a,113,112,0,1,0,0,99
+"Romania","RO","ROU","642","EUR",2012,newrel,0-14,a,716,674,2,7,27,6,94
+"Romania","RO","ROU","642","EUR",2013,newrel,0-14,a,692,663,1,7,15,6,96
+"Romania","RO","ROU","642","EUR",2014,newrel,0-14,a,634,613,0,4,13,4,97
+"Romania","RO","ROU","642","EUR",2015,newrel,0-14,a,651,614,0,9,23,5,94
+"Romania","RO","ROU","642","EUR",2016,newrel,0-14,a,595,578,2,5,9,1,97
+"Romania","RO","ROU","642","EUR",2017,newrel,0-14,a,530,512,0,9,7,2,97
+"Romania","RO","ROU","642","EUR",2018,newrel,0-14,a,540,516,0,8,9,7,96
+"Romania","RO","ROU","642","EUR",2019,newrel,0-14,a,388,372,2,5,7,2,96
+"Romania","RO","ROU","642","EUR",2020,newrel,0-14,a,258,245,0,6,6,1,95
+"Romania","RO","ROU","642","EUR",2021,newrel,0-14,a,278,263,1,7,4,3,95
+"Romania","RO","ROU","642","EUR",2022,newrel,0-14,a,324,309,1,4,4,6,95
+"Romania","RO","ROU","642","EUR",2023,newrel,0-14,a,424,411,0,2,2,9,97
+"Russian Federation","RU","RUS","643","EUR",2011,newrel,0-14,a,629,576,13,3,7,30,92
+"Russian Federation","RU","RUS","643","EUR",2012,newrel,0-14,a,754,717,11,7,4,15,95
+"Russian Federation","RU","RUS","643","EUR",2013,newrel,0-14,a,733,708,3,6,1,15,97
+"Russian Federation","RU","RUS","643","EUR",2014,newrel,0-14,a,3090,2964,28,22,9,67,96
+"Russian Federation","RU","RUS","643","EUR",2015,newrel,0-14,a,2906,2736,20,19,5,126,94
+"Russian Federation","RU","RUS","643","EUR",2016,newrel,0-14,a,2677,2574,15,13,4,71,96
+"Russian Federation","RU","RUS","643","EUR",2017,newrel,0-14,a,2304,2209,22,10,4,59,96
+"Russian Federation","RU","RUS","643","EUR",2018,newrel,0-14,a,1905,1811,28,13,5,48,95
+"Russian Federation","RU","RUS","643","EUR",2019,newrel,0-14,a,1753,1652,39,10,6,46,94
+"Russian Federation","RU","RUS","643","EUR",2020,newrel,0-14,a,1432,1365,26,4,8,29,95
+"Russian Federation","RU","RUS","643","EUR",2021,newrel,0-14,a,1493,1433,27,6,5,22,96
+"Russian Federation","RU","RUS","643","EUR",2022,newrel,0-14,a,1455,1374,32,6,5,38,94
+"Russian Federation","RU","RUS","643","EUR",2023,newrel,0-14,a,1401,1336,25,5,1,34,95
+"Rwanda","RW","RWA","646","AFR",2018,newrel,0-14,a,388,364,,,,,94
+"Rwanda","RW","RWA","646","AFR",2019,newrel,0-14,a,437,412,,,,,94
+"Rwanda","RW","RWA","646","AFR",2020,newrel,0-14,a,324,299,,,,,92
+"Rwanda","RW","RWA","646","AFR",2021,newrel,0-14,a,310,288,,,,,93
+"Rwanda","RW","RWA","646","AFR",2022,newrel,0-14,a,402,385,,,,,96
+"Rwanda","RW","RWA","646","AFR",2023,newrel,0-14,a,639,594,,,,,93
+"Saint Kitts and Nevis","KN","KNA","659","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Lucia","LC","LCA","662","AMR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Lucia","LC","LCA","662","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Lucia","LC","LCA","662","AMR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Lucia","LC","LCA","662","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Lucia","LC","LCA","662","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Vincent and the Grenadines","VC","VCT","670","AMR",2019,newrel,0-14,a,0,0,0,0,0,0,
+"Saint Vincent and the Grenadines","VC","VCT","670","AMR",2020,newrel,0-14,a,1,0,0,1,0,0,0
+"Samoa","WS","WSM","882","WPR",2018,newrel,0-14,a,2,2,,,,,100
+"Samoa","WS","WSM","882","WPR",2020,newrel,0-14,a,0,0,,,,,
+"Samoa","WS","WSM","882","WPR",2021,newrel,0-14,a,0,0,,,,,
+"Samoa","WS","WSM","882","WPR",2023,newrel,0-14,a,1,1,,,,,100
+"San Marino","SM","SMR","674","EUR",2015,newrel,0-14,a,0,0,0,0,0,0,
+"San Marino","SM","SMR","674","EUR",2016,newrel,0-14,a,0,0,0,0,0,0,
+"San Marino","SM","SMR","674","EUR",2017,newrel,0-14,a,0,0,0,0,0,0,
+"San Marino","SM","SMR","674","EUR",2018,newrel,0-14,a,0,0,0,0,0,0,
+"Sao Tome and Principe","ST","STP","678","AFR",2018,newrel,0-14,a,5,5,,,,,100
+"Sao Tome and Principe","ST","STP","678","AFR",2019,newrel,0-14,a,11,10,,,,,91
+"Sao Tome and Principe","ST","STP","678","AFR",2020,newrel,0-14,a,3,2,,,,,67
+"Sao Tome and Principe","ST","STP","678","AFR",2021,newrel,0-14,a,1,1,,,,,100
+"Sao Tome and Principe","ST","STP","678","AFR",2022,newrel,0-14,a,8,6,,,,,75
+"Sao Tome and Principe","ST","STP","678","AFR",2023,newrel,0-14,a,10,4,,,,,40
+"Saudi Arabia","SA","SAU","682","EMR",2018,newrel,0-14,a,88,75,,,,,85
+"Saudi Arabia","SA","SAU","682","EMR",2019,newrel,0-14,a,106,90,,,,,85
+"Saudi Arabia","SA","SAU","682","EMR",2020,newrel,0-14,a,79,70,,,,,89
+"Saudi Arabia","SA","SAU","682","EMR",2021,newrel,0-14,a,80,74,,,,,93
+"Saudi Arabia","SA","SAU","682","EMR",2022,newrel,0-14,a,68,63,,,,,93
+"Saudi Arabia","SA","SAU","682","EMR",2023,newrel,0-14,a,70,65,,,,,93
+"Senegal","SN","SEN","686","AFR",2018,newrel,0-14,a,581,498,,,,,86
+"Senegal","SN","SEN","686","AFR",2019,newrel,0-14,a,592,514,,,,,87
+"Senegal","SN","SEN","686","AFR",2020,newrel,0-14,a,669,422,,,,,63
+"Senegal","SN","SEN","686","AFR",2021,newrel,0-14,a,384,355,,,,,92
+"Senegal","SN","SEN","686","AFR",2022,newrel,0-14,a,587,430,,,,,73
+"Senegal","SN","SEN","686","AFR",2023,newrel,0-14,a,568,333,,,,,59
+"Serbia","RS","SRB","688","EUR",2010,newrel,0-14,a,17,15,0,0,0,2,88
+"Serbia","RS","SRB","688","EUR",2011,newrel,0-14,a,13,11,0,0,1,1,85
+"Serbia","RS","SRB","688","EUR",2012,newrel,0-14,a,18,15,0,0,2,1,83
+"Serbia","RS","SRB","688","EUR",2013,newrel,0-14,a,55,54,0,0,1,0,98
+"Serbia","RS","SRB","688","EUR",2014,newrel,0-14,a,42,40,0,1,0,1,95
+"Serbia","RS","SRB","688","EUR",2015,newrel,0-14,a,28,27,0,0,0,1,96
+"Serbia","RS","SRB","688","EUR",2016,newrel,0-14,a,17,16,1,0,0,0,94
+"Serbia","RS","SRB","688","EUR",2017,newrel,0-14,a,36,36,0,0,0,0,100
+"Serbia","RS","SRB","688","EUR",2018,newrel,0-14,a,29,29,0,0,0,0,100
+"Serbia","RS","SRB","688","EUR",2022,newrel,0-14,a,49,47,0,0,1,1,96
+"Serbia","RS","SRB","688","EUR",2023,newrel,0-14,a,48,47,0,1,0,0,98
+"Seychelles","SC","SYC","690","AFR",2018,newrel,0-14,a,0,0,,,,,
+"Seychelles","SC","SYC","690","AFR",2020,newrel,0-14,a,0,0,,,,,
+"Seychelles","SC","SYC","690","AFR",2021,newrel,0-14,a,0,0,,,,,
+"Seychelles","SC","SYC","690","AFR",2023,newrel,0-14,a,0,0,,,,,
+"Singapore","SG","SGP","702","WPR",2018,newrel,0-14,a,9,8,,,,,89
+"Singapore","SG","SGP","702","WPR",2019,newrel,0-14,a,14,13,,,,,93
+"Singapore","SG","SGP","702","WPR",2020,newrel,0-14,a,8,7,,,,,88
+"Singapore","SG","SGP","702","WPR",2021,newrel,0-14,a,10,10,,,,,100
+"Singapore","SG","SGP","702","WPR",2022,newrel,0-14,a,3,3,,,,,100
+"Singapore","SG","SGP","702","WPR",2023,newrel,0-14,a,3,3,,,,,100
+"Sint Maarten (Dutch part)","SX","SXM","534","AMR",2018,newrel,0-14,a,0,,,,,,
+"Sint Maarten (Dutch part)","SX","SXM","534","AMR",2021,newrel,0-14,a,0,0,0,0,0,0,
+"Slovakia","SK","SVK","703","EUR",2010,newrel,0-14,a,5,5,0,0,0,0,100
+"Slovakia","SK","SVK","703","EUR",2011,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovakia","SK","SVK","703","EUR",2012,newrel,0-14,a,19,18,1,0,0,0,95
+"Slovakia","SK","SVK","703","EUR",2013,newrel,0-14,a,38,37,0,0,0,1,97
+"Slovakia","SK","SVK","703","EUR",2014,newrel,0-14,a,44,37,1,1,0,5,84
+"Slovakia","SK","SVK","703","EUR",2015,newrel,0-14,a,65,65,0,0,0,0,100
+"Slovakia","SK","SVK","703","EUR",2016,newrel,0-14,a,60,57,0,0,0,3,95
+"Slovakia","SK","SVK","703","EUR",2017,newrel,0-14,a,45,44,0,0,0,1,98
+"Slovakia","SK","SVK","703","EUR",2018,newrel,0-14,a,40,40,0,0,0,0,100
+"Slovakia","SK","SVK","703","EUR",2019,newrel,0-14,a,35,34,0,0,0,1,97
+"Slovakia","SK","SVK","703","EUR",2020,newrel,0-14,a,35,34,0,0,1,0,97
+"Slovakia","SK","SVK","703","EUR",2021,newrel,0-14,a,40,38,0,0,0,2,95
+"Slovakia","SK","SVK","703","EUR",2022,newrel,0-14,a,40,38,0,1,1,0,95
+"Slovakia","SK","SVK","703","EUR",2023,newrel,0-14,a,80,77,0,0,1,2,96
+"Slovenia","SI","SVN","705","EUR",2010,newrel,0-14,a,1,1,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2011,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2012,newrel,0-14,a,5,5,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2013,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2014,newrel,0-14,a,3,3,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2015,newrel,0-14,a,1,1,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2016,newrel,0-14,a,3,3,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2017,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2018,newrel,0-14,a,1,1,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2019,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2020,newrel,0-14,a,0,0,0,0,0,0,
+"Slovenia","SI","SVN","705","EUR",2021,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2022,newrel,0-14,a,2,2,0,0,0,0,100
+"Slovenia","SI","SVN","705","EUR",2023,newrel,0-14,a,1,1,0,0,0,0,100
+"Solomon Islands","SB","SLB","090","WPR",2018,newrel,0-14,a,65,65,,,,,100
+"Solomon Islands","SB","SLB","090","WPR",2019,newrel,0-14,a,53,51,,,,,96
+"Solomon Islands","SB","SLB","090","WPR",2020,newrel,0-14,a,62,62,,,,,100
+"South Africa","ZA","ZAF","710","AFR",2019,newrel,0-14,a,25155,21035,,,,,84
+"South Africa","ZA","ZAF","710","AFR",2019,newrel,a,f,44774,37714,327,2239,3447,1047,84
+"South Africa","ZA","ZAF","710","AFR",2019,newrel,a,m,171951,133092,1330,13681,19005,4843,77
+"South Africa","ZA","ZAF","710","AFR",2020,newrel,0-14,a,16007,12821,,,,,80
+"South Africa","ZA","ZAF","710","AFR",2020,newrel,a,f,65903,53194,460,5302,5448,1499,81
+"South Africa","ZA","ZAF","710","AFR",2020,newrel,a,m,100161,77124,908,8135,11739,2255,77
+"South Africa","ZA","ZAF","710","AFR",2021,newrel,0-14,a,11890,10308,,,,,87
+"South Africa","ZA","ZAF","710","AFR",2021,newrel,a,f,65665,53014,453,5071,4824,2303,81
+"South Africa","ZA","ZAF","710","AFR",2021,newrel,a,m,95694,74417,733,7790,9516,3238,78
+"South Africa","ZA","ZAF","710","AFR",2022,newrel,0-14,a,17947,14544,,,,,81
+"South Africa","ZA","ZAF","710","AFR",2022,newrel,a,f,88936,68622,473,5988,7235,6618,77
+"South Africa","ZA","ZAF","710","AFR",2022,newrel,a,m,124407,92856,892,8638,13067,8954,75
+"South Africa","ZA","ZAF","710","AFR",2023,newrel,0-14,a,14500,13046,,,,,90
+"South Africa","ZA","ZAF","710","AFR",2023,newrel,a,f,66829,56526,275,4795,4645,588,85
+"South Africa","ZA","ZAF","710","AFR",2023,newrel,a,m,127604,81206,982,4654,10812,29950,64
+"South Sudan","SS","SSD","728","AFR",2020,newrel,0-14,a,1032,938,,,,,91
+"South Sudan","SS","SSD","728","AFR",2021,newrel,0-14,a,3129,1883,,,,,60
+"South Sudan","SS","SSD","728","AFR",2022,newrel,0-14,a,2593,2337,,,,,90
+"South Sudan","SS","SSD","728","AFR",2023,newrel,0-14,a,3368,3084,,,,,92
+"Spain","ES","ESP","724","EUR",2010,newrel,0-14,a,145,104,0,0,1,40,72
+"Spain","ES","ESP","724","EUR",2011,newrel,0-14,a,174,132,0,1,0,41,76
+"Spain","ES","ESP","724","EUR",2012,newrel,0-14,a,388,305,0,0,0,83,79
+"Spain","ES","ESP","724","EUR",2013,newrel,0-14,a,377,326,0,1,0,50,86
+"Spain","ES","ESP","724","EUR",2014,newrel,0-14,a,289,210,0,3,0,76,73
+"Spain","ES","ESP","724","EUR",2016,newrel,0-14,a,320,245,0,0,1,74,77
+"Spain","ES","ESP","724","EUR",2017,newrel,0-14,a,280,204,0,1,1,74,73
+"Spain","ES","ESP","724","EUR",2018,newrel,0-14,a,301,170,0,1,0,130,56
+"Spain","ES","ESP","724","EUR",2019,newrel,0-14,a,316,169,0,1,0,146,53
+"Spain","ES","ESP","724","EUR",2020,newrel,0-14,a,185,123,0,1,0,61,66
+"Spain","ES","ESP","724","EUR",2021,newrel,0-14,a,106,43,0,0,0,63,41
+"Spain","ES","ESP","724","EUR",2022,newrel,0-14,a,199,175,0,0,4,20,88
+"Spain","ES","ESP","724","EUR",2023,newrel,0-14,a,158,120,1,0,0,37,76
+"Suriname","SR","SUR","740","AMR",2013,newrel,0-14,a,11,9,0,1,0,1,82
+"Suriname","SR","SUR","740","AMR",2014,newrel,0-14,a,7,3,0,1,3,0,43
+"Suriname","SR","SUR","740","AMR",2015,newrel,0-14,a,9,8,0,0,1,0,89
+"Suriname","SR","SUR","740","AMR",2016,newrel,0-14,a,6,4,0,0,2,0,67
+"Suriname","SR","SUR","740","AMR",2017,newrel,0-14,a,17,13,0,0,4,0,76
+"Suriname","SR","SUR","740","AMR",2018,newrel,0-14,a,21,19,0,1,1,0,90
+"Suriname","SR","SUR","740","AMR",2019,newrel,0-14,a,6,4,0,0,2,0,67
+"Suriname","SR","SUR","740","AMR",2020,newrel,0-14,a,5,3,0,0,2,0,60
+"Suriname","SR","SUR","740","AMR",2021,newrel,0-14,a,6,5,0,0,1,0,83
+"Suriname","SR","SUR","740","AMR",2022,newrel,0-14,a,2,1,0,0,1,0,50
+"Suriname","SR","SUR","740","AMR",2023,newrel,0-14,a,5,3,0,0,2,0,60
+"Sweden","SE","SWE","752","EUR",2010,newrel,0-14,a,26,22,0,0,2,2,85
+"Sweden","SE","SWE","752","EUR",2011,newrel,0-14,a,19,16,0,0,0,3,84
+"Sweden","SE","SWE","752","EUR",2012,newrel,0-14,a,25,21,0,0,0,4,84
+"Sweden","SE","SWE","752","EUR",2013,newrel,0-14,a,46,45,0,0,0,1,98
+"Sweden","SE","SWE","752","EUR",2014,newrel,0-14,a,47,44,0,0,0,3,94
+"Sweden","SE","SWE","752","EUR",2015,newrel,0-14,a,46,42,1,0,0,3,91
+"Sweden","SE","SWE","752","EUR",2016,newrel,0-14,a,54,52,2,0,0,0,96
+"Sweden","SE","SWE","752","EUR",2017,newrel,0-14,a,26,24,0,0,1,1,92
+"Sweden","SE","SWE","752","EUR",2018,newrel,0-14,a,30,27,0,0,0,3,90
+"Sweden","SE","SWE","752","EUR",2019,newrel,0-14,a,18,11,0,0,0,7,61
+"Sweden","SE","SWE","752","EUR",2020,newrel,0-14,a,16,12,0,0,0,4,75
+"Sweden","SE","SWE","752","EUR",2021,newrel,0-14,a,14,13,0,0,0,1,93
+"Sweden","SE","SWE","752","EUR",2022,newrel,0-14,a,18,16,0,0,0,2,89
+"Sweden","SE","SWE","752","EUR",2023,newrel,0-14,a,9,9,0,0,0,0,100
+"Switzerland","CH","CHE","756","EUR",2016,newrel,0-14,a,31,21,0,0,0,10,68
+"Switzerland","CH","CHE","756","EUR",2017,newrel,0-14,a,23,21,0,0,1,1,91
+"Switzerland","CH","CHE","756","EUR",2018,newrel,0-14,a,19,15,0,0,0,4,79
+"Switzerland","CH","CHE","756","EUR",2019,newrel,0-14,a,15,11,0,0,0,4,73
+"Switzerland","CH","CHE","756","EUR",2020,newrel,0-14,a,18,17,0,0,0,1,94
+"Switzerland","CH","CHE","756","EUR",2021,newrel,0-14,a,7,4,0,0,0,3,57
+"Switzerland","CH","CHE","756","EUR",2022,newrel,0-14,a,16,11,0,0,0,5,69
+"Switzerland","CH","CHE","756","EUR",2023,newrel,0-14,a,16,10,,,,,63
+"Syrian Arab Republic","SY","SYR","760","EMR",2018,newrel,0-14,a,222,199,,,,,90
+"Syrian Arab Republic","SY","SYR","760","EMR",2019,newrel,0-14,a,234,234,,,,,100
+"Syrian Arab Republic","SY","SYR","760","EMR",2020,newrel,0-14,a,186,186,,,,,100
+"Syrian Arab Republic","SY","SYR","760","EMR",2021,newrel,0-14,a,197,197,,,,,100
+"Syrian Arab Republic","SY","SYR","760","EMR",2022,newrel,0-14,a,215,206,,,,,96
+"Syrian Arab Republic","SY","SYR","760","EMR",2023,newrel,0-14,a,259,203,,,,,78
+"Tajikistan","TJ","TJK","762","EUR",2011,newrel,0-14,a,569,525,12,7,17,8,92
+"Tajikistan","TJ","TJK","762","EUR",2012,newrel,0-14,a,360,345,3,5,,7,96
+"Tajikistan","TJ","TJK","762","EUR",2013,newrel,0-14,a,382,367,0,2,10,3,96
+"Tajikistan","TJ","TJK","762","EUR",2014,newrel,0-14,a,317,304,2,4,1,6,96
+"Tajikistan","TJ","TJK","762","EUR",2015,newrel,0-14,a,316,296,2,7,9,2,94
+"Tajikistan","TJ","TJK","762","EUR",2016,newrel,0-14,a,360,343,3,4,6,4,95
+"Tajikistan","TJ","TJK","762","EUR",2017,newrel,0-14,a,327,312,3,4,5,3,95
+"Tajikistan","TJ","TJK","762","EUR",2018,newrel,0-14,a,302,278,4,2,13,5,92
+"Tajikistan","TJ","TJK","762","EUR",2019,newrel,0-14,a,350,332,1,3,11,3,95
+"Tajikistan","TJ","TJK","762","EUR",2020,newrel,0-14,a,240,188,0,5,7,40,78
+"Tajikistan","TJ","TJK","762","EUR",2020,newrel,a,f,1955,1598,19,83,37,218,82
+"Tajikistan","TJ","TJK","762","EUR",2020,newrel,a,m,1691,1734,25,90,60,-218,103
+"Tajikistan","TJ","TJK","762","EUR",2021,newrel,0-14,a,204,194,0,6,4,0,95
+"Tajikistan","TJ","TJK","762","EUR",2021,newrel,a,f,1734,1617,6,69,42,0,93
+"Tajikistan","TJ","TJK","762","EUR",2021,newrel,a,m,1901,1730,21,89,61,0,91
+"Tajikistan","TJ","TJK","762","EUR",2022,newrel,0-14,a,218,212,2,1,3,0,97
+"Tajikistan","TJ","TJK","762","EUR",2022,newrel,a,f,1676,1545,12,73,46,0,92
+"Tajikistan","TJ","TJK","762","EUR",2022,newrel,a,m,2133,1952,15,93,73,0,92
+"Tajikistan","TJ","TJK","762","EUR",2023,newrel,0-14,a,241,232,0,1,8,0,96
+"Tajikistan","TJ","TJK","762","EUR",2023,newrel,a,f,1774,1667,14,53,40,0,94
+"Tajikistan","TJ","TJK","762","EUR",2023,newrel,a,m,2185,2022,8,94,61,0,93
+"Thailand","TH","THA","764","SEA",2018,newrel,0-14,a,840,769,,,,,92
+"Thailand","TH","THA","764","SEA",2019,newrel,0-14,a,868,797,,,,,92
+"Thailand","TH","THA","764","SEA",2019,newrel,a,f,28355,24478,92,2143,1069,573,86
+"Thailand","TH","THA","764","SEA",2019,newrel,a,m,58728,49543,256,5085,2937,907,84
+"Thailand","TH","THA","764","SEA",2020,newrel,0-14,a,885,781,,,,,88
+"Thailand","TH","THA","764","SEA",2020,newrel,a,f,27550,23225,83,2094,937,1211,84
+"Thailand","TH","THA","764","SEA",2020,newrel,a,m,58287,48210,193,5168,3097,1619,83
+"Thailand","TH","THA","764","SEA",2021,newrel,0-14,a,629,550,,,,,87
+"Thailand","TH","THA","764","SEA",2021,newrel,a,f,22878,19286,45,1875,846,826,84
+"Thailand","TH","THA","764","SEA",2021,newrel,a,m,48610,41479,98,4845,1298,890,85
+"Thailand","TH","THA","764","SEA",2022,newrel,0-14,a,607,536,,,,,88
+"Thailand","TH","THA","764","SEA",2022,newrel,a,f,23077,19176,92,1962,1062,785,83
+"Thailand","TH","THA","764","SEA",2022,newrel,a,m,49197,39077,197,5265,3130,1528,79
+"Thailand","TH","THA","764","SEA",2023,newrel,0-14,a,652,590,,,,,90
+"Thailand","TH","THA","764","SEA",2023,newrel,a,f,25556,21467,77,2096,1099,817,84
+"Thailand","TH","THA","764","SEA",2023,newrel,a,m,54653,44064,244,5363,3393,1589,81
+"Timor-Leste","TL","TLS","626","SEA",2023,newrel,0-14,a,275,270,,,,,98
+"Togo","TG","TGO","768","AFR",2018,newrel,0-14,a,83,74,,,,,89
+"Togo","TG","TGO","768","AFR",2019,newrel,0-14,a,85,79,,,,,93
+"Togo","TG","TGO","768","AFR",2020,newrel,0-14,a,65,62,,,,,95
+"Togo","TG","TGO","768","AFR",2021,newrel,0-14,a,85,78,,,,,92
+"Togo","TG","TGO","768","AFR",2022,newrel,0-14,a,94,87,,,,,93
+"Togo","TG","TGO","768","AFR",2023,newrel,0-14,a,112,100,,,,,89
+"Tokelau","TK","TKL","772","WPR",2019,newrel,0-14,a,0,0,,,,,
+"Tokelau","TK","TKL","772","WPR",2022,newrel,0-14,a,0,0,,,,,
+"Tonga","TO","TON","776","WPR",2018,newrel,0-14,a,0,0,,,,,
+"Tonga","TO","TON","776","WPR",2019,newrel,0-14,a,1,1,,,,,100
+"Tonga","TO","TON","776","WPR",2020,newrel,0-14,a,1,1,,,,,100
+"Trinidad and Tobago","TT","TTO","780","AMR",2018,newrel,0-14,a,6,5,0,1,0,0,83
+"Trinidad and Tobago","TT","TTO","780","AMR",2019,newrel,0-14,a,6,3,0,1,2,0,50
+"Trinidad and Tobago","TT","TTO","780","AMR",2020,newrel,0-14,a,3,3,0,0,0,0,100
+"Trinidad and Tobago","TT","TTO","780","AMR",2021,newrel,0-14,a,5,5,0,0,0,0,100
+"Tunisia","TN","TUN","788","EMR",2020,newrel,0-14,a,205,,,,,,0
+"Türkiye","TR","TUR","792","EUR",2010,newrel,0-14,a,900,814,1,11,13,61,90
+"Türkiye","TR","TUR","792","EUR",2011,newrel,0-14,a,761,681,1,13,13,53,89
+"Türkiye","TR","TUR","792","EUR",2012,newrel,0-14,a,686,612,0,13,3,58,89
+"Türkiye","TR","TUR","792","EUR",2013,newrel,0-14,a,581,494,0,10,12,65,85
+"Türkiye","TR","TUR","792","EUR",2014,newrel,0-14,a,543,479,0,11,13,40,88
+"Türkiye","TR","TUR","792","EUR",2015,newrel,0-14,a,623,545,1,15,11,51,87
+"Türkiye","TR","TUR","792","EUR",2016,newrel,0-14,a,626,536,0,15,12,63,86
+"Türkiye","TR","TUR","792","EUR",2017,newrel,0-14,a,544,482,1,11,12,38,89
+"Türkiye","TR","TUR","792","EUR",2018,newrel,0-14,a,598,511,2,13,4,68,85
+"Türkiye","TR","TUR","792","EUR",2019,newrel,0-14,a,490,397,0,21,8,64,81
+"Türkiye","TR","TUR","792","EUR",2020,newrel,0-14,a,390,314,2,12,4,58,81
+"Türkiye","TR","TUR","792","EUR",2021,newrel,0-14,a,387,285,1,14,6,81,74
+"Türkiye","TR","TUR","792","EUR",2022,newrel,0-14,a,391,319,1,15,5,51,82
+"Türkiye","TR","TUR","792","EUR",2023,newrel,0-14,a,407,318,1,15,5,68,78
+"Turkmenistan","TM","TKM","795","EUR",2013,newrel,0-14,a,51,,,,,,0
+"Turkmenistan","TM","TKM","795","EUR",2022,newrel,0-14,a,37,37,,,,,100
+"Turkmenistan","TM","TKM","795","EUR",2023,newrel,0-14,a,36,32,1,2,0,1,89
+"Turks and Caicos Islands","TC","TCA","796","AMR",2022,newrel,0-14,a,0,0,0,0,0,0,
+"Tuvalu","TV","TUV","798","WPR",2018,newrel,0-14,a,4,4,,,,,100
+"Tuvalu","TV","TUV","798","WPR",2019,newrel,0-14,a,5,5,,,,,100
+"Tuvalu","TV","TUV","798","WPR",2021,newrel,0-14,a,1,1,,,,,100
+"Tuvalu","TV","TUV","798","WPR",2022,newrel,0-14,a,2,2,,,,,100
+"Uganda","UG","UGA","800","AFR",2018,newrel,0-14,a,7890,4949,,,,,63
+"Uganda","UG","UGA","800","AFR",2019,newrel,0-14,a,5541,4747,,,,,86
+"Uganda","UG","UGA","800","AFR",2019,newrel,a,f,23760,19580,136,1815,2005,224,82
+"Uganda","UG","UGA","800","AFR",2019,newrel,a,m,39268,32228,258,2827,3324,631,82
+"Uganda","UG","UGA","800","AFR",2020,newrel,0-14,a,7070,6218,,,,,88
+"Uganda","UG","UGA","800","AFR",2020,newrel,a,f,17342,15202,80,1196,848,16,88
+"Uganda","UG","UGA","800","AFR",2020,newrel,a,m,43087,36415,259,3130,2335,948,85
+"Uganda","UG","UGA","800","AFR",2021,newrel,0-14,a,9476,8400,,,,,89
+"Uganda","UG","UGA","800","AFR",2021,newrel,a,f,19655,17415,75,1031,875,259,89
+"Uganda","UG","UGA","800","AFR",2021,newrel,a,m,55049,48019,279,3338,2715,698,87
+"Uganda","UG","UGA","800","AFR",2022,newrel,0-14,a,15115,13991,,,,,93
+"Uganda","UG","UGA","800","AFR",2022,newrel,a,f,37592,34293,104,1463,1423,309,91
+"Uganda","UG","UGA","800","AFR",2022,newrel,a,m,55768,49880,256,2892,2268,472,89
+"Uganda","UG","UGA","800","AFR",2023,newrel,0-14,a,11790,11110,,,,,94
+"Uganda","UG","UGA","800","AFR",2023,newrel,a,f,23969,22158,72,935,599,205,92
+"Uganda","UG","UGA","800","AFR",2023,newrel,a,m,62032,56822,216,2743,1740,511,92
+"Ukraine","UA","UKR","804","EUR",2013,newrel,0-14,a,561,501,34,12,9,5,89
+"Ukraine","UA","UKR","804","EUR",2014,newrel,0-14,a,494,429,22,6,37,0,87
+"Ukraine","UA","UKR","804","EUR",2015,newrel,0-14,a,469,434,23,7,4,1,93
+"Ukraine","UA","UKR","804","EUR",2016,newrel,0-14,a,435,395,28,5,6,1,91
+"Ukraine","UA","UKR","804","EUR",2017,newrel,0-14,a,484,448,21,8,7,0,93
+"Ukraine","UA","UKR","804","EUR",2018,newrel,0-14,a,458,437,9,8,4,0,95
+"Ukraine","UA","UKR","804","EUR",2019,newrel,0-14,a,428,414,5,8,1,0,97
+"Ukraine","UA","UKR","804","EUR",2020,newrel,0-14,a,289,277,6,5,1,0,96
+"Ukraine","UA","UKR","804","EUR",2020,newrel,a,f,4078,3328,183,364,196,7,82
+"Ukraine","UA","UKR","804","EUR",2020,newrel,a,m,9140,6904,669,1013,548,6,76
+"Ukraine","UA","UKR","804","EUR",2021,newrel,0-14,a,364,346,9,5,4,0,95
+"Ukraine","UA","UKR","804","EUR",2021,newrel,a,f,4343,3430,236,472,195,10,79
+"Ukraine","UA","UKR","804","EUR",2021,newrel,a,m,10053,7325,824,1260,605,39,73
+"Ukraine","UA","UKR","804","EUR",2022,newrel,0-14,a,330,299,7,11,12,1,91
+"Ukraine","UA","UKR","804","EUR",2022,newrel,a,f,4203,3392,179,383,229,20,81
+"Ukraine","UA","UKR","804","EUR",2022,newrel,a,m,10686,8142,586,1253,635,70,76
+"Ukraine","UA","UKR","804","EUR",2023,newrel,0-14,a,483,464,4,6,8,1,96
+"Ukraine","UA","UKR","804","EUR",2023,newrel,a,f,4323,3421,225,467,195,15,79
+"Ukraine","UA","UKR","804","EUR",2023,newrel,a,m,12480,9465,1044,1139,762,70,76
+"United Arab Emirates","AE","ARE","784","EMR",2018,newrel,0-14,a,3,1,,,,,33
+"United Arab Emirates","AE","ARE","784","EMR",2019,newrel,0-14,a,3,3,,,,,100
+"United Arab Emirates","AE","ARE","784","EMR",2020,newrel,0-14,a,2,1,,,,,50
+"United Arab Emirates","AE","ARE","784","EMR",2021,newrel,0-14,a,4,3,,,,,75
+"United Arab Emirates","AE","ARE","784","EMR",2022,newrel,0-14,a,5,4,,,,,80
+"United Arab Emirates","AE","ARE","784","EMR",2023,newrel,0-14,a,2,2,,,,,100
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2010,newrel,0-14,a,107,92,0,4,1,10,86
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2011,newrel,0-14,a,96,86,0,1,0,9,90
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2012,newrel,0-14,a,406,355,0,1,1,49,87
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2013,newrel,0-14,a,309,271,0,2,5,31,88
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2014,newrel,0-14,a,274,250,0,1,2,21,91
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2015,newrel,0-14,a,224,202,0,1,5,16,90
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2016,newrel,0-14,a,220,203,0,1,2,14,92
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2017,newrel,0-14,a,191,166,0,1,6,18,87
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2018,newrel,0-14,a,155,134,0,1,5,15,86
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2019,newrel,0-14,a,182,154,0,0,3,25,85
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2020,newrel,0-14,a,156,129,14,3,0,10,83
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2021,newrel,0-14,a,130,123,3,0,0,4,95
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2022,newrel,0-14,a,142,130,3,0,3,6,92
+"United Kingdom of Great Britain and Northern Ireland","GB","GBR","826","EUR",2023,newrel,0-14,a,162,156,0,0,2,4,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2018,newrel,0-14,a,10487,9832,,,,,94
+"United Republic of Tanzania","TZ","TZA","834","AFR",2019,newrel,0-14,a,12240,11685,,,,,95
+"United Republic of Tanzania","TZ","TZA","834","AFR",2019,newrel,a,f,32134,30003,59,1283,268,521,93
+"United Republic of Tanzania","TZ","TZA","834","AFR",2019,newrel,a,m,48618,45481,34,1949,515,639,94
+"United Republic of Tanzania","TZ","TZA","834","AFR",2020,newrel,0-14,a,13591,13245,,,,,97
+"United Republic of Tanzania","TZ","TZA","834","AFR",2020,newrel,a,f,34147,32686,51,1038,272,100,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2020,newrel,a,m,50320,48023,24,1728,508,37,95
+"United Republic of Tanzania","TZ","TZA","834","AFR",2021,newrel,0-14,a,14064,13710,,,,,97
+"United Republic of Tanzania","TZ","TZA","834","AFR",2021,newrel,a,f,34373,32904,34,983,237,215,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2021,newrel,a,m,52009,49592,40,1753,475,149,95
+"United Republic of Tanzania","TZ","TZA","834","AFR",2022,newrel,0-14,a,16974,16534,,,,,97
+"United Republic of Tanzania","TZ","TZA","834","AFR",2022,newrel,a,f,40408,38909,31,991,271,206,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2022,newrel,a,m,59409,57042,77,1708,508,74,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2023,newrel,0-14,a,14578,14188,,,,,97
+"United Republic of Tanzania","TZ","TZA","834","AFR",2023,newrel,a,f,36368,34823,25,979,226,315,96
+"United Republic of Tanzania","TZ","TZA","834","AFR",2023,newrel,a,m,55759,53350,59,1500,435,415,96
+"United States of America","US","USA","840","AMR",2018,newrel,0-14,a,371,342,0,2,0,27,92
+"United States of America","US","USA","840","AMR",2019,newrel,0-14,a,364,320,0,2,2,40,88
+"United States of America","US","USA","840","AMR",2020,newrel,0-14,a,307,271,0,3,2,31,88
+"United States of America","US","USA","840","AMR",2021,newrel,0-14,a,301,257,0,3,4,37,85
+"United States of America","US","USA","840","AMR",2022,newrel,0-14,a,350,283,0,5,3,59,81
+"Uruguay","UY","URY","858","AMR",2013,newrel,0-14,a,50,49,0,0,1,0,98
+"Uruguay","UY","URY","858","AMR",2014,newrel,0-14,a,57,55,0,0,1,1,96
+"Uruguay","UY","URY","858","AMR",2015,newrel,0-14,a,53,52,0,0,1,0,98
+"Uruguay","UY","URY","858","AMR",2016,newrel,0-14,a,51,45,0,0,6,0,88
+"Uruguay","UY","URY","858","AMR",2017,newrel,0-14,a,51,45,0,2,4,0,88
+"Uruguay","UY","URY","858","AMR",2018,newrel,0-14,a,47,45,0,0,1,1,96
+"Uruguay","UY","URY","858","AMR",2019,newrel,0-14,a,42,39,0,1,2,0,93
+"Uruguay","UY","URY","858","AMR",2020,newrel,0-14,a,61,61,0,0,0,0,100
+"Uruguay","UY","URY","858","AMR",2021,newrel,0-14,a,34,31,0,1,2,0,91
+"Uruguay","UY","URY","858","AMR",2022,newrel,0-14,a,63,57,0,2,4,0,90
+"Uruguay","UY","URY","858","AMR",2023,newrel,0-14,a,77,76,0,0,1,0,99
+"Uzbekistan","UZ","UZB","860","EUR",2010,newrel,0-14,a,1998,1832,100,24,9,33,92
+"Uzbekistan","UZ","UZB","860","EUR",2011,newrel,0-14,a,1569,1435,2,10,92,30,91
+"Uzbekistan","UZ","UZB","860","EUR",2012,newrel,0-14,a,1648,1535,2,15,66,30,93
+"Uzbekistan","UZ","UZB","860","EUR",2013,newrel,0-14,a,1960,1867,5,14,42,32,95
+"Uzbekistan","UZ","UZB","860","EUR",2014,newrel,0-14,a,1913,1335,6,2,11,559,70
+"Vanuatu","VU","VUT","548","WPR",2018,newrel,0-14,a,23,23,,,,,100
+"Vanuatu","VU","VUT","548","WPR",2020,newrel,0-14,a,8,8,,,,,100
+"Vanuatu","VU","VUT","548","WPR",2021,newrel,0-14,a,4,2,,,,,50
+"Vanuatu","VU","VUT","548","WPR",2022,newrel,0-14,a,10,9,,,,,90
+"Vanuatu","VU","VUT","548","WPR",2023,newrel,0-14,a,6,6,,,,,100
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2013,newrel,0-14,a,457,383,0,21,53,0,84
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2014,newrel,0-14,a,402,341,0,16,40,5,85
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2015,newrel,0-14,a,438,389,0,9,33,7,89
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2016,newrel,0-14,a,448,406,0,1,30,11,91
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2017,newrel,0-14,a,450,435,0,2,13,0,97
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2018,newrel,0-14,a,598,506,0,6,45,41,85
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2019,newrel,0-14,a,565,474,0,11,68,12,84
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2020,newrel,0-14,a,362,325,0,3,33,1,90
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2021,newrel,0-14,a,374,319,0,5,35,15,85
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2022,newrel,0-14,a,507,439,0,12,56,0,87
+"Venezuela (Bolivarian Republic of)","VE","VEN","862","AMR",2023,newrel,0-14,a,536,462,0,3,71,0,86
+"Viet Nam","VN","VNM","704","WPR",2018,newrel,0-14,a,1656,1350,,,,,82
+"Viet Nam","VN","VNM","704","WPR",2019,newrel,0-14,a,1704,1220,,,,,72
+"Viet Nam","VN","VNM","704","WPR",2019,newrel,a,f,23138,21382,95,531,555,575,92
+"Viet Nam","VN","VNM","704","WPR",2019,newrel,a,m,79282,71811,421,1962,2343,2745,91
+"Viet Nam","VN","VNM","704","WPR",2020,newrel,0-14,a,1395,987,,,,,71
+"Viet Nam","VN","VNM","704","WPR",2020,newrel,a,f,22339,20691,87,478,479,604,93
+"Viet Nam","VN","VNM","704","WPR",2020,newrel,a,m,77513,70338,374,1909,1997,2895,91
+"Viet Nam","VN","VNM","704","WPR",2021,newrel,0-14,a,820,582,,,,,71
+"Viet Nam","VN","VNM","704","WPR",2021,newrel,a,f,18460,16868,185,413,605,389,91
+"Viet Nam","VN","VNM","704","WPR",2021,newrel,a,m,59197,53249,591,1389,1828,2140,90
+"Viet Nam","VN","VNM","704","WPR",2022,newrel,0-14,a,982,699,,,,,71
+"Viet Nam","VN","VNM","704","WPR",2022,newrel,a,f,25221,22553,95,588,1141,844,89
+"Viet Nam","VN","VNM","704","WPR",2022,newrel,a,m,77258,68659,348,1874,3164,3213,89
+"Viet Nam","VN","VNM","704","WPR",2023,newrel,0-14,a,1175,861,,,,,73
+"Viet Nam","VN","VNM","704","WPR",2023,newrel,a,f,28878,25990,219,631,1202,836,90
+"Viet Nam","VN","VNM","704","WPR",2023,newrel,a,m,75639,66709,771,2012,3592,2555,88
+"Wallis and Futuna","WF","WLF","876","WPR",2018,newrel,0-14,a,0,0,,,,,
+"Wallis and Futuna","WF","WLF","876","WPR",2019,newrel,0-14,a,0,0,,,,,
+"Zambia","ZM","ZMB","894","AFR",2018,newrel,0-14,a,2206,1947,,,,,88
+"Zambia","ZM","ZMB","894","AFR",2019,newrel,0-14,a,2473,2214,,,,,90
+"Zambia","ZM","ZMB","894","AFR",2020,newrel,0-14,a,2726,2488,,,,,91
+"Zambia","ZM","ZMB","894","AFR",2020,newrel,a,f,13932,12745,51,657,284,195,91
+"Zambia","ZM","ZMB","894","AFR",2020,newrel,a,m,26068,23635,123,1345,615,350,91
+"Zambia","ZM","ZMB","894","AFR",2021,newrel,0-14,a,3891,3631,,,,,93
+"Zambia","ZM","ZMB","894","AFR",2021,newrel,a,f,17687,16385,43,730,357,172,93
+"Zambia","ZM","ZMB","894","AFR",2021,newrel,a,m,32388,29776,96,1568,691,257,92
+"Zambia","ZM","ZMB","894","AFR",2022,newrel,0-14,a,5796,5425,,,,,94
+"Zambia","ZM","ZMB","894","AFR",2022,newrel,a,f,19863,18448,30,804,398,183,93
+"Zambia","ZM","ZMB","894","AFR",2022,newrel,a,m,34264,31761,85,1532,594,292,93
+"Zambia","ZM","ZMB","894","AFR",2023,newrel,0-14,a,6213,5751,,,,,93
+"Zambia","ZM","ZMB","894","AFR",2023,newrel,a,f,20412,18963,30,842,266,311,93
+"Zambia","ZM","ZMB","894","AFR",2023,newrel,a,m,33934,31200,71,1587,1038,38,92
+"Zimbabwe","ZW","ZWE","716","AFR",2018,newrel,0-14,a,1547,1253,,,,,81
+"Zimbabwe","ZW","ZWE","716","AFR",2019,newrel,0-14,a,1171,1102,,,,,94
+"Zimbabwe","ZW","ZWE","716","AFR",2020,newrel,0-14,a,886,803,,,,,91
+"Zimbabwe","ZW","ZWE","716","AFR",2020,newrel,a,f,5754,5121,35,493,87,18,89
+"Zimbabwe","ZW","ZWE","716","AFR",2020,newrel,a,m,10302,9042,67,923,213,57,88
+"Zimbabwe","ZW","ZWE","716","AFR",2021,newrel,0-14,a,922,831,,,,,90
+"Zimbabwe","ZW","ZWE","716","AFR",2021,newrel,a,f,6066,5329,39,519,146,33,88
+"Zimbabwe","ZW","ZWE","716","AFR",2021,newrel,a,m,10475,9535,71,637,82,150,91
+"Zimbabwe","ZW","ZWE","716","AFR",2022,newrel,0-14,a,1109,1082,,,,,98
+"Zimbabwe","ZW","ZWE","716","AFR",2023,newrel,0-14,a,1136,1061,,,,,93
+"Zimbabwe","ZW","ZWE","716","AFR",2023,newrel,a,f,6623,6463,25,100,30,5,98
+"Zimbabwe","ZW","ZWE","716","AFR",2023,newrel,a,m,12540,11002,31,1237,221,49,88

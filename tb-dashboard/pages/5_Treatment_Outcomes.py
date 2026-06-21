@@ -1,0 +1,77 @@
+import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
+import sys, os
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.data_loader import check_password, load_outcomes, load_outcomes_age_sex
+from utils.theme import THEME_CSS, PLOTLY_TEMPLATE
+
+st.set_page_config(page_title="Treatment Outcomes | TB Dashboard", page_icon="💊", layout="wide")
+st.markdown(THEME_CSS, unsafe_allow_html=True)
+
+if not check_password():
+    st.stop()
+
+st.markdown('<p class="tb-eyebrow">Page 5</p>', unsafe_allow_html=True)
+st.title("💊 Treatment Outcomes")
+st.markdown("Success, failure, death, and lost-to-follow-up rates among TB patients starting treatment.")
+st.markdown("---")
+
+outcomes = load_outcomes()
+outc_age_sex = load_outcomes_age_sex()
+
+st.sidebar.header("Filters")
+regions = ["All regions"] + sorted(outcomes["g_whoregion"].dropna().unique().tolist())
+region_sel = st.sidebar.selectbox("WHO Region", regions)
+
+scope = outcomes if region_sel == "All regions" else outcomes[outcomes["g_whoregion"] == region_sel]
+
+latest_year = scope.dropna(subset=["c_new_tsr"])["year"].max()
+latest = scope[scope["year"] == latest_year]
+
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.metric("Treatment success (new cases)", f"{latest['c_new_tsr'].mean():.1f}%", help="WHO target: 85%")
+with col2:
+    st.metric("Treatment success (retreatment)", f"{latest['c_ret_tsr'].mean():.1f}%")
+with col3:
+    st.metric("Treatment success (TB/HIV)", f"{latest['c_tbhiv_tsr'].mean():.1f}%")
+
+st.markdown("---")
+
+st.subheader("Treatment success rate trend by cohort type")
+trend = scope.groupby("year")[["c_new_tsr", "c_ret_tsr", "c_tbhiv_tsr"]].mean().reset_index()
+fig = go.Figure()
+labels = {"c_new_tsr": "New cases", "c_ret_tsr": "Retreatment", "c_tbhiv_tsr": "TB/HIV co-infected"}
+colors = {"c_new_tsr": "#1F5C82", "c_ret_tsr": "#2E8B8B", "c_tbhiv_tsr": "#C0392B"}
+for col, label in labels.items():
+    fig.add_trace(go.Scatter(x=trend["year"], y=trend[col], name=label, line=dict(color=colors[col], width=3)))
+fig.add_hline(y=85, line_dash="dash", line_color="#E0A030", annotation_text="WHO target: 85%")
+fig.update_layout(template=PLOTLY_TEMPLATE, height=420, margin=dict(t=10, b=10), yaxis_title="Treatment success rate (%)")
+st.plotly_chart(fig, width="stretch")
+
+st.markdown(
+    '<div class="tb-callout-red">⚠️ <b>TB/HIV gap:</b> Treatment success rates among TB/HIV co-infected patients '
+    "consistently lag behind new and retreatment cohorts, reflecting the compounding burden of managing two "
+    "diseases simultaneously, often in resource-constrained settings.</div>",
+    unsafe_allow_html=True,
+)
+
+st.markdown("---")
+
+# --- Outcome breakdown by sex ---
+st.subheader("Treatment outcomes by sex")
+sex_data = outc_age_sex[(outc_age_sex["age_group"] == "a") & (outc_age_sex["sex"] != "a")]
+sex_agg = sex_data.groupby("sex").agg(succ=("succ", "sum"), fail=("fail", "sum"),
+                                       died=("died", "sum"), lost=("lost", "sum")).reset_index()
+sex_agg["sex"] = sex_agg["sex"].map({"m": "Male", "f": "Female"})
+sex_long = sex_agg.melt(id_vars="sex", var_name="outcome", value_name="count")
+sex_long["outcome"] = sex_long["outcome"].map({"succ": "Success", "fail": "Failed", "died": "Died", "lost": "Lost to follow-up"})
+
+fig2 = px.bar(sex_long, x="sex", y="count", color="outcome", barmode="group",
+              color_discrete_sequence=["#2E8B5A", "#C0392B", "#1A1A1A", "#E0A030"])
+fig2.update_layout(template=PLOTLY_TEMPLATE, height=400, margin=dict(t=10, b=10), yaxis_title="Patients")
+st.plotly_chart(fig2, width="stretch")
+
+st.caption("Source: WHO Global TB Programme — TB_outcomes.csv, TB_outcomes_age_sex.csv")
