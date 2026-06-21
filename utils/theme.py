@@ -24,6 +24,10 @@ THEME_CSS = """
         font-family: 'Georgia', serif;
     }
 
+    p, li, .stMarkdown, [data-testid="stMarkdownContainer"] {
+    color: #1A1A1A !important;
+    }
+    
     [data-testid="stMetricValue"] {
         font-family: 'Georgia', serif;
         color: var(--tb-navy);
