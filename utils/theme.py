@@ -24,10 +24,14 @@ THEME_CSS = """
         font-family: 'Georgia', serif;
     }
 
-    p, li, .stMarkdown, [data-testid="stMarkdownContainer"] {
-    color: #1A1A1A !important;
+    p, li, span, label, .stMarkdown, [data-testid="stMarkdownContainer"] {
+        color: #1A1A1A;
     }
-    
+
+    [data-testid="stCaptionContainer"] {
+        color: #5A6B78 !important;
+    }
+
     [data-testid="stMetricValue"] {
         font-family: 'Georgia', serif;
         color: var(--tb-navy);
@@ -84,7 +88,20 @@ THEME_CSS = """
 
     section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] > div {
         background-color: #1A3F5C;
-        color: white;
+    }
+
+    section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] * {
+        color: white !important;
+    }
+
+    /* Dropdown options menu renders outside the sidebar, at document root */
+    div[data-baseweb="popover"] li {
+        color: #1A1A1A !important;
+        background-color: white !important;
+    }
+
+    div[data-baseweb="popover"] li:hover {
+        background-color: #EBF3FB !important;
     }
 
     hr {
