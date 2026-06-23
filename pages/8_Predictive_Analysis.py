@@ -37,10 +37,15 @@ tab1, tab2 = st.tabs(["📈 Incidence Forecasting", "🎯 End TB 2030 Risk Class
 # ============== TAB 1: FORECASTING ==============
 with tab1:
     st.subheader("Forecast TB incidence by country (to 2030)")
+    st.markdown(
+        "Select a country to see its historical incidence trend and a simple forward projection."
+    )
 
     countries = sorted(burden["country"].unique().tolist())
     default_idx = countries.index("India") if "India" in countries else 0
     country_sel = st.selectbox("Select a country", countries, index=default_idx)
+
+    st.markdown("")  # spacing so the chart title below doesn't sit flush under the dropdown
 
     country_df = burden[burden["country"] == country_sel][["year", "e_inc_100k"]].dropna().sort_values("year")
 
@@ -69,9 +74,9 @@ with tab1:
             fig.add_hline(y=target_val, line_dash="dot", line_color="#2E8B5A",
                           annotation_text=f"2030 target ({target_val:.1f} per 100k)")
 
-        fig.update_layout(template=PLOTLY_TEMPLATE, height=440, margin=dict(t=10, b=10),
+        fig.update_layout(template=PLOTLY_TEMPLATE, height=440, margin=dict(t=50, b=10),
                           yaxis_title="Incidence per 100,000", xaxis_title="Year",
-                          title=f"{country_sel}: incidence trend & linear forecast")
+                          title=dict(text=f"{country_sel}: incidence trend & linear forecast", y=0.97))
         st.plotly_chart(fig, width="stretch")
 
         if len(future_preds) > 0:
@@ -83,6 +88,15 @@ with tab1:
                 "does not account for policy changes, outbreaks, or health system shocks.</div>",
                 unsafe_allow_html=True,
             )
+
+        st.markdown(
+            '<div class="tb-callout-red">⚠️ <b>This is illustrative trend-fitting, not a tested forecasting model.</b> '
+            "The line is a single linear regression fit on this country's full history, with no train/test split "
+            "and no accuracy evaluation against held-out years. It is meant to show the direction and pace of the "
+            "current trend, not to be read as a validated prediction. (The classifier in the next tab, by contrast, "
+            "<i>is</i> evaluated on held-out data — see its accuracy score there.)</div>",
+            unsafe_allow_html=True,
+        )
 
         st.caption(
             "Method: Ordinary least squares linear regression on historical incidence (e_inc_100k) vs. year. "
@@ -133,6 +147,19 @@ with tab2:
 
     st.markdown("---")
     st.subheader("Predictive model: classifying country risk")
+
+    st.markdown(
+        '<div class="tb-callout">📌 <b>How this prediction actually works:</b> This is <b>supervised</b> learning, '
+        "not unsupervised — but the labels aren't handed to us by WHO; we derive them ourselves. First, we "
+        "calculate each country's real % change in incidence from 2015 to today and sort it into one of the four "
+        "risk categories using the fixed rule shown above (this part is just arithmetic, not a model). "
+        "<b>Then</b> we train a Random Forest to predict <i>that label</i> using a different set of features "
+        "— population, TB/HIV %, case detection rate, case fatality ratio, drug resistance %, and TB expenditure "
+        "— none of which is the incidence change itself. So the model isn't told the answer; it has to infer the "
+        "risk category from country characteristics that are conceptually separate from the outcome being "
+        "predicted.</div>",
+        unsafe_allow_html=True,
+    )
 
     # Build feature set
     latest_year = burden["year"].max()

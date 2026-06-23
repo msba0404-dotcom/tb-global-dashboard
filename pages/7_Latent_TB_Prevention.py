@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import sys, os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from utils.data_loader import check_password, load_ltbi
+from utils.data_loader import check_password, load_ltbi, relabel
 from utils.theme import THEME_CSS, PLOTLY_TEMPLATE
 
 st.set_page_config(page_title="Latent TB & Prevention | TB Dashboard", page_icon="🛡️", layout="wide")
@@ -21,10 +21,10 @@ st.markdown("---")
 ltbi = load_ltbi()
 
 st.sidebar.header("Filters")
-regions = ["All regions"] + sorted(ltbi["g_whoregion"].dropna().unique().tolist())
+regions = ["All regions"] + sorted(ltbi["region_name"].dropna().unique().tolist())
 region_sel = st.sidebar.selectbox("WHO Region", regions)
 
-scope = ltbi if region_sel == "All regions" else ltbi[ltbi["g_whoregion"] == region_sel]
+scope = ltbi if region_sel == "All regions" else ltbi[ltbi["region_name"] == region_sel]
 latest_year = scope.dropna(subset=["e_prevtx_hh_contacts_pct"])["year"].max()
 latest = scope[scope["year"] == latest_year]
 
@@ -62,12 +62,12 @@ col_a, col_b = st.columns(2)
 with col_a:
     st.subheader(f"Top 10 countries — eligible population ({int(latest_year)})")
     top10 = latest.nlargest(10, "e_prevtx_eligible")[["country", "e_prevtx_eligible"]].reset_index(drop=True)
-    st.dataframe(top10, width="stretch", hide_index=True)
+    st.dataframe(relabel(top10), width="stretch", hide_index=True)
 
 with col_b:
     st.subheader(f"Bottom 10 countries — coverage % ({int(latest_year)})")
     bottom10 = latest[latest["e_prevtx_hh_contacts_pct"] > 0].nsmallest(
         10, "e_prevtx_hh_contacts_pct")[["country", "e_prevtx_hh_contacts_pct"]].reset_index(drop=True)
-    st.dataframe(bottom10, width="stretch", hide_index=True)
+    st.dataframe(relabel(bottom10), width="stretch", hide_index=True)
 
 st.caption("Source: WHO Global TB Programme — LTBI_estimates.csv")

@@ -16,6 +16,18 @@ if not check_password():
 st.markdown('<p class="tb-eyebrow">Page 4</p>', unsafe_allow_html=True)
 st.title("🧬 Disease Subtypes: Drug-Resistant TB")
 st.markdown("Multidrug-resistant (MDR) and extensively drug-resistant (XDR) TB burden and outcomes.")
+
+st.markdown(
+    '<div class="tb-callout">📌 <b>Quick guide to the subtypes:</b><br>'
+    "<b>RR-TB</b> (Rifampicin-Resistant) — resistant to rifampicin, one of the two most powerful first-line drugs.<br>"
+    "<b>MDR-TB</b> (Multidrug-Resistant) — resistant to both rifampicin and isoniazid, the two most powerful first-line drugs. "
+    "Almost all MDR-TB is also RR-TB, so the two are usually tracked together.<br>"
+    "<b>XDR-TB</b> (Extensively Drug-Resistant) — MDR-TB that is also resistant to key second-line drugs (fluoroquinolones "
+    "plus at least one other second-line agent), leaving very few treatment options.<br>"
+    "Each step up this chain means longer treatment, more side effects, and a lower chance of cure.</div>",
+    unsafe_allow_html=True,
+)
+
 st.markdown("---")
 
 mdr = load_mdr()
@@ -23,10 +35,10 @@ outcomes = load_outcomes()
 burden = load_burden()
 
 st.sidebar.header("Filters")
-regions = ["All regions"] + sorted(mdr["g_whoregion"].dropna().unique().tolist())
+regions = ["All regions"] + sorted(mdr["region_name"].dropna().unique().tolist())
 region_sel = st.sidebar.selectbox("WHO Region", regions)
 
-scope = mdr if region_sel == "All regions" else mdr[mdr["g_whoregion"] == region_sel]
+scope = mdr if region_sel == "All regions" else mdr[mdr["region_name"] == region_sel]
 
 col1, col2, col3 = st.columns(3)
 latest_year = scope["year"].max()
@@ -72,7 +84,7 @@ st.markdown("---")
 
 # --- MDR/XDR treatment outcomes ---
 st.subheader("MDR-TB vs. XDR-TB treatment outcomes")
-outc_scope = outcomes if region_sel == "All regions" else outcomes[outcomes["g_whoregion"] == region_sel]
+outc_scope = outcomes if region_sel == "All regions" else outcomes[outcomes["region_name"] == region_sel]
 latest_outc_year = outc_scope.dropna(subset=["mdr_coh"])["year"].max()
 oc = outc_scope[outc_scope["year"] == latest_outc_year]
 

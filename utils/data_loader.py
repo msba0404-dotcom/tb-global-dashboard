@@ -19,26 +19,85 @@ WHO_REGION_NAMES = {
 }
 
 
+def add_region_names(df):
+    """Attach a human-readable region_name column derived from g_whoregion, if present."""
+    if "g_whoregion" in df.columns:
+        df = df.copy()
+        df["region_name"] = df["g_whoregion"].map(WHO_REGION_NAMES)
+    return df
+
+
+# Human-readable labels for raw WHO column codes, used whenever a dataframe is displayed
+# directly to the user (e.g. in st.dataframe tables). Charts use explicit axis titles
+# instead, but any table or selectbox built from raw column names should run through this.
+COLUMN_LABELS = {
+    "e_inc_100k": "Incidence rate (per 100k)",
+    "e_inc_100k_lo": "Incidence rate, lower bound (per 100k)",
+    "e_inc_100k_hi": "Incidence rate, upper bound (per 100k)",
+    "e_inc_num": "Estimated new cases",
+    "e_inc_num_lo": "Estimated new cases, lower bound",
+    "e_inc_num_hi": "Estimated new cases, upper bound",
+    "e_mort_100k": "Mortality rate (per 100k)",
+    "e_mort_num": "Estimated deaths",
+    "e_mort_exc_tbhiv_num": "Estimated deaths (excluding TB/HIV)",
+    "e_mort_tbhiv_num": "Estimated deaths (TB/HIV co-infected)",
+    "e_inc_tbhiv_100k": "TB/HIV incidence rate (per 100k)",
+    "e_inc_tbhiv_num": "Estimated TB/HIV co-infected cases",
+    "e_tbhiv_prct": "% of TB cases HIV-positive",
+    "c_cdr": "Case detection rate (%)",
+    "c_newinc_100k": "Case notification rate (per 100k)",
+    "cfr_pct": "Case fatality ratio (%)",
+    "e_pop_num": "Population",
+    "e_rr_pct_new": "% resistant, new cases",
+    "e_rr_pct_ret": "% resistant, retreatment cases",
+    "e_inc_rr_num": "Estimated RR-TB cases",
+    "e_prevtx_hh_contacts_pct": "Preventive treatment coverage (%)",
+    "e_prevtx_eligible": "Eligible for preventive treatment",
+    "e_prevtx_kids_pct": "% of eligible who are children under 5",
+    "e_hh_contacts": "Estimated household contacts",
+    "budget_tot": "Total budgeted (USD)",
+    "exp_tot": "Total spent (USD)",
+    "c_new_tsr": "Treatment success rate, new cases (%)",
+    "c_ret_tsr": "Treatment success rate, retreatment (%)",
+    "c_tbhiv_tsr": "Treatment success rate, TB/HIV (%)",
+    "country": "Country",
+    "g_whoregion": "WHO Region",
+    "region_name": "WHO Region",
+    "year": "Year",
+    "iso3": "Country code",
+}
+
+
+def relabel(df, columns=None):
+    """Return a copy of df with display-friendly column names, for use right before
+    showing a dataframe to the user. Pass `columns` to relabel only a subset."""
+    cols = columns if columns is not None else df.columns
+    rename_map = {c: COLUMN_LABELS.get(c, c) for c in cols}
+    return df.rename(columns=rename_map)
+
+
 @st.cache_data
 def load_burden():
     df = pd.read_csv(os.path.join(DATA_DIR, "TB_burden_countries_20260615.csv"), low_memory=False)
-    df["region_name"] = df["g_whoregion"].map(WHO_REGION_NAMES)
-    return df
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_notifications():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_notifications_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_notifications_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_outcomes():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_outcomes_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_outcomes_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_mdr():
-    return pd.read_csv(os.path.join(DATA_DIR, "MDR_RR_TB_burden_estimates_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "MDR_RR_TB_burden_estimates_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
@@ -50,27 +109,32 @@ def load_age_sex():
 
 @st.cache_data
 def load_outcomes_age_sex():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_outcomes_age_sex_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_outcomes_age_sex_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_budget():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_budget_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_budget_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_expenditure():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_expenditure_utilisation_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_expenditure_utilisation_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_ltbi():
-    return pd.read_csv(os.path.join(DATA_DIR, "LTBI_estimates_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "LTBI_estimates_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data
 def load_dr_surveillance():
-    return pd.read_csv(os.path.join(DATA_DIR, "TB_dr_surveillance_20260615.csv"), low_memory=False)
+    df = pd.read_csv(os.path.join(DATA_DIR, "TB_dr_surveillance_20260615.csv"), low_memory=False)
+    return add_region_names(df)
 
 
 @st.cache_data

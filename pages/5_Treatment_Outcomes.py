@@ -22,10 +22,10 @@ outcomes = load_outcomes()
 outc_age_sex = load_outcomes_age_sex()
 
 st.sidebar.header("Filters")
-regions = ["All regions"] + sorted(outcomes["g_whoregion"].dropna().unique().tolist())
+regions = ["All regions"] + sorted(outcomes["region_name"].dropna().unique().tolist())
 region_sel = st.sidebar.selectbox("WHO Region", regions)
 
-scope = outcomes if region_sel == "All regions" else outcomes[outcomes["g_whoregion"] == region_sel]
+scope = outcomes if region_sel == "All regions" else outcomes[outcomes["region_name"] == region_sel]
 
 latest_year = scope.dropna(subset=["c_new_tsr"])["year"].max()
 latest = scope[scope["year"] == latest_year]
