@@ -100,9 +100,6 @@ def outcome_summary(prefix):
 mdr_summary = outcome_summary("mdr")
 xdr_summary = outcome_summary("xdr")
 
-st.markdown("")
-st.markdown("")
-
 fig3 = go.Figure()
 categories = list(mdr_summary.keys())
 fig3.add_trace(go.Bar(name="MDR-TB", x=categories, y=list(mdr_summary.values()), marker_color="#1F5C82"))
