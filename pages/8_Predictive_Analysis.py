@@ -109,11 +109,22 @@ with tab2:
     st.subheader("Which countries are at risk of missing the 2030 target?")
 
     st.markdown(
-        "Countries are classified into four categories based on their incidence change since the 2015 baseline:"
+        "Countries are classified into four categories based on their % change in incidence "
+        "rate from 2015 to the latest available year:"
     )
     legend_cols = st.columns(4)
+    THRESHOLD_TEXT = {
+        "On track": "≤ −50%",
+        "Moderate progress": "−50% to −20%",
+        "Slow progress": "−20% to 0%",
+        "Worsening": "above 0% (increasing)",
+    }
     for col, (cat, color) in zip(legend_cols, RISK_COLORS.items()):
-        col.markdown(f"<span style='color:{color}; font-size:1.3rem;'>●</span> **{cat}**", unsafe_allow_html=True)
+        col.markdown(
+            f"<span style='color:{color}; font-size:1.3rem;'>●</span> **{cat}**<br>"
+            f"<span style='font-size:0.85rem; color:#5A6B78;'>{THRESHOLD_TEXT[cat]}</span>",
+            unsafe_allow_html=True,
+        )
 
     st.markdown("---")
 
@@ -149,15 +160,24 @@ with tab2:
     st.subheader("Predictive model: classifying country risk")
 
     st.markdown(
-        '<div class="tb-callout">📌 <b>How this prediction actually works:</b> This is <b>supervised</b> learning, '
-        "not unsupervised — but the labels aren't handed to us by WHO; we derive them ourselves. First, we "
-        "calculate each country's real % change in incidence from 2015 to today and sort it into one of the four "
-        "risk categories using the fixed rule shown above (this part is just arithmetic, not a model). "
-        "<b>Then</b> we train a Random Forest to predict <i>that label</i> using a different set of features "
-        "— population, TB/HIV %, case detection rate, case fatality ratio, drug resistance %, and TB expenditure "
-        "— none of which is the incidence change itself. So the model isn't told the answer; it has to infer the "
-        "risk category from country characteristics that are conceptually separate from the outcome being "
-        "predicted.</div>",
+        '<div class="tb-callout">📌 <b>Where the four categories come from:</b> We calculate each country\'s '
+        "actual % change in incidence from 2015 to the latest year (plain arithmetic, shown in the map and chart "
+        "above), and sort each country into one of the four categories using the thresholds shown in the legend. "
+        "These categories become the \"answer key\" we then ask a model to predict.</div>",
+        unsafe_allow_html=True,
+    )
+
+    st.markdown(
+        '<div class="tb-callout">📌 <b>Why build a model instead of just using the calculation directly?</b> '
+        "For any country where we already have its full 2015–2024 incidence history, the calculation above is "
+        "all you need — there's no reason to involve a model. The model's potential value is for situations where "
+        "that direct calculation <i>isn't available</i> yet: a country with incomplete or delayed incidence "
+        "reporting, or an early read on a country's trajectory before a full WHO reporting cycle comes in. In "
+        "those cases, the model estimates a likely category using other indicators — population, TB/HIV %, case "
+        "detection rate, case fatality ratio, drug resistance %, and TB expenditure — instead of the incidence "
+        "numbers themselves. <b>Given the model's accuracy below, treat this as a demonstration of the approach "
+        "rather than a tool you'd currently substitute for the direct calculation when the data is available.</b>"
+        "</div>",
         unsafe_allow_html=True,
     )
 

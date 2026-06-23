@@ -84,6 +84,7 @@ st.markdown("---")
 
 # --- MDR/XDR treatment outcomes ---
 st.subheader("MDR-TB vs. XDR-TB treatment outcomes")
+st.markdown("")
 outc_scope = outcomes if region_sel == "All regions" else outcomes[outcomes["region_name"] == region_sel]
 latest_outc_year = outc_scope.dropna(subset=["mdr_coh"])["year"].max()
 oc = outc_scope[outc_scope["year"] == latest_outc_year]
