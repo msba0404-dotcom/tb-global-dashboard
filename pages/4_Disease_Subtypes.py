@@ -104,7 +104,7 @@ fig3 = go.Figure()
 categories = list(mdr_summary.keys())
 fig3.add_trace(go.Bar(name="MDR-TB", x=categories, y=list(mdr_summary.values()), marker_color="#1F5C82"))
 fig3.add_trace(go.Bar(name="XDR-TB", x=categories, y=list(xdr_summary.values()), marker_color="#C0392B"))
-fig3.update_layout(template=PLOTLY_TEMPLATE, barmode="group", height=400, margin=dict(t=10, b=10),
+fig3.update_layout(template=PLOTLY_TEMPLATE, barmode="group", height=400, margin=dict(t=50, b=10),
                     yaxis_title="Patients", title=f"Cohort outcomes, {int(latest_outc_year)}")
 st.plotly_chart(fig3, width="stretch")
 
