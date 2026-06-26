@@ -208,9 +208,25 @@ with tab2:
         y_pred = clf.predict(X_test)
         acc = accuracy_score(y_test, y_pred)
 
+        # Majority-class baseline: the accuracy you'd get by always guessing the
+        # single most common category in the training data. This is the real bar
+        # the model needs to clear -- unlike binary classification, a 4-class
+        # problem can't be "fixed" by reversing predictions, so this is the
+        # honest reference point instead.
+        majority_class = y_train.mode()[0]
+        baseline_preds = pd.Series([majority_class] * len(y_test))
+        baseline_acc = accuracy_score(y_test, baseline_preds)
+
         col_c, col_d = st.columns([1, 1])
         with col_c:
-            st.metric("Model accuracy (held-out test set)", f"{acc*100:.0f}%")
+            metric_col1, metric_col2 = st.columns(2)
+            with metric_col1:
+                st.metric("Model accuracy", f"{acc*100:.0f}%", help="Held-out test set")
+            with metric_col2:
+                delta = (acc - baseline_acc) * 100
+                st.metric("Always guess majority class", f"{baseline_acc*100:.0f}%",
+                          delta=f"{delta:+.0f} pts" if delta != 0 else None,
+                          help=f"Always predicting '{majority_class}' (the most common category)")
             st.caption(f"Trained on {len(X_train)} countries, tested on {len(X_test)}.")
 
             importance = pd.DataFrame({
@@ -240,6 +256,17 @@ with tab2:
                 accuracy could likely be improved further.
                 """
             )
+
+        st.markdown(
+            '<div class="tb-callout">📌 <b>Why compare against "always guess the majority class"?</b> With four '
+            "categories instead of two, there's no single way to \"flip\" a weak model into a strong one the way "
+            "you could in a binary problem — a wrong prediction here could be off by one category or by three, so "
+            "there's no mirror-image correction available. The fairest baseline is instead the simplest possible "
+            "strategy: always predict whichever category is most common. If the model can't beat that, it isn't "
+            "adding value. Here, it does — modestly — which is the honest takeaway: a small, real signal in the "
+            "available features, not a strong predictor.</div>",
+            unsafe_allow_html=True,
+        )
 
         st.caption(
             "Method: Random Forest classifier (scikit-learn), 200 trees, balanced class weights to handle "
