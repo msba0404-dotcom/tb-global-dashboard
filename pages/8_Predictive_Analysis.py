@@ -217,6 +217,18 @@ with tab2:
         baseline_preds = pd.Series([majority_class] * len(y_test))
         baseline_acc = accuracy_score(y_test, baseline_preds)
 
+        with st.expander("🔧 Diagnostic info (for verifying reproducibility)"):
+            import sklearn
+            st.code(
+                f"scikit-learn: {sklearn.__version__}\n"
+                f"pandas: {pd.__version__}\n"
+                f"numpy: {np.__version__}\n"
+                f"Complete-case rows: {len(model_df_clean)}\n"
+                f"Train rows: {len(X_train)} | Test rows: {len(X_test)}\n"
+                f"Train class counts: {dict(y_train.value_counts())}\n"
+                f"Test class counts: {dict(y_test.value_counts())}"
+            )
+
         col_c, col_d = st.columns([1, 1])
         with col_c:
             metric_col1, metric_col2 = st.columns(2)
