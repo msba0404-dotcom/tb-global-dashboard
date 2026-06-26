@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
 import sys, os
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -175,9 +175,7 @@ with tab2:
         "reporting, or an early read on a country's trajectory before a full WHO reporting cycle comes in. In "
         "those cases, the model estimates a likely category using other indicators — population, TB/HIV %, case "
         "detection rate, case fatality ratio, drug resistance %, and TB expenditure — instead of the incidence "
-        "numbers themselves. <b>Given the model's accuracy below, treat this as a demonstration of the approach "
-        "rather than a tool you'd currently substitute for the direct calculation when the data is available.</b>"
-        "</div>",
+        "numbers themselves.</div>",
         unsafe_allow_html=True,
     )
 
@@ -198,6 +196,8 @@ with tab2:
     if len(model_df_clean) < 30:
         st.warning("Not enough complete cases to train a reliable classifier with current data.")
     else:
+        ALL_LABELS = ["On track", "Moderate progress", "Slow progress", "Worsening"]
+
         X = model_df_clean[feature_cols]
         y = model_df_clean["risk_category"]
 
@@ -206,13 +206,14 @@ with tab2:
         clf = RandomForestClassifier(n_estimators=200, max_depth=6, random_state=42, class_weight="balanced")
         clf.fit(X_train, y_train)
         y_pred = clf.predict(X_test)
-        acc = accuracy_score(y_test, y_pred)
 
-        # Majority-class baseline: the accuracy you'd get by always guessing the
-        # single most common category in the training data. This is the real bar
-        # the model needs to clear -- unlike binary classification, a 4-class
-        # problem can't be "fixed" by reversing predictions, so this is the
-        # honest reference point instead.
+        acc = accuracy_score(y_test, y_pred)
+        macro_f1 = f1_score(y_test, y_pred, average="macro", zero_division=0)
+        weighted_f1 = f1_score(y_test, y_pred, average="weighted", zero_division=0)
+
+        # Majority-class baseline: the simplest possible strategy -- always predict
+        # whichever category is most common in the training data. This is the
+        # benchmark the model actually needs to clear to be adding any value.
         majority_class = y_train.mode()[0]
         baseline_preds = pd.Series([majority_class] * len(y_test))
         baseline_acc = accuracy_score(y_test, baseline_preds)
@@ -229,18 +230,58 @@ with tab2:
                 f"Test class counts: {dict(y_test.value_counts())}"
             )
 
+        st.markdown(
+            '<div class="tb-callout">📌 <b>Evaluating a 4-class model:</b> Accuracy alone can be misleading with '
+            "more than two classes and uneven group sizes — a model can score well just by favoring the largest "
+            "category. Three additional checks give a fuller picture: the <b>majority-class baseline</b> (the "
+            "accuracy you'd get with no model at all, just guessing the most common label every time), the "
+            "<b>macro F1 score</b> (the average performance across all four categories treated equally, so a tiny "
+            "class like \"On track\" counts as much as a large one), and the <b>confusion matrix</b> below, which "
+            "shows not just whether predictions were right, but how far off the wrong ones were — confusing "
+            "neighboring categories (e.g. Slow progress vs. Moderate progress) is a much smaller miss than "
+            "confusing opposite ends of the scale (On track vs. Worsening).</div>",
+            unsafe_allow_html=True,
+        )
+
         col_c, col_d = st.columns([1, 1])
         with col_c:
+            delta = (acc - baseline_acc) * 100
             metric_col1, metric_col2 = st.columns(2)
             with metric_col1:
-                st.metric("Model accuracy", f"{acc*100:.0f}%", help="Held-out test set")
+                st.metric("Model accuracy", f"{acc*100:.0f}%",
+                          delta=f"{delta:+.0f} pts vs. baseline" if delta != 0 else "matches baseline",
+                          delta_color="normal" if delta >= 0 else "inverse",
+                          help="Held-out test set")
             with metric_col2:
-                delta = (acc - baseline_acc) * 100
-                st.metric("Always guess majority class", f"{baseline_acc*100:.0f}%",
-                          delta=f"{delta:+.0f} pts" if delta != 0 else None,
-                          help=f"Always predicting '{majority_class}' (the most common category)")
+                st.metric("Majority-class baseline", f"{baseline_acc*100:.0f}%",
+                          help=f"Always predicting '{majority_class}', the most common category in training data")
+
+            metric_col3, metric_col4 = st.columns(2)
+            with metric_col3:
+                st.metric("Macro F1 score", f"{macro_f1:.2f}", help="Average F1 across all 4 classes, equally weighted")
+            with metric_col4:
+                st.metric("Weighted F1 score", f"{weighted_f1:.2f}", help="F1 averaged by class size")
+
             st.caption(f"Trained on {len(X_train)} countries, tested on {len(X_test)}.")
 
+        with col_d:
+            st.markdown("**Confusion matrix — predicted vs. actual**")
+            cm = confusion_matrix(y_test, y_pred, labels=ALL_LABELS)
+            fig_cm = px.imshow(
+                cm, x=ALL_LABELS, y=ALL_LABELS, text_auto=True,
+                color_continuous_scale=["#F7F9FA", "#1F5C82"],
+                labels=dict(x="Predicted category", y="Actual category", color="Count"),
+            )
+            fig_cm.update_layout(template=PLOTLY_TEMPLATE, height=340, margin=dict(t=10, b=10),
+                                  coloraxis_showscale=False)
+            fig_cm.update_xaxes(side="bottom", tickangle=-30)
+            st.plotly_chart(fig_cm, width="stretch")
+            st.caption("Rows = actual category, columns = predicted category. The diagonal is correct; off-diagonal cells show how far off a miss was.")
+
+        st.markdown("---")
+
+        col_e, col_f = st.columns([1, 1])
+        with col_e:
             importance = pd.DataFrame({
                 "feature": ["Population", "TB/HIV %", "Case detection rate", "Case fatality ratio",
                             "Drug resistance %", "TB expenditure"],
@@ -249,34 +290,39 @@ with tab2:
             fig_imp = px.bar(importance, x="importance", y="feature", orientation="h",
                               color_discrete_sequence=["#1F5C82"])
             fig_imp.update_layout(template=PLOTLY_TEMPLATE, height=300, margin=dict(t=10, b=10),
-                                  xaxis_title="Feature importance", yaxis_title="")
+                                  xaxis_title="Feature importance", yaxis_title="", title="What drives the prediction?")
             st.plotly_chart(fig_imp, width="stretch")
 
-        with col_d:
-            st.markdown("**What drives the prediction?**")
+        with col_f:
+            st.markdown("**What this model demonstrates**")
             st.markdown(
                 """
-                The Random Forest classifier uses six country-level indicators to predict which of the
-                four risk categories a country falls into:
-                - **Case detection rate** and **case fatality ratio** — health system capacity signals
-                - **TB/HIV co-infection %** and **drug resistance %** — disease severity factors
-                - **TB expenditure** — funding-side inequality signal
-                - **Population** — scale control
-
-                This is a transparent, interpretable baseline model. With more complete funding and
-                socioeconomic data (e.g. GDP per capita, health spending as % of GDP), classification
-                accuracy could likely be improved further.
+                The Random Forest classifier uses six country-level indicators — population, TB/HIV %, case
+                detection rate, case fatality ratio, drug resistance %, and TB expenditure — to predict which
+                of the four risk categories a country falls into, without using the incidence numbers that
+                actually define those categories.
                 """
             )
 
+        if delta >= 0 and macro_f1 >= 0.30:
+            verdict = (
+                f"The model beats the majority-class baseline by {abs(delta):.0f} points, with a macro F1 of "
+                f"{macro_f1:.2f} — a modest but real signal that these six features carry some information about "
+                "a country's TB trajectory, beyond what population size and majority-class guessing alone would give."
+            )
+        else:
+            verdict = (
+                f"On this test split, the model does not clearly outperform the majority-class baseline "
+                f"({acc*100:.0f}% vs. {baseline_acc*100:.0f}%), and the macro F1 of {macro_f1:.2f} confirms it "
+                "struggles especially on the smaller categories. <b>This is itself a clear, demonstrable result</b>: "
+                "with only 78 training countries spread across four classes — one with just 6 examples — these six "
+                "features do not yet carry enough signal to reliably classify a country's End TB trajectory. "
+                "Identifying that limit, rather than overstating the model's reliability, is the actual value of "
+                "running this evaluation properly."
+            )
+
         st.markdown(
-            '<div class="tb-callout">📌 <b>Why compare against "always guess the majority class"?</b> With four '
-            "categories instead of two, there's no single way to \"flip\" a weak model into a strong one the way "
-            "you could in a binary problem — a wrong prediction here could be off by one category or by three, so "
-            "there's no mirror-image correction available. The fairest baseline is instead the simplest possible "
-            "strategy: always predict whichever category is most common. If the model can't beat that, it isn't "
-            "adding value. Here, it does — modestly — which is the honest takeaway: a small, real signal in the "
-            "available features, not a strong predictor.</div>",
+            f'<div class="tb-callout-red">🔎 <b>Bottom line:</b> {verdict}</div>',
             unsafe_allow_html=True,
         )
 
