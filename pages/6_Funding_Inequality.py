@@ -94,7 +94,7 @@ fig_region.add_trace(go.Scatter(
     xaxis="x2",
 ))
 fig_region.update_layout(
-    template=PLOTLY_TEMPLATE, height=400, margin=dict(t=40, b=10),
+    template=PLOTLY_TEMPLATE, height=400, margin=dict(t=50, b=10),
     xaxis=dict(title="Median USD spent per TB case", domain=[0, 1], side="bottom",
                title_font=dict(color="#1F5C82"), tickfont=dict(color="#1F5C82")),
     xaxis2=dict(title="Total estimated TB cases", overlaying="x", side="top",
