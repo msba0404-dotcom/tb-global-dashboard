@@ -94,12 +94,12 @@ fig_region.add_trace(go.Scatter(
     xaxis="x2",
 ))
 fig_region.update_layout(
-    template=PLOTLY_TEMPLATE, height=400, margin=dict(t=50, b=10),
+    template=PLOTLY_TEMPLATE, height=440, margin=dict(t=90, b=10),
     xaxis=dict(title="Median USD spent per TB case", domain=[0, 1], side="bottom",
                title_font=dict(color="#1F5C82"), tickfont=dict(color="#1F5C82")),
     xaxis2=dict(title="Total estimated TB cases", overlaying="x", side="top",
                 title_font=dict(color="#C0392B"), tickfont=dict(color="#C0392B")),
-    legend=dict(orientation="h", yanchor="bottom", y=1.08, xanchor="center", x=0.5),
+    legend=dict(orientation="h", yanchor="bottom", y=1.22, xanchor="center", x=0.5),
 )
 st.plotly_chart(fig_region, width="stretch")
 st.caption(
