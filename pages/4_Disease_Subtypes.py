@@ -95,17 +95,37 @@ def outcome_summary(prefix):
     fail = oc[f"{prefix}_fail"].sum()
     lost = oc[f"{prefix}_lost"].sum()
     other = max(coh - succ - died - fail - lost, 0)
-    return {"Success": succ, "Died": died, "Failed": fail, "Lost to follow-up": lost, "Other/not evaluated": other}
+    counts = {"Success": succ, "Died": died, "Failed": fail, "Lost to follow-up": lost, "Other/not evaluated": other}
+    pcts = {k: (v / coh * 100 if coh else 0) for k, v in counts.items()}
+    return coh, counts, pcts
 
-mdr_summary = outcome_summary("mdr")
-xdr_summary = outcome_summary("xdr")
+mdr_coh, mdr_counts, mdr_pcts = outcome_summary("mdr")
+xdr_coh, xdr_counts, xdr_pcts = outcome_summary("xdr")
 
+st.caption(
+    f"MDR-TB cohort: {mdr_coh:,.0f} patients · XDR-TB cohort: {xdr_coh:,.0f} patients. "
+    "Shown below as a % of each group's own cohort, so the two subtypes can be compared fairly despite "
+    "MDR-TB's much larger cohort size."
+)
+
+categories = list(mdr_pcts.keys())
 fig3 = go.Figure()
-categories = list(mdr_summary.keys())
-fig3.add_trace(go.Bar(name="MDR-TB", x=categories, y=list(mdr_summary.values()), marker_color="#1F5C82"))
-fig3.add_trace(go.Bar(name="XDR-TB", x=categories, y=list(xdr_summary.values()), marker_color="#C0392B"))
-fig3.update_layout(template=PLOTLY_TEMPLATE, barmode="group", height=400, margin=dict(t=50, b=10),
-                    yaxis_title="Patients", title=f"Cohort outcomes, {int(latest_outc_year)}")
+fig3.add_trace(go.Bar(name="MDR-TB", x=categories, y=[mdr_pcts[c] for c in categories], marker_color="#1F5C82",
+                       text=[f"{mdr_pcts[c]:.1f}%" for c in categories], textposition="outside"))
+fig3.add_trace(go.Bar(name="XDR-TB", x=categories, y=[xdr_pcts[c] for c in categories], marker_color="#C0392B",
+                       text=[f"{xdr_pcts[c]:.1f}%" for c in categories], textposition="outside"))
+fig3.update_layout(template=PLOTLY_TEMPLATE, barmode="group", height=420, margin=dict(t=50, b=10),
+                    yaxis_title="% of cohort", title=f"Cohort outcomes as % of cohort, {int(latest_outc_year)}")
 st.plotly_chart(fig3, width="stretch")
+
+fail_ratio = xdr_pcts["Failed"] / mdr_pcts["Failed"] if mdr_pcts["Failed"] else None
+st.markdown(
+    f'<div class="tb-callout-red">⚠️ <b>The rate, not just the count, matters:</b> XDR-TB patients fail '
+    f"treatment at {xdr_pcts['Failed']:.1f}% — about {fail_ratio:.1f}x the {mdr_pcts['Failed']:.1f}% failure rate "
+    f"for MDR-TB — and have a lower success rate overall ({xdr_pcts['Success']:.1f}% vs. {mdr_pcts['Success']:.1f}%). "
+    "This gap is easy to miss when comparing raw patient counts, since MDR-TB's much larger cohort makes every one "
+    "of its bars look bigger by scale alone.</div>",
+    unsafe_allow_html=True,
+)
 
 st.caption("Source: WHO Global TB Programme — MDR_RR_TB_burden_estimates.csv, TB_outcomes.csv")
