@@ -58,32 +58,55 @@ st.markdown(
 st.markdown("---")
 
 # --- THE KEY INEQUALITY METRIC: spending per TB case, by region ---
-st.subheader("The real inequality measure: spending per TB case, by region")
+st.subheader("The real inequality measure: spending per TB case vs. burden, by region")
 st.markdown(
     "Total dollars spent mostly reflects how large or wealthy a country is — not whether its "
     "TB response is well-funded relative to its actual disease burden. Dividing total expenditure "
-    "by the number of estimated TB cases gives a fairer, size-independent comparison."
+    "by the number of estimated TB cases gives a fairer, size-independent comparison — and placing it "
+    "next to each region's actual case burden shows whether funding and need line up."
 )
 
 latest_exp_year = expenditure["year"].max()
 latest_burden_year = burden["year"].max()
 
 exp_latest = expenditure[expenditure["year"] == latest_exp_year][["country", "region_name", "exp_tot"]]
-burden_latest = burden[burden["year"] == latest_burden_year][["country", "e_inc_num"]]
+burden_latest = burden[burden["year"] == latest_burden_year][["country", "region_name", "e_inc_num"]]
 
-per_case = exp_latest.merge(burden_latest, on="country", how="inner").dropna()
+per_case = exp_latest.merge(burden_latest[["country", "e_inc_num"]], on="country", how="inner").dropna()
 per_case = per_case[per_case["e_inc_num"] > 0]
 per_case["spend_per_case"] = per_case["exp_tot"] / per_case["e_inc_num"]
 
 region_compare = per_case.groupby("region_name")["spend_per_case"].median().reset_index()
+region_burden = burden_latest.groupby("region_name")["e_inc_num"].sum().reset_index().rename(columns={"e_inc_num": "total_burden"})
+region_compare = region_compare.merge(region_burden, on="region_name", how="left")
 region_compare = region_compare.sort_values("spend_per_case")
 
-fig_region = px.bar(region_compare, x="spend_per_case", y="region_name", orientation="h",
-                     color="spend_per_case", color_continuous_scale=["#C0392B", "#E0A030", "#2E8B8B", "#1F5C82"],
-                     labels={"spend_per_case": "Median USD spent per TB case", "region_name": "WHO Region"})
-fig_region.update_layout(template=PLOTLY_TEMPLATE, height=360, margin=dict(t=10, b=10), showlegend=False,
-                          coloraxis_showscale=False)
+fig_region = go.Figure()
+fig_region.add_trace(go.Bar(
+    x=region_compare["spend_per_case"], y=region_compare["region_name"], orientation="h",
+    name="Median USD spent per TB case", marker_color="#1F5C82",
+    xaxis="x1",
+))
+fig_region.add_trace(go.Scatter(
+    x=region_compare["total_burden"], y=region_compare["region_name"],
+    name="Total estimated TB cases", mode="markers",
+    marker=dict(color="#C0392B", size=14, symbol="diamond"),
+    xaxis="x2",
+))
+fig_region.update_layout(
+    template=PLOTLY_TEMPLATE, height=400, margin=dict(t=40, b=10),
+    xaxis=dict(title="Median USD spent per TB case", domain=[0, 1], side="bottom",
+               title_font=dict(color="#1F5C82"), tickfont=dict(color="#1F5C82")),
+    xaxis2=dict(title="Total estimated TB cases", overlaying="x", side="top",
+                title_font=dict(color="#C0392B"), tickfont=dict(color="#C0392B")),
+    legend=dict(orientation="h", yanchor="bottom", y=1.08, xanchor="center", x=0.5),
+)
 st.plotly_chart(fig_region, width="stretch")
+st.caption(
+    "Blue bars (bottom axis): median spending per case. Red diamonds (top axis): total disease burden. "
+    "The regions with the longest blue bars should, in a fairly-funded world, also be the regions with the "
+    "most red diamonds — instead, it's often the reverse."
+)
 
 low_region = region_compare.iloc[0]
 high_region = region_compare.iloc[-1]

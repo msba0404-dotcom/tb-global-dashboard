@@ -63,15 +63,40 @@ st.markdown("---")
 # --- Outcome breakdown by sex ---
 st.subheader("Treatment outcomes by sex")
 sex_data = outc_age_sex[(outc_age_sex["age_group"] == "a") & (outc_age_sex["sex"] != "a")]
-sex_agg = sex_data.groupby("sex").agg(succ=("succ", "sum"), fail=("fail", "sum"),
+sex_agg = sex_data.groupby("sex").agg(coh=("coh", "sum"), succ=("succ", "sum"), fail=("fail", "sum"),
                                        died=("died", "sum"), lost=("lost", "sum")).reset_index()
+sex_agg["other"] = (sex_agg["coh"] - sex_agg["succ"] - sex_agg["fail"] - sex_agg["died"] - sex_agg["lost"]).clip(lower=0)
 sex_agg["sex"] = sex_agg["sex"].map({"m": "Male", "f": "Female"})
-sex_long = sex_agg.melt(id_vars="sex", var_name="outcome", value_name="count")
-sex_long["outcome"] = sex_long["outcome"].map({"succ": "Success", "fail": "Failed", "died": "Died", "lost": "Lost to follow-up"})
 
-fig2 = px.bar(sex_long, x="sex", y="count", color="outcome", barmode="group",
-              color_discrete_sequence=["#2E8B5A", "#C0392B", "#1A1A1A", "#E0A030"])
-fig2.update_layout(template=PLOTLY_TEMPLATE, height=400, margin=dict(t=10, b=10), yaxis_title="Patients")
+st.caption(
+    f"Female cohort: {sex_agg.loc[sex_agg['sex']=='Female', 'coh'].values[0]:,.0f} patients · "
+    f"Male cohort: {sex_agg.loc[sex_agg['sex']=='Male', 'coh'].values[0]:,.0f} patients. "
+    "Shown below as a % of each group's own cohort, since the two cohorts differ in size."
+)
+
+for col in ["succ", "fail", "died", "lost", "other"]:
+    sex_agg[col] = sex_agg[col] / sex_agg["coh"] * 100
+
+sex_long = sex_agg.melt(id_vars="sex", value_vars=["succ", "fail", "died", "lost", "other"],
+                         var_name="outcome", value_name="pct")
+sex_long["outcome"] = sex_long["outcome"].map(
+    {"succ": "Success", "fail": "Failed", "died": "Died", "lost": "Lost to follow-up", "other": "Other/not evaluated"})
+
+fig2 = px.bar(sex_long, x="sex", y="pct", color="outcome", barmode="group",
+              text=sex_long["pct"].round(1).astype(str) + "%",
+              color_discrete_sequence=["#2E8B5A", "#C0392B", "#1A1A1A", "#E0A030", "#8E44AD"])
+fig2.update_traces(textposition="outside")
+fig2.update_layout(template=PLOTLY_TEMPLATE, height=420, margin=dict(t=30, b=10), yaxis_title="% of cohort")
 st.plotly_chart(fig2, width="stretch")
+
+died_f = sex_agg.loc[sex_agg["sex"] == "Female", "died"].values[0]
+died_m = sex_agg.loc[sex_agg["sex"] == "Male", "died"].values[0]
+st.markdown(
+    f'<div class="tb-callout">📌 <b>A modest sex gap in outcomes:</b> Men have a higher death rate during '
+    f"treatment ({died_m:.1f}%) than women ({died_f:.1f}%), even after accounting for the larger size of the "
+    "male cohort. This lines up with the broader pattern on the Demographics page, where men are also "
+    "less likely to seek care promptly.</div>",
+    unsafe_allow_html=True,
+)
 
 st.caption("Source: WHO Global TB Programme — TB_outcomes.csv, TB_outcomes_age_sex.csv")
