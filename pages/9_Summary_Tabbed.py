@@ -249,7 +249,7 @@ with tab3:
                        title_font=dict(color="#1F5C82", size=11), tickfont=dict(color="#1F5C82")),
             xaxis2=dict(title="Total cases", overlaying="x", side="top",
                         title_font=dict(color="#C0392B", size=11), tickfont=dict(color="#C0392B")),
-            legend=dict(orientation="h", yanchor="bottom", y=1.18, xanchor="center", x=0.5),
+            legend=dict(orientation="h", yanchor="bottom", y=1.18, xanchor="left", x=0.0),
         )
         st.plotly_chart(fig_fund, width="stretch")
 
@@ -273,8 +273,11 @@ with tab3:
         fig_budget = go.Figure()
         fig_budget.add_trace(go.Bar(name="Budgeted", x=top15["country"], y=top15["budget_tot"], marker_color="#1F5C82"))
         fig_budget.add_trace(go.Bar(name="Spent", x=top15["country"], y=top15["exp_tot"], marker_color="#E0A030"))
-        fig_budget = style_chart(fig_budget, height=300, legend_bottom=True)
-        fig_budget.update_layout(barmode="group", yaxis_title="USD")
+        fig_budget = style_chart(fig_budget, height=300)
+        fig_budget.update_layout(
+            barmode="group", yaxis_title="USD",
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5),
+        )
         fig_budget.update_xaxes(tickangle=-45, tickfont=dict(size=9))
         st.plotly_chart(fig_budget, width="stretch")
 
