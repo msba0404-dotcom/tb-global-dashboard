@@ -177,16 +177,22 @@ with row3_col4:
     st.plotly_chart(fig_risk, width="stretch")
 
 with row3_col5:
-    st.markdown("#### 📊 Age distribution")
+    st.markdown("#### 📊 Age distribution (pyramid)")
     fine_ages = ["0-4", "5-14", "15-24", "25-34", "35-44", "45-54", "55-64", "65plus"]
-    age_data = age_sex[(age_sex["risk_factor"] == "all") & (age_sex["sex"] == "a") & (age_sex["age_group"].isin(fine_ages))]
-    age_agg = age_data.groupby("age_group")["best"].sum().reset_index()
+    age_data = age_sex[(age_sex["risk_factor"] == "all") & (age_sex["sex"] != "a") & (age_sex["age_group"].isin(fine_ages))]
+    age_agg = age_data.groupby(["age_group", "sex"])["best"].sum().reset_index()
+    age_agg["sex"] = age_agg["sex"].map({"m": "Male", "f": "Female"})
     age_agg["age_group"] = age_agg["age_group"].astype("category").cat.set_categories(fine_ages, ordered=True)
     age_agg = age_agg.sort_values("age_group")
-    fig_age = px.bar(age_agg, x="age_group", y="best", color_discrete_sequence=["#8E44AD"])
-    fig_age = style_compact(fig_age, 160)
-    fig_age.update_layout(yaxis_title="", xaxis_title="")
-    fig_age.update_xaxes(tickangle=-45)
+    age_agg.loc[age_agg["sex"] == "Male", "best"] *= -1
+
+    fig_age = go.Figure()
+    for sex_name, color in [("Female", "#E0A030"), ("Male", "#1F5C82")]:
+        d = age_agg[age_agg["sex"] == sex_name]
+        fig_age.add_trace(go.Bar(y=d["age_group"], x=d["best"], name=sex_name, orientation="h",
+                                  marker_color=color))
+    fig_age = style_compact(fig_age, 160, legend_bottom=True)
+    fig_age.update_layout(barmode="overlay", yaxis_title="", xaxis_title="")
     st.plotly_chart(fig_age, width="stretch")
 
 st.markdown("<hr style='margin:2px 0;'>", unsafe_allow_html=True)
